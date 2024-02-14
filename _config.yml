@@ -27,7 +27,7 @@ url: "jsqr.org" # the base hostname & protocol for your site, e.g. http://exampl
 github_username:  jsqr
 
 # Build settings
-theme: tactile
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 

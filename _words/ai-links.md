@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links to AI resources
-permalink: /ai-links/
+permalink: /words/ai-links/
 ---
 
 ## Books

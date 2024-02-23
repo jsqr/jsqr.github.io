@@ -5,6 +5,3 @@
 layout: home
 ---
 
-- [Useful AI links](/reference/ai-links.md)
-
----

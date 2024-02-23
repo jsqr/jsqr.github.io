@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Links to AI resources
-permalink: /reference/ai-links/
+title: Links
+permalink: /links/
 ---
+
+# Deep Learning & AI
 
 ## Books
 - [Bishop & Bishop, Deep Learning: Foundations and Concepts](https://www.bishopbook.com)
@@ -14,3 +16,8 @@ permalink: /reference/ai-links/
 
 ## Blog posts
 - [Llamaindex, RAG Cheat Sheet](https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b)
+
+## Guides
+- [Hugging Face: Learn](https://huggingface.co/learn)
+- [Getting Started with Llama](https://llama.meta.com/get-started/)
+- [Prompt Engineering Guide](https://www.promptingguide.ai)

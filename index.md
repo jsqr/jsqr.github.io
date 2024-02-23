@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+## Pages
+- [Useful AI links](/ai-links.md)

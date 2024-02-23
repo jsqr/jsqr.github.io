@@ -5,4 +5,4 @@
 layout: home
 ---
 
-- [Useful AI links](/words/ai-links.md)
+- [Useful AI links](/reference/ai-links.md)

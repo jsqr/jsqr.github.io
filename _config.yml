@@ -26,12 +26,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "jsqr.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jsqr
 
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:title/
+#   reference:
+#     output: true
+#     permalink: /reference/:title/
+
 # Build settings
 theme: minima
-#remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-feed
-# - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

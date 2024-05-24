@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  JSQR  ]]>
+    </title>
+    <link> https://jsqr.github.io </link>
+    <description>
+      <![CDATA[  Homepage of Johnathan A. Jenkins  ]]>
+    </description>
+    <atom:link
+      href="https://jsqr.github.io/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Test  ]]>
+  </title>
+  <link> https://jsqr.github.io/test-post/index.html </link>
+  <guid> https://jsqr.github.io/test-post/index.html </guid>
+  <description>
+    <![CDATA[  Test post  ]]>
+  </description>  
+    
+  <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Johnathan Jenkins</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

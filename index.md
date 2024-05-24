@@ -1,7 +1,7 @@
 @def title = "JSQR"
 @def tags = ["site"]
 
-_Since 2024_
+![Triangle Circle Square](/assets/triangle-circle-square.png)
 
 # Recent
 
@@ -22,8 +22,6 @@ _Since 2024_
 [`life`](/tag/life)
 [`image`](/tag/image)
 [`site`](/tag/site)
-
-![Triangle Circle Square](/assets/triangle-circle-square.png)
 
 # JJ online
 

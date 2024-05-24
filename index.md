@@ -5,7 +5,7 @@
 
 # Recent
 
-`2024-05-18` [Presentation on AI for legal epidemiology](/assets/2024-05-18-slides.html)
+`2024-05-18` [Presentation on AI for legal epidemiology](/assets/legal-epi-preso/slides.html)
 
 `2024-05-03` [AI links](/ai-links/)
 

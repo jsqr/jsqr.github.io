@@ -32,7 +32,7 @@ to neural networks and transformers. Many of Jeremy Howard's
 
 ### Papers (meta-list)
 
-daturkel's list of [landmark learning papers](https://github.com/daturkel/learning-papers)
+Here is daturkel's list of [landmark learning papers](https://github.com/daturkel/learning-papers).
 Another list of [deep learning papers](https://github.com/terryum/awesome-deep-learning-papers)
 up to 2017, and [another](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap).
 Recent [papers on arxiv](https://arxiv.org/list/cs.LG/recent). Sebastian Raschka's

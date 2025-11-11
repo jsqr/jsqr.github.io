@@ -4,6 +4,7 @@ project:
 
 website:
   title: "jsqr.org"
+  favicon: favicon.ico
   navbar:
     left:
       - href: index.qmd

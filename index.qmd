@@ -10,4 +10,4 @@ title: "jsqr.org"
 
 2. Show, don't tell.
 
-3. Make the world a little better.
+3. Nothing in excess.

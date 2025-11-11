@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+About this site
+
+```julia
+function f(x::String) -> String
+    return x
+end
+```
+
+And here is some maths: $f(x) = x^a$.
+
+{{< lipsum 1 >}}

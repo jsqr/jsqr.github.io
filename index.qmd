@@ -2,4 +2,8 @@
 title: "jsqr.org"
 ---
 
+# jj
+
+![Triangle, Square, Circle](images/triangle-square-circle.png){width=50% fig-align="center"}
+
 This is the homepage of Johnathan Jenkins. It's a sketchy site.

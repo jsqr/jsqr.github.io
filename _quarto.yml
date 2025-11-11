@@ -23,6 +23,9 @@ website:
         icon: bluesky
       - href: https://pixelfed.social/@jsqr
         icon: camera
+  page-footer:
+    left: "© 2025 Johnathan Jenkins"
+    right: "This work is licensed under a [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 
 format:
   html:

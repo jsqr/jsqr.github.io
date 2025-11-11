@@ -1,0 +1,44 @@
+---
+title: Legal informatics and AI
+---
+
+## Background
+
+I came to law school after spending several years doing data analysis and modeling
+in the physical sciences and finance. In contrast to those fields, legal practice
+seemed old-fashioned. How could I automate a process? How could I make sense of
+everything I was reading? Are we still in the nineteenth century or what?  For all
+of its zeal to tackle new problems, law remained in many ways stuck in the past
+when it came to actually doing the work. It was frustrating, and I even wrote a
+[Note](https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf) about
+it as a kind of protest.
+
+We're now in a different era, and the current crop of transformer-based language
+models promises to make lots of ideas that were enticingly out of reach a decade
+or two ago much closer. How can we take advantage of the new AI tools?
+
+## AI, generally
+
+- Bishop, C. and Bishop, H. (2024) _Deep Learning: Foundations and Concepts_.
+Springer. Authors' [site](https://www.bishopbook.com/).
+- Jurafsky, D. and Martin, C. (2025) _Speech and Language Processing_ (3rd ed.
+draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/).
+- Russell, S. and Norvig, P. (2021) _Artifical Intelligence: A Modern Approach_
+ (4th ed.). Pearson. Authors' [site](https://aima.cs.berkeley.edu/).
+
+## Publications & conferences
+
+- [Artificial Intelligence and Law](https://link.springer.com/journal/10506)
+- [CodeX Publications](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/)
+- [JURIX](https://jurix.nl/)
+
+## Useful tech for LLM hacking
+
+- [DeepEval:](https://deepeval.com/) open-source LLM evaluation framework.
+- [Hugging Face Transformers:](https://huggingface.co/docs/transformers/en/index)
+swiss army knife for transformer models.
+- [Instructor:](https://python.useinstructor.com/) library for structured LLM outputs.
+- [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
+- [LLM:](https://llm.datasette.io/en/stable/) Simon Willison's CLI and library for
+interacting with LLMs.
+- [uv:](https://github.com/astral-sh/uv) a modern Python package manager.

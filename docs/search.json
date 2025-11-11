@@ -11,14 +11,98 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "text": "Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible.\nMore."
+  },
+  {
+    "objectID": "projects.html#ai-for-legal-epidemiology",
+    "href": "projects.html#ai-for-legal-epidemiology",
+    "title": "Projects",
+    "section": "",
+    "text": "Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible.\nMore."
+  },
+  {
+    "objectID": "ref/ai-law.html",
+    "href": "ref/ai-law.html",
+    "title": "Legal informatics and AI",
+    "section": "",
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?"
+  },
+  {
+    "objectID": "ref/ai-law.html#background",
+    "href": "ref/ai-law.html#background",
+    "title": "Legal informatics and AI",
+    "section": "",
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?"
+  },
+  {
+    "objectID": "ref/ai-law.html#ai-generally",
+    "href": "ref/ai-law.html#ai-generally",
+    "title": "Legal informatics and AI",
+    "section": "AI, generally",
+    "text": "AI, generally\n\nBishop, C. and Bishop, H. (2024) Deep Learning: Foundations and Concepts. Springer. Authors’ site.\nJurafsky, D. and Martin, C. (2025) Speech and Language Processing (3rd ed. draft Aug. 24, 2025). Full draft here.\nRussell, S. and Norvig, P. (2021) Artifical Intelligence: A Modern Approach (4th ed.). Pearson. Authors’ site."
+  },
+  {
+    "objectID": "ref/ai-law.html#publications-conferences",
+    "href": "ref/ai-law.html#publications-conferences",
+    "title": "Legal informatics and AI",
+    "section": "Publications & conferences",
+    "text": "Publications & conferences\n\nArtificial Intelligence and Law\nCodeX Publications\nJURIX"
+  },
+  {
+    "objectID": "ref/ai-law.html#useful-tech-for-llm-hacking",
+    "href": "ref/ai-law.html#useful-tech-for-llm-hacking",
+    "title": "Legal informatics and AI",
+    "section": "Useful tech for LLM hacking",
+    "text": "Useful tech for LLM hacking\n\nDeepEval: open-source LLM evaluation framework.\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nMarimo: reactive Python notebooks with bells and whistles.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nuv: a modern Python package manager."
+  },
+  {
+    "objectID": "proj/legal-epi.html",
+    "href": "proj/legal-epi.html",
+    "title": "AI for legal epidemiology",
+    "section": "",
+    "text": "Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
+  },
+  {
+    "objectID": "proj/legal-epi.html#overview",
+    "href": "proj/legal-epi.html#overview",
+    "title": "AI for legal epidemiology",
+    "section": "",
+    "text": "Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
+  },
+  {
+    "objectID": "proj/legal-epi.html#timeline",
+    "href": "proj/legal-epi.html#timeline",
+    "title": "AI for legal epidemiology",
+    "section": "Timeline",
+    "text": "Timeline\n\nInitial presentation to the COEP center at NYU Langone (March 28, 2024)\nInternal presentation with updated slides describing prototypes (Oct. 7, 2024).\nMagdalena Cerda et al., Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?, Milbank Q. 2025; 103(SI):0610 (June 10, 2025).\nPresentation at SER Annual Meeting (July 13, 2025)."
+  },
+  {
+    "objectID": "proj/legal-epi.html#current-version-of-code",
+    "href": "proj/legal-epi.html#current-version-of-code",
+    "title": "AI for legal epidemiology",
+    "section": "Current version of code",
+    "text": "Current version of code\nLegiscope."
+  },
+  {
+    "objectID": "proj/legal-epi.html#people",
+    "href": "proj/legal-epi.html#people",
+    "title": "AI for legal epidemiology",
+    "section": "People",
+    "text": "People\n\nSamrachana Adhikari, PhD\nMagdalena Cerda, DrPh\nCorey Davis, JD\nJaskiran Dhinsa, MD\nCharles DiMaggio, PhD\nSpruha Joshi, PhD\nPooja Shah, BS\nUtkarsh Srivastava, MS"
   },
   {
     "objectID": "reference.html",
     "href": "reference.html",
     "title": "Reference",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer.\nResources."
+  },
+  {
+    "objectID": "reference.html#legal-informatics-and-ai",
+    "href": "reference.html#legal-informatics-and-ai",
+    "title": "Reference",
+    "section": "",
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer.\nResources."
   },
   {
     "objectID": "index.html",
@@ -26,6 +110,13 @@
     "title": "jsqr.org",
     "section": "",
     "text": "This is the homepage of Johnathan Jenkins. It’s a sketchy site."
+  },
+  {
+    "objectID": "index.html#recent",
+    "href": "index.html#recent",
+    "title": "jsqr.org",
+    "section": "Recent",
+    "text": "Recent\n\nAI for legal epidemiology\nResources for legal informatics and AI"
   },
   {
     "objectID": "index.html#rules",

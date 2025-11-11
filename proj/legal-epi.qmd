@@ -1,0 +1,45 @@
+---
+title: AI for legal epidemiology
+---
+
+## Overview
+
+Legal epidemiology – understanding the effects of laws on health – requires an
+understanding of what the law is. But laws are spread across jurisdictions and
+different levels of government, and are framed in technical language that can be
+difficult to encode for analysis. Since 2024, I have been working with
+collaborators on a project to apply large language models and modern retrieval
+methods to make encoding of laws easier, focusing on the municipal codes and
+ordinances of hundreds of citites in the United States. This is part of a broader
+interest in making law more accessible.
+
+## Timeline
+
+1. Initial presentation to the
+[COEP](https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/center-opioid-epidemiology-policy)
+center at NYU Langone (March 28, 2024)
+
+2. Internal presentation with updated [slides](2024-10-07-preso.pdf)
+describing prototypes (Oct. 7, 2024).
+
+3. Magdalena Cerda et al.,
+[Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?](https://www.milbank.org/quarterly/articles/stemming-the-tide-of-the-us-overdose-crisis-how-can-we-leverage-the-power-of-data-science-and-artificial-intelligence/),
+_Milbank Q._ 2025; 103(SI):0610 (June 10, 2025).
+
+4. Presentation at SER [Annual Meeting](https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf)
+(July 13, 2025).
+
+## Current version of code
+
+[Legiscope](https://github.com/jsqr/legiscope).
+
+## People
+
+- Samrachana Adhikari, PhD
+- Magdalena Cerda, DrPh
+- Corey Davis, JD
+- Jaskiran Dhinsa, MD
+- Charles DiMaggio, PhD
+- Spruha Joshi, PhD
+- Pooja Shah, BS
+- Utkarsh Srivastava, MS

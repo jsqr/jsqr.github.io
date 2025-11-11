@@ -4,6 +4,11 @@ title: "jsqr.org"
 
 ![This is the homepage of Johnathan Jenkins. It's a sketchy site.](images/triangle-square-circle.png){width=50% fig-align="center"}
 
+## Recent
+
+- [AI for legal epidemiology](proj/legal-epi.html)
+- [Resources for legal informatics and AI](ref/ai-law.html)
+
 ## Rules
 
 1. Be specific.

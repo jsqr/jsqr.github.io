@@ -9,3 +9,5 @@ title: "jsqr.org"
 1. Be specific.
 
 2. Show, don't tell.
+
+3. Make the world a little better.

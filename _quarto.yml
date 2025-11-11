@@ -16,8 +16,10 @@ website:
         icon: github
       - href: https://www.linkedin.com/in/johnathan-jenkins-29806aa8/
         icon: linkedin
-      - href: https://https://mstdn.social/@jsqr
+      - href: https://mstdn.social/@jsqr
         icon: mastodon
+      - href: https://bsky.app/profile/jsqr.bsky.social
+        icon: bluesky
       - href: https://pixelfed.social/@jsqr
         icon: camera
 

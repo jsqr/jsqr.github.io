@@ -9,6 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - reference.qmd
+    tools:
+      - href: https://github.com/jsqr
+      - icon: github
 
 format:
   html:

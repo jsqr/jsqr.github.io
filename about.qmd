@@ -2,6 +2,6 @@
 title: "About"
 ---
 
-This is a Quarto site: https://quarto.org.
+This is a [Quarto](https://quarto.org) site.
 
 {{< lipsum 1 >}}

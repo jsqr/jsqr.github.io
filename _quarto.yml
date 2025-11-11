@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-  post-render: copy_cname.sh
 
 website:
   title: "jsqr.org"
@@ -13,8 +12,14 @@ website:
       - projects.qmd
       - reference.qmd
     tools:
-      - href: https://github.com/jsqr
-      - icon: github
+      - href: https://github.com/jsqr/
+        icon: github
+      - href: https://www.linkedin.com/in/johnathan-jenkins-29806aa8/
+        icon: linkedin
+      - href: https://https://mstdn.social/@jsqr
+        icon: mastodon
+      - href: https://pixelfed.social/@jsqr
+        icon: camera
 
 format:
   html:

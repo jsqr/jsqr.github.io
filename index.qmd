@@ -2,8 +2,10 @@
 title: "jsqr.org"
 ---
 
-# jj
+![This is the homepage of Johnathan Jenkins. It's a sketchy site.](images/triangle-square-circle.png){width=50% fig-align="center"}
 
-![Triangle, Square, Circle](images/triangle-square-circle.png){width=50% fig-align="center"}
+## Rules
 
-This is the homepage of Johnathan Jenkins. It's a sketchy site.
+1. Be specific.
+
+2. Show, don't tell.

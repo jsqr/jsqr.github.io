@@ -9,10 +9,9 @@ title: "jsqr.org"
 - [AI for legal epidemiology](proj/legal-epi.html)
 - [Resources for legal informatics and AI](ref/ai-law.html)
 
-## Rules
+## Miscellany
 
-1. Be specific.
+> If there's anyone that's gonna get replaced by AI, it's an editor who cuts to the beat.
+> -- Jesse Senko
 
-2. Show, don't tell.
-
-3. Nothing in excess.
+> _Rules:_ 1. Be specific. 2. Show, don't tell. 3. Nothing in excess.

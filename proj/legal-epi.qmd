@@ -1,5 +1,6 @@
 ---
 title: AI for legal epidemiology
+date: 2025-11-12
 ---
 
 ## Overview

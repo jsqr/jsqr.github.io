@@ -1,0 +1,10 @@
+---
+title: Foo
+date: 2025-11-12
+---
+
+## Foo
+
+Lorem post cenam in silva ambulavit.
+
+[_More_.](words/foo.html)

@@ -95,14 +95,14 @@
     "href": "reference.html",
     "title": "Reference",
     "section": "",
-    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer.\nResources."
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?\nMore."
   },
   {
     "objectID": "reference.html#legal-informatics-and-ai",
     "href": "reference.html#legal-informatics-and-ai",
     "title": "Reference",
     "section": "",
-    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer.\nResources."
+    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?\nMore."
   },
   {
     "objectID": "index.html",
@@ -124,5 +124,40 @@
     "title": "jsqr.org",
     "section": "Rules",
     "text": "Rules\n\nBe specific.\nShow, don’t tell.\nNothing in excess."
+  },
+  {
+    "objectID": "index.html#miscellany",
+    "href": "index.html#miscellany",
+    "title": "jsqr.org",
+    "section": "Miscellany",
+    "text": "Miscellany\n\nIf there’s anyone that’s gonna get replaced by AI, it’s an editor who cuts to the beat. – Jesse Senko\n\n\nRules: 1. Be specific. 2. Show, don’t tell. 3. Nothing in excess."
+  },
+  {
+    "objectID": "words.html",
+    "href": "words.html",
+    "title": "Words",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit.\nMore."
+  },
+  {
+    "objectID": "words.html#foo",
+    "href": "words.html#foo",
+    "title": "Words",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit.\nMore."
+  },
+  {
+    "objectID": "words/foo.html",
+    "href": "words/foo.html",
+    "title": "Foo",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit.\nMore."
+  },
+  {
+    "objectID": "words/foo.html#foo",
+    "href": "words/foo.html#foo",
+    "title": "Foo",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit.\nMore."
   }
 ]

@@ -15,6 +15,6 @@ it as a kind of protest.
 
 We're now in a different era, and the current crop of transformer-based language
 models promises to make lots of ideas that were enticingly out of reach a decade
-or two ago much closer.
+or two ago much closer. How can we take advantage of the new AI tools?
 
-[_Resources_.](ref/ai-law.html)
+[_More_.](ref/ai-law.html)

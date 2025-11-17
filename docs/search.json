@@ -151,13 +151,55 @@
     "href": "words/foo.html",
     "title": "Foo",
     "section": "",
-    "text": "Lorem post cenam in silva ambulavit.\nMore."
+    "text": "Lorem post cenam in silva ambulavit."
   },
   {
     "objectID": "words/foo.html#foo",
     "href": "words/foo.html#foo",
     "title": "Foo",
     "section": "",
-    "text": "Lorem post cenam in silva ambulavit.\nMore."
+    "text": "Lorem post cenam in silva ambulavit."
+  },
+  {
+    "objectID": "words/foo.html#demo-of-some-quarto-features",
+    "href": "words/foo.html#demo-of-some-quarto-features",
+    "title": "Foo",
+    "section": "Demo of some Quarto features",
+    "text": "Demo of some Quarto features\n\nJuliaPython\n\n\nfunction fizz_buzz(num)\n    if num % 15 == 0\n        println(\"FizzBuzz\")\n    elseif num % 5 == 0\n        println(\"Buzz\")\n    elseif num % 3 == 0\n        println(\"Fizz\")\n    else\n        println(num)\n    end\nend\n\n\ndef fizz_buzz(num):\n    if num % 15 == 0:\n        print(\"FizzBuzz\")\n    elif num % 5 == 0:\n        print(\"Buzz\")\n    elif num % 3 == 0:\n        print(\"Fizz\")\n    else:\n        print(num)"
+  },
+  {
+    "objectID": "words/foo.html#demo-of-tabsets",
+    "href": "words/foo.html#demo-of-tabsets",
+    "title": "Foo",
+    "section": "Demo of tabsets",
+    "text": "Demo of tabsets\n\nJuliaPython\n\n\nfunction fizz_buzz(num)\n    if num % 15 == 0\n        println(\"FizzBuzz\")\n    elseif num % 5 == 0\n        println(\"Buzz\")\n    elseif num % 3 == 0\n        println(\"Fizz\")\n    else\n        println(num)\n    end\nend\n\n\ndef fizz_buzz(num):\n    if num % 15 == 0:\n        print(\"FizzBuzz\")\n    elif num % 5 == 0:\n        print(\"Buzz\")\n    elif num % 3 == 0:\n        print(\"Fizz\")\n    else:\n        print(num)"
+  },
+  {
+    "objectID": "words/foo.html#tabset-demo",
+    "href": "words/foo.html#tabset-demo",
+    "title": "Foo",
+    "section": "Tabset demo",
+    "text": "Tabset demo\n\nJuliaPython\n\n\nfunction isprime(n::Integer)\n    if n &lt;= 1\n        return false\n    elseif n &lt;= 3\n        return true\n    elseif n % 2 == 0 || n % 3 == 0\n        return false\n    end\n    i = 5\n    while i &lt;= isqrt(n)\n        if n % i == 0 || n % (i + 2) == 0\n            return false\n        end\n        i += 6\n    end\n    return true\nend\n\n\ndef is_prime(n: int) -&gt; bool:\n    if n &lt;= 1:\n        return False\n    elif n &lt;= 3:\n        return True\n    elif n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i &lt;= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True"
+  },
+  {
+    "objectID": "words/foo.html#lightbox-demo",
+    "href": "words/foo.html#lightbox-demo",
+    "title": "Foo",
+    "section": "Lightbox demo",
+    "text": "Lightbox demo"
+  },
+  {
+    "objectID": "words/foo.html#some-latex",
+    "href": "words/foo.html#some-latex",
+    "title": "Foo",
+    "section": "Some \\(\\LaTeX\\)",
+    "text": "Some \\(\\LaTeX\\)"
+  },
+  {
+    "objectID": "words/foo.html#some-equations",
+    "href": "words/foo.html#some-equations",
+    "title": "Foo",
+    "section": "Some equations",
+    "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
   }
 ]

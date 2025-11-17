@@ -1,10 +1,79 @@
 ---
 title: Foo
-date: 2025-11-12
+date: 2025-11-17
+number-section: true
+code-fold: true
+code-block-border-left: true
+code-line-numbers: true
+highlight-style: nord
+lightbox: true
 ---
 
 ## Foo
 
 Lorem post cenam in silva ambulavit.
 
-[_More_.](words/foo.html)
+## Tabset demo
+
+::: {.panel-tabset}
+## Julia
+
+``` {.julia}
+function isprime(n::Integer)
+    if n <= 1
+        return false
+    elseif n <= 3
+        return true
+    elseif n % 2 == 0 || n % 3 == 0
+        return false
+    end
+    i = 5
+    while i <= isqrt(n)
+        if n % i == 0 || n % (i + 2) == 0
+            return false
+        end
+        i += 6
+    end
+    return true
+end
+```
+
+## Python
+
+``` {.python}
+def is_prime(n: int) -> bool:
+    if n <= 1:
+        return False
+    elif n <= 3:
+        return True
+    elif n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+```
+
+:::
+
+## Some equations
+
+$$
+e^{i \pi} = -1
+$$
+
+$$
+\int_M \mathrm{d}\omega = \int_{\partial M} \omega
+$$
+
+$$
+G_{\mu \nu} = 8 \pi T_{\mu \nu}
+$$
+
+## Lightbox demo
+
+![One](images/24d-04-1.5k.jpg){.lightbox height=300px group="ch"}
+![Two](images/24d-44-1.5k.jpg){.lightbox height=300px group="ch"}
+![Three](images/24d-85-1.5k.jpg){.lightbox height=300px group="ch"}

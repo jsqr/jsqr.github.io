@@ -2,6 +2,13 @@
 title: Reference
 ---
 
+## Retrieval evaluation with synthetic queries
+
+Even if you lack labeled data, it's still often possible to do meaningful evaluations with synthetic data.
+
+[_More_.](ref/self-supervised-retrieval-eval.html)
+
+
 ## Legal informatics and AI
 
 I came to law school after spending several years doing data analysis and modeling

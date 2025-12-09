@@ -95,14 +95,14 @@
     "href": "reference.html",
     "title": "Reference",
     "section": "",
-    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?\nMore."
+    "text": "Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.\nMore."
   },
   {
     "objectID": "reference.html#legal-informatics-and-ai",
     "href": "reference.html#legal-informatics-and-ai",
     "title": "Reference",
-    "section": "",
-    "text": "I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?\nMore."
+    "section": "Legal informatics and AI",
+    "text": "Legal informatics and AI\nI came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a Note about it as a kind of protest.\nWe’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?\nMore."
   },
   {
     "objectID": "index.html",
@@ -116,7 +116,7 @@
     "href": "index.html#recent",
     "title": "jsqr.org",
     "section": "Recent",
-    "text": "Recent\n\nAI for legal epidemiology\nResources for legal informatics and AI"
+    "text": "Recent\n\nRetrieval evaluation with synthetic data ref\nAI for legal epidemiology proj\nResources for legal informatics and AI ref"
   },
   {
     "objectID": "index.html#rules",
@@ -201,5 +201,61 @@
     "title": "Foo",
     "section": "Some equations",
     "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
+  },
+  {
+    "objectID": "reference.html#retrieval-evaluation-with-synthetic-queries",
+    "href": "reference.html#retrieval-evaluation-with-synthetic-queries",
+    "title": "Reference",
+    "section": "",
+    "text": "Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.\nMore."
+  },
+  {
+    "objectID": "ref/ai-law.html#periodicals-conferences-and-collections",
+    "href": "ref/ai-law.html#periodicals-conferences-and-collections",
+    "title": "Legal informatics and AI",
+    "section": "Periodicals, conferences, and collections",
+    "text": "Periodicals, conferences, and collections\n\nArtificial Intelligence and Law\nCodeX Publications\nJURIX\nStanford Regulation Lab"
+  },
+  {
+    "objectID": "ref/ai-law.html#reasoning",
+    "href": "ref/ai-law.html#reasoning",
+    "title": "Legal informatics and AI",
+    "section": "Reasoning",
+    "text": "Reasoning\n\nBesnard, P. and Hunter, A. (2008) Elements of Argumentation. MIT Press. Full text at ResearchGate.\nBradley, A. and Manna, Z. (2007) The Calculus of Computation. Springer. Manna lecture notes.\nHalpern, J. (2017). Reasoning about Uncertainty (2nd. ed.). MIT Press. Full text at MIT Press Direct.\nKroening, D. and Strichman, O. (2017). Decision Procedures (2nd ed.). Springer. Authors’ site.\nKowalski, R. (2011) Computational Logic and Human Thinking. Cambridge Univ. Press. Publisher site.\nMueller, E. (2014). Commonsense Reasoning: An Event Calculus Based Approach (2nd ed.). Elsevier. Publisher site"
+  },
+  {
+    "objectID": "ref/ai-law.html#computational-law",
+    "href": "ref/ai-law.html#computational-law",
+    "title": "Legal informatics and AI",
+    "section": "Computational law",
+    "text": "Computational law\n\nAshley, K. (2017). Artificial Intelligence and Legal Analytics. Cambridge Univ. Press. Publisher site.\nKatz, D., Dolin, R. and Bommarito, M., eds. (2021). Legal Informatics. Cambridge Univ. Press. Publisher site.\nLodder, A. and Oskamp, A. (2006). Information Technology & Lawyers. Springer.\nStranieri, A. and Zeleznikow, J. (2005). Knowledge Discovery from Legal Databases. Springer."
+  },
+  {
+    "objectID": "ref/ai-law.html#useful-tools-for-hacking-llms",
+    "href": "ref/ai-law.html#useful-tools-for-hacking-llms",
+    "title": "Legal informatics and AI",
+    "section": "Useful tools for hacking LLMs",
+    "text": "Useful tools for hacking LLMs\n\nDeepEval: open-source LLM evaluation framework.\nHugging Face: open models and data sets\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nMarimo: reactive Python notebooks with bells and whistles.\nnupunkt sentence boundary detection library optimized for legal text.\nPydantic AI: Python ‘agent’ framework (validation, model abstraction, evals, workflows).\nTextual: TUI application framework (‘move at terminal velocity’).\nuv: a modern Python package manager."
+  },
+  {
+    "objectID": "ref/ai-law.html#data",
+    "href": "ref/ai-law.html#data",
+    "title": "Legal informatics and AI",
+    "section": "Data",
+    "text": "Data\n\nFree Law Project: case law database, etc.\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
+  },
+  {
+    "objectID": "ref/self-supervised-retrieval-eval.html",
+    "href": "ref/self-supervised-retrieval-eval.html",
+    "title": "Self-supervised evaluation and training",
+    "section": "",
+    "text": "Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.\nFor example, with a segmented text dataset you can:\nloop:\n    choose arbitrary segment\n    query = llm_call(segment)\n    save (query, segment) to dataset\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of this as a kind of stochastic closed-loop property testing:\n\n\n\n\n\ngraph LR\n    segment --&gt; create_query\n    create_query --&gt; retrieve\n    retrieve --&gt; segment\n\n\n\n\n\n\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR]."
+  },
+  {
+    "objectID": "ref/self-supervised-retrieval-eval.html#retrieval-evaluation-with-synthetic-queries",
+    "href": "ref/self-supervised-retrieval-eval.html#retrieval-evaluation-with-synthetic-queries",
+    "title": "Self-supervised evaluation and training",
+    "section": "",
+    "text": "Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.\nFor example, with a segmented text dataset you can:\nloop:\n    choose arbitrary segment\n    query = llm_call(segment)\n    save (query, segment) to dataset\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of this as a kind of stochastic closed-loop property testing:\n\n\n\n\n\ngraph LR\n    segment --&gt; create_query\n    create_query --&gt; retrieve\n    retrieve --&gt; segment\n\n\n\n\n\n\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR]."
   }
 ]

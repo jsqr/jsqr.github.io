@@ -6,8 +6,9 @@ title: "jsqr.org"
 
 ## Recent
 
-- [AI for legal epidemiology](proj/legal-epi.html)
-- [Resources for legal informatics and AI](ref/ai-law.html)
+- [Retrieval evaluation with synthetic data](ref/self-supervised-retrieval-eval.html) _ref_
+- [AI for legal epidemiology](proj/legal-epi.html) _proj_
+- [Resources for legal informatics and AI](ref/ai-law.html) _ref_
 
 ## Miscellany
 

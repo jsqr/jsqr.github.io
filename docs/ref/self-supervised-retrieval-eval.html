@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-12-09">
 
-<title>Reference – jsqr.org</title>
+<title>Self-supervised evaluation and training – jsqr.org</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3d9c20eb0336aa831465c704db43c641.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3d9c20eb0336aa831465c704db43c641.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,9 +70,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">jsqr.org</span>
     </a>
   </div>
@@ -92,23 +96,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./reference.html" aria-current="page"> 
+    <a class="nav-link" href="../reference.html"> 
 <span class="menu-text">Reference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./words.html"> 
+    <a class="nav-link" href="../words.html"> 
 <span class="menu-text">Words</span></a>
   </li>  
 </ul>
@@ -133,7 +137,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#retrieval-evaluation-with-synthetic-queries" id="toc-retrieval-evaluation-with-synthetic-queries" class="nav-link active" data-scroll-target="#retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</a></li>
-  <li><a href="#legal-informatics-and-ai" id="toc-legal-informatics-and-ai" class="nav-link" data-scroll-target="#legal-informatics-and-ai">Legal informatics and AI</a></li>
   </ul>
 </nav>
     </div>
@@ -142,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Reference</h1>
+<h1 class="title">Self-supervised evaluation and training</h1>
 </div>
 
 
@@ -150,6 +153,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 9, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -162,13 +171,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="retrieval-evaluation-with-synthetic-queries" class="level2">
 <h2 class="anchored" data-anchor-id="retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</h2>
 <p>Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.</p>
-<p><a href="ref/self-supervised-retrieval-eval.html"><em>More</em>.</a></p>
-</section>
-<section id="legal-informatics-and-ai" class="level2">
-<h2 class="anchored" data-anchor-id="legal-informatics-and-ai">Legal informatics and AI</h2>
-<p>I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate my practices? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a <a href="https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf">Note</a> about it as a kind of protest.</p>
-<p>We’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?</p>
-<p><a href="ref/ai-law.html"><em>More</em>.</a></p>
+<p>For example, with a segmented text dataset you can:</p>
+<pre><code>loop:
+    choose arbitrary segment
+    query = llm_call(segment)
+    save (query, segment) to dataset</code></pre>
+<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of this as a kind of stochastic closed-loop property testing:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    segment --&gt; create_query
+    create_query --&gt; retrieve
+    retrieve --&gt; segment
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>References:</strong></p>
+<ul>
+<li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
+<li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
+<li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
+<li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
+</ul>
 
 
 </section>

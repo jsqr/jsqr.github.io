@@ -1,0 +1,42 @@
+---
+title: Self-supervised evaluation and training
+date: 2025-12-09
+---
+
+## Retrieval evaluation with synthetic queries
+
+Even if you lack labeled data, it's still often possible to do meaningful evaluations with synthetic data.
+
+For example, with a segmented text dataset you can:
+
+```
+loop:
+    choose arbitrary segment
+    query = llm_call(segment)
+    save (query, segment) to dataset
+```
+
+When synthetic data is used for training or fine-tuning, it makes sense to think of it as data.
+But in the context of evaluation, you can also think of this as a kind of stochastic closed-loop property
+testing:
+
+```{mermaid}
+graph LR
+    segment --> create_query
+    create_query --> retrieve
+    retrieve --> segment
+```
+
+**References:**
+
+- [Claessen, K. and Hughes, J. (2000).](https://doi.org/10.1145/357766.35126)
+QuickCheck: a lightweight tool for random testing of Haskell programs.
+ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.
+- [Es, S. (2024)](https://blog.ragas.io/all-about-synthetic-data-generation).
+All about synthetic data generation. Ragas blog.
+- [Esfandiarpoor, R. et at. (2025).](https://doi.org/10.48550/arXiv.2503.23239)
+Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance.
+arXiv:2503.23239 [cs.IR].
+- [Rahmani, H. (2024)](https://doi.org/10.48550/arXiv.2405.07767).
+Synthetic Test Collections for Retrieval Evaluation.
+arXiv:2405.07767 [cs.IR].

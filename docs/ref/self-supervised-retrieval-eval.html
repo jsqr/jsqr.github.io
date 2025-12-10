@@ -174,30 +174,39 @@ ul.task-list li input[type="checkbox"] {
 <p>For example, with a segmented text dataset you can:</p>
 <pre><code>loop:
     choose arbitrary segment
-    query = llm_call(segment)
+    query = create_query(segment)
     save (query, segment) to dataset</code></pre>
-<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of this as a kind of stochastic closed-loop property testing:</p>
+<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph LR
-    segment --&gt; create_query
-    create_query --&gt; retrieve
-    retrieve --&gt; segment
+    segment -- create_query --&gt; query
+    query -- retrieve --&gt; segment
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
+<p>It turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):</p>
+<ul>
+<li>commutative relationships (and model-based approaches),</li>
+<li>invertible operations,</li>
+<li>invariance under transformation,</li>
+<li>idempotence, and</li>
+<li>structural induction.</li>
+</ul>
+<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’. But really, for lots of properties involving a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
 <p><strong>References:</strong></p>
 <ul>
 <li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
 <li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
 <li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
 <li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. Blog.</li>
 </ul>
 
 

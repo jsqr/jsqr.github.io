@@ -1,5 +1,5 @@
 ---
-title: Self-supervised evaluation and training
+title: Self-supervised evaluation
 date: 2025-12-09
 last-modified: 2025-12-10
 ---
@@ -16,6 +16,8 @@ loop:
     query = create_query(segment)
     save (query, segment) to dataset
 ```
+
+## Synthetic data and property-based testing
 
 When synthetic data is used for training or fine-tuning, it makes sense to think of it as _data_.
 But in the context of evaluation, you can also think of this process as a kind of stochastic
@@ -57,4 +59,4 @@ arXiv:2503.23239 [cs.IR].
 Synthetic Test Collections for Retrieval Evaluation.
 arXiv:2405.07767 [cs.IR].
 - [Wlaschin, S. (2014)](https://fsharpforfunandprofit.com/posts/property-based-testing-2/).
-Choosing properties for property-based testing. Blog.
+Choosing properties for property-based testing. F# Blog.

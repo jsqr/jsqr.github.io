@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2025-12-09">
 
-<title>Self-supervised evaluation and training – jsqr.org</title>
+<title>Self-supervised evaluation – jsqr.org</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,6 +137,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#retrieval-evaluation-with-synthetic-queries" id="toc-retrieval-evaluation-with-synthetic-queries" class="nav-link active" data-scroll-target="#retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</a></li>
+  <li><a href="#synthetic-data-and-property-based-testing" id="toc-synthetic-data-and-property-based-testing" class="nav-link" data-scroll-target="#synthetic-data-and-property-based-testing">Synthetic data and property-based testing</a></li>
   </ul>
 </nav>
     </div>
@@ -145,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Self-supervised evaluation and training</h1>
+<h1 class="title">Self-supervised evaluation</h1>
 </div>
 
 
@@ -176,6 +177,9 @@ ul.task-list li input[type="checkbox"] {
     choose arbitrary segment
     query = create_query(segment)
     save (query, segment) to dataset</code></pre>
+</section>
+<section id="synthetic-data-and-property-based-testing" class="level2">
+<h2 class="anchored" data-anchor-id="synthetic-data-and-property-based-testing">Synthetic data and property-based testing</h2>
 <p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -206,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
 <li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
 <li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
-<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. Blog.</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. F# Blog.</li>
 </ul>
 
 

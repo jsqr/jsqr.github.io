@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>jsqr.org</title>
-<link>https://jsqr.org/words.html</link>
-<atom:link href="https://jsqr.org/words.xml" rel="self" type="application/rss+xml"/>
+<link>https://jsqr.org/miscellany.html</link>
+<atom:link href="https://jsqr.org/miscellany.xml" rel="self" type="application/rss+xml"/>
 <description>Johnathan Jenkins&#39; personal website</description>
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Tue, 09 Dec 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Self-supervised retrieval evaluation</title>
-  <link>https://jsqr.org/words/self-supervised-retrieval-eval/</link>
+  <link>https://jsqr.org/misc/self-supervised-retrieval-eval/</link>
   <description><![CDATA[ 
 
 
@@ -68,15 +68,14 @@
 </section>
 
  ]]></description>
-  <category>words</category>
+  <category>miscellany</category>
   <category>retrieval</category>
-  <category>shower</category>
-  <guid>https://jsqr.org/words/self-supervised-retrieval-eval/</guid>
+  <guid>https://jsqr.org/misc/self-supervised-retrieval-eval/</guid>
   <pubDate>Tue, 09 Dec 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Test post</title>
-  <link>https://jsqr.org/words/test/</link>
+  <link>https://jsqr.org/misc/test/</link>
   <description><![CDATA[ 
 
 
@@ -360,15 +359,15 @@ font-style: inherit;">True</span></span></code></pre></div></div>
 </section>
 <section id="lightbox-demo" class="level2">
 <h2 class="anchored" data-anchor-id="lightbox-demo">Lightbox demo</h2>
-<p><a href="24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="https://jsqr.org/words/test/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="https://jsqr.org/words/test/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="https://jsqr.org/words/test/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
+<p><a href="24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="https://jsqr.org/misc/test/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="https://jsqr.org/misc/test/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="https://jsqr.org/misc/test/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
 
 
 </section>
 
  ]]></description>
-  <category>words</category>
+  <category>miscellany</category>
   <category>test</category>
-  <guid>https://jsqr.org/words/test/</guid>
+  <guid>https://jsqr.org/misc/test/</guid>
   <pubDate>Tue, 11 Nov 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>

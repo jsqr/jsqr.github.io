@@ -14,7 +14,7 @@ website:
             - about.qmd
             - projects.qmd
             - reference.qmd
-            - words.qmd
+            - miscellany.qmd
         tools:
             - href: index.xml
               icon: rss

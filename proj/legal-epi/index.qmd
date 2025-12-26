@@ -6,6 +6,7 @@ categories: [projects, epidemiology, law]
 description: Legal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.
 ---
 
+---
 ![Epidemiology starts with data](Snow-cholera-map.jpg){width=250}
 
 ## Overview

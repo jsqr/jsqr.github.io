@@ -1,18 +1,15 @@
 [
   {
-    "listing": "/words.html",
+    "listing": "/projects.html",
     "items": [
-      "/words/self-supervised-retrieval-eval/index.html",
-      "/words/test/index.html"
+      "/proj/legal-epi/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/miscellany.html",
     "items": [
-      "/words/self-supervised-retrieval-eval/index.html",
-      "/proj/legal-epi/index.html",
-      "/ref/ai-law/index.html",
-      "/words/test/index.html"
+      "/misc/self-supervised-retrieval-eval/index.html",
+      "/misc/test/index.html"
     ]
   },
   {
@@ -22,9 +19,12 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
     "items": [
-      "/proj/legal-epi/index.html"
+      "/misc/self-supervised-retrieval-eval/index.html",
+      "/proj/legal-epi/index.html",
+      "/ref/ai-law/index.html",
+      "/misc/test/index.html"
     ]
   }
 ]

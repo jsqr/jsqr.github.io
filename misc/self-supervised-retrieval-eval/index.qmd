@@ -2,7 +2,7 @@
 title: Self-supervised retrieval evaluation
 date: 2025-12-09
 date-modified: 2025-12-26
-categories: [words, retrieval, shower]
+categories: [miscellany, retrieval]
 ---
 
 ## Evaluation with synthetic queries

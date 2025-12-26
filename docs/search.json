@@ -1,136 +1,17 @@
 [
   {
-    "objectID": "words.html",
-    "href": "words.html",
-    "title": "Words",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I like math, physics, law, and open systems. I live in New York.\nThis is a Quarto site."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "jsqr.org",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This is the homepage of Johnathan Jenkins. It’s a sketchy site."
-  },
-  {
-    "objectID": "index.html#recent",
-    "href": "index.html#recent",
-    "title": "jsqr.org",
-    "section": "Recent",
-    "text": "Recent\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 12, 2025\n\n\nAI for legal epidemiology\n\n\nLegal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.\n\n\n\n\n\n\nNov 12, 2025\n\n\nLegal informatics and AI\n\n\nResources for treating law as data.\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#reminders",
-    "href": "index.html#reminders",
-    "title": "jsqr.org",
-    "section": "Reminders",
-    "text": "Reminders\n\nIf there’s anyone that’s gonna get replaced by AI, it’s an editor who cuts to the beat. – Jesse Senko\n\n\nRules: 1. Be specific. 2. Show, don’t tell. 3. Nothing in excess."
-  },
-  {
-    "objectID": "reference.html",
-    "href": "reference.html",
-    "title": "Reference",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nNov 12, 2025\n\n\nLegal informatics and AI\n\n\nResources for treating law as data.\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "words/test/index.html",
-    "href": "words/test/index.html",
-    "title": "Test post",
-    "section": "",
-    "text": "Lorem post cenam in silva ambulavit."
-  },
-  {
-    "objectID": "words/test/index.html#quarto-feature-demos",
-    "href": "words/test/index.html#quarto-feature-demos",
-    "title": "Test post",
-    "section": "",
-    "text": "Lorem post cenam in silva ambulavit."
-  },
-  {
-    "objectID": "words/test/index.html#tabset-demo",
-    "href": "words/test/index.html#tabset-demo",
-    "title": "Test post",
-    "section": "Tabset demo",
-    "text": "Tabset demo\n\nJuliaPython\n\n\nfunction isprime(n::Integer)\n    if n &lt;= 1\n        return false\n    elseif n &lt;= 3\n        return true\n    elseif n % 2 == 0 || n % 3 == 0\n        return false\n    end\n    i = 5\n    while i &lt;= isqrt(n)\n        if n % i == 0 || n % (i + 2) == 0\n            return false\n        end\n        i += 6\n    end\n    return true\nend\n\n\ndef is_prime(n: int) -&gt; bool:\n    if n &lt;= 1:\n        return False\n    elif n &lt;= 3:\n        return True\n    elif n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i &lt;= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True"
-  },
-  {
-    "objectID": "words/test/index.html#some-equations",
-    "href": "words/test/index.html#some-equations",
-    "title": "Test post",
-    "section": "Some equations",
-    "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
-  },
-  {
-    "objectID": "words/test/index.html#lightbox-demo",
-    "href": "words/test/index.html#lightbox-demo",
-    "title": "Test post",
-    "section": "Lightbox demo",
-    "text": "Lightbox demo"
-  },
-  {
-    "objectID": "proj/legal-epi/index.html",
-    "href": "proj/legal-epi/index.html",
-    "title": "AI for legal epidemiology",
-    "section": "",
-    "text": "Epidemiology starts with data"
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#overview",
-    "href": "proj/legal-epi/index.html#overview",
-    "title": "AI for legal epidemiology",
-    "section": "Overview",
-    "text": "Overview\nLegal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#timeline",
-    "href": "proj/legal-epi/index.html#timeline",
-    "title": "AI for legal epidemiology",
-    "section": "Timeline",
-    "text": "Timeline\n\nInitial presentation to the COEP center at NYU Langone (March 28, 2024)\nInternal presentation with updated slides describing prototypes (Oct. 7, 2024).\nMagdalena Cerda et al., Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?, Milbank Q. 2025; 103(SI):0610 (June 10, 2025).\nPresentation at Society for Epidemiologic Research (SER) Annual Meeting (July 13, 2025)."
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#current-version-of-code",
-    "href": "proj/legal-epi/index.html#current-version-of-code",
-    "title": "AI for legal epidemiology",
-    "section": "Current version of code",
-    "text": "Current version of code\nLegiscope."
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#people",
-    "href": "proj/legal-epi/index.html#people",
-    "title": "AI for legal epidemiology",
-    "section": "People",
-    "text": "People\n\nSamrachana Adhikari (NYU Langone)\nKimberly Villalobos Carballo (NYU)\nMagdalena Cerda (NYU Langone)\nCorey Davis (Network for Public Health Law)\nJaskiran Dhinsa (NYU Langone)\nCharles DiMaggio (NYU Langone)\nTheodore Hill (NYU Langone)\nSpruha Joshi (University of Michigan)\nDaniel Neill (NYU)\nPooja Shah (NYU Langone)\nUtkarsh Srivastava"
-  },
-  {
-    "objectID": "words/self-supervised-retrieval-eval/index.html",
-    "href": "words/self-supervised-retrieval-eval/index.html",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "",
-    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
-  },
-  {
-    "objectID": "words/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
-    "href": "words/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "",
-    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
-  },
-  {
-    "objectID": "words/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
-    "href": "words/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "Synthetic data and property-based testing",
-    "text": "Synthetic data and property-based testing\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think ought to exist (based on our understanding of the problem) is in fact closed as expected.\n\n\n\n\n\ngraph LR\n    segment -- create_query --&gt; query\n    query -- retrieve --&gt; segment\n\n\n\n\n\n\nIt turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):\n\ncommutative relationships (and model-based approaches),\ninvertible operations,\ninvariance under transformation,\nidempotence, and\nstructural induction.\n\nThe example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.\nBut really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].\nWlaschin, S. (2014). Choosing properties for property-based testing. F# blog."
-  },
-  {
-    "objectID": "ref/ai-law/index.html",
-    "href": "ref/ai-law/index.html",
-    "title": "Legal informatics and AI",
-    "section": "",
-    "text": "Stepped Reckoner (Leibniz, 1673)"
+    "text": "AI for legal epidemiology\n\n\nLegal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "ref/ai-law/index.html#background",
@@ -182,17 +63,122 @@
     "text": "Data\n\nFree Law Project: case law database, etc.\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "misc/test/index.html",
+    "href": "misc/test/index.html",
+    "title": "Test post",
     "section": "",
-    "text": "AI for legal epidemiology\n\n\nLegal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lorem post cenam in silva ambulavit."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "misc/test/index.html#quarto-feature-demos",
+    "href": "misc/test/index.html#quarto-feature-demos",
+    "title": "Test post",
     "section": "",
-    "text": "I like math, physics, law, and open systems. I live in New York.\nThis is a Quarto site."
+    "text": "Lorem post cenam in silva ambulavit."
+  },
+  {
+    "objectID": "misc/test/index.html#tabset-demo",
+    "href": "misc/test/index.html#tabset-demo",
+    "title": "Test post",
+    "section": "Tabset demo",
+    "text": "Tabset demo\n\nJuliaPython\n\n\nfunction isprime(n::Integer)\n    if n &lt;= 1\n        return false\n    elseif n &lt;= 3\n        return true\n    elseif n % 2 == 0 || n % 3 == 0\n        return false\n    end\n    i = 5\n    while i &lt;= isqrt(n)\n        if n % i == 0 || n % (i + 2) == 0\n            return false\n        end\n        i += 6\n    end\n    return true\nend\n\n\ndef is_prime(n: int) -&gt; bool:\n    if n &lt;= 1:\n        return False\n    elif n &lt;= 3:\n        return True\n    elif n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i &lt;= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True"
+  },
+  {
+    "objectID": "misc/test/index.html#some-equations",
+    "href": "misc/test/index.html#some-equations",
+    "title": "Test post",
+    "section": "Some equations",
+    "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
+  },
+  {
+    "objectID": "misc/test/index.html#lightbox-demo",
+    "href": "misc/test/index.html#lightbox-demo",
+    "title": "Test post",
+    "section": "Lightbox demo",
+    "text": "Lightbox demo"
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#overview",
+    "href": "proj/legal-epi/index.html#overview",
+    "title": "AI for legal epidemiology",
+    "section": "Overview",
+    "text": "Overview\nLegal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#timeline",
+    "href": "proj/legal-epi/index.html#timeline",
+    "title": "AI for legal epidemiology",
+    "section": "Timeline",
+    "text": "Timeline\n\nInitial presentation to the COEP center at NYU Langone (March 28, 2024)\nInternal presentation with updated slides describing prototypes (Oct. 7, 2024).\nMagdalena Cerda et al., Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?, Milbank Q. 2025; 103(SI):0610 (June 10, 2025).\nPresentation at Society for Epidemiologic Research (SER) Annual Meeting (July 13, 2025)."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#current-version-of-code",
+    "href": "proj/legal-epi/index.html#current-version-of-code",
+    "title": "AI for legal epidemiology",
+    "section": "Current version of code",
+    "text": "Current version of code\nLegiscope."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#people",
+    "href": "proj/legal-epi/index.html#people",
+    "title": "AI for legal epidemiology",
+    "section": "People",
+    "text": "People\n\nSamrachana Adhikari (NYU Langone)\nKimberly Villalobos Carballo (NYU)\nMagdalena Cerda (NYU Langone)\nCorey Davis (Network for Public Health Law)\nJaskiran Dhinsa (NYU Langone)\nCharles DiMaggio (NYU Langone)\nTheodore Hill (NYU Langone)\nSpruha Joshi (University of Michigan)\nDaniel Neill (NYU)\nPooja Shah (NYU Langone)\nUtkarsh Srivastava"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html",
+    "href": "misc/self-supervised-retrieval-eval/index.html",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "",
+    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
+    "href": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "",
+    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
+    "href": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "Synthetic data and property-based testing",
+    "text": "Synthetic data and property-based testing\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think ought to exist (based on our understanding of the problem) is in fact closed as expected.\n\n\n\n\n\ngraph LR\n    segment -- create_query --&gt; query\n    query -- retrieve --&gt; segment\n\n\n\n\n\n\nIt turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):\n\ncommutative relationships (and model-based approaches),\ninvertible operations,\ninvariance under transformation,\nidempotence, and\nstructural induction.\n\nThe example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.\nBut really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].\nWlaschin, S. (2014). Choosing properties for property-based testing. F# blog."
+  },
+  {
+    "objectID": "miscellany.html",
+    "href": "miscellany.html",
+    "title": "Miscellany",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reference.html",
+    "href": "reference.html",
+    "title": "Reference",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nNov 12, 2025\n\n\nLegal informatics and AI\n\n\nResources for treating law as data.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "jsqr.org",
+    "section": "",
+    "text": "This is the homepage of Johnathan Jenkins. It’s a sketchy site."
+  },
+  {
+    "objectID": "index.html#recent",
+    "href": "index.html#recent",
+    "title": "jsqr.org",
+    "section": "Recent",
+    "text": "Recent\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 12, 2025\n\n\nAI for legal epidemiology\n\n\nLegal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.\n\n\n\n\n\n\nNov 12, 2025\n\n\nLegal informatics and AI\n\n\nResources for treating law as data.\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#reminders",
+    "href": "index.html#reminders",
+    "title": "jsqr.org",
+    "section": "Reminders",
+    "text": "Reminders\n\nIf there’s anyone that’s gonna get replaced by AI, it’s an editor who cuts to the beat. – Jesse Senko\n\n\nRules: 1. Be specific. 2. Show, don’t tell. 3. Nothing in excess."
   }
 ]

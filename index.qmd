@@ -5,7 +5,7 @@ listing:
     contents:
         - proj
         - ref
-        - words
+        - misc
     sort: "date title"
     sort-ui: [date, title]
     filter-ui: false

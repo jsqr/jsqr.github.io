@@ -8,8 +8,7 @@ code-block-border-left: true
 code-line-numbers: true
 highlight-style: nord
 lightbox: true
-categories:
-    - test
+categories: [words, test]
 ---
 
 ## Quarto feature demos
@@ -77,6 +76,6 @@ $$
 
 ## Lightbox demo
 
-![One](images/24d-04-1.5k.jpg){.lightbox height=300px group="ch"}
-![Two](images/24d-44-1.5k.jpg){.lightbox height=300px group="ch"}
-![Three](images/24d-85-1.5k.jpg){.lightbox height=300px group="ch"}
+![One](24d-04-1.5k.jpg){.lightbox height=300px group="ch"}
+![Two](24d-44-1.5k.jpg){.lightbox height=300px group="ch"}
+![Three](24d-85-1.5k.jpg){.lightbox height=300px group="ch"}

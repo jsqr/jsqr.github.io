@@ -13,12 +13,18 @@
 <lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>AI for legal epidemiology</title>
-  <link>https://jsqr.org/proj/legal-epi.html</link>
+  <link>https://jsqr.org/proj/legal-epi/</link>
   <description><![CDATA[ 
 
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jsqr.org/proj/legal-epi/Snow-cholera-map.jpg" class="img-fluid figure-img" width="250"></p>
+<figcaption>Epidemiology starts with data</figcaption>
+</figure>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible.</p>
@@ -56,7 +62,10 @@
 </section>
 
  ]]></description>
-  <guid>https://jsqr.org/proj/legal-epi.html</guid>
+  <category>projects</category>
+  <category>epidemiology</category>
+  <category>law</category>
+  <guid>https://jsqr.org/proj/legal-epi/</guid>
   <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>

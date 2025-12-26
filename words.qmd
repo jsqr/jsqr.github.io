@@ -3,6 +3,8 @@ title: Words
 listing:
     contents: words
     sort: "date title"
+    sort-ui: [date, title]
+    filter-ui: false
     type: table
     categories: true
     feed: true

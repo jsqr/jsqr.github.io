@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jsqr.org/words.html</loc>
-    <lastmod>2025-12-26T18:49:25.751Z</lastmod>
+    <lastmod>2025-12-26T21:42:11.670Z</lastmod>
   </url>
   <url>
     <loc>https://jsqr.org/index.html</loc>
-    <lastmod>2025-12-26T19:05:47.668Z</lastmod>
+    <lastmod>2025-12-26T21:41:53.895Z</lastmod>
   </url>
   <url>
     <loc>https://jsqr.org/reference.html</loc>
-    <lastmod>2025-12-26T18:49:19.041Z</lastmod>
+    <lastmod>2025-12-26T21:42:05.253Z</lastmod>
   </url>
   <url>
-    <loc>https://jsqr.org/words/test.html</loc>
-    <lastmod>2025-12-26T18:59:26.737Z</lastmod>
+    <loc>https://jsqr.org/words/test/index.html</loc>
+    <lastmod>2025-12-26T21:45:52.684Z</lastmod>
   </url>
   <url>
-    <loc>https://jsqr.org/proj/legal-epi.html</loc>
-    <lastmod>2025-12-26T18:58:43.037Z</lastmod>
+    <loc>https://jsqr.org/proj/legal-epi/index.html</loc>
+    <lastmod>2025-12-26T21:48:12.177Z</lastmod>
   </url>
   <url>
-    <loc>https://jsqr.org/words/self-supervised-retrieval-eval.html</loc>
-    <lastmod>2025-12-26T18:59:16.722Z</lastmod>
+    <loc>https://jsqr.org/words/self-supervised-retrieval-eval/index.html</loc>
+    <lastmod>2025-12-26T21:48:24.155Z</lastmod>
   </url>
   <url>
-    <loc>https://jsqr.org/ref/ai-law.html</loc>
-    <lastmod>2025-12-26T18:59:05.751Z</lastmod>
+    <loc>https://jsqr.org/ref/ai-law/index.html</loc>
+    <lastmod>2025-12-26T21:48:18.035Z</lastmod>
   </url>
   <url>
     <loc>https://jsqr.org/projects.html</loc>

@@ -3,6 +3,8 @@ title: Reference
 listing:
     contents: ref
     sort: "date title"
+    sort-ui: [date, title]
+    filter-ui: false
     type: table
     categories: true
     feed: true

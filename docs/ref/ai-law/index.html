@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-09">
+<meta name="dcterms.date" content="2025-11-12">
+<meta name="description" content="Resources for treating law as data.">
 
-<title>Self-supervised evaluation – jsqr.org</title>
+<title>Legal informatics and AI – jsqr.org</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3d9c20eb0336aa831465c704db43c641.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3d9c20eb0336aa831465c704db43c641.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,12 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -85,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">jsqr.org</span>
     </a>
   </div>
@@ -96,29 +94,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../reference.html"> 
+    <a class="nav-link" href="../../reference.html"> 
 <span class="menu-text">Reference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../words.html"> 
+    <a class="nav-link" href="../../words.html"> 
 <span class="menu-text">Words</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="../../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
     <a href="https://github.com/jsqr/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://www.linkedin.com/in/johnathan-jenkins-29806aa8/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://mstdn.social/@jsqr" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
@@ -137,8 +135,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#retrieval-evaluation-with-synthetic-queries" id="toc-retrieval-evaluation-with-synthetic-queries" class="nav-link active" data-scroll-target="#retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</a></li>
-  <li><a href="#synthetic-data-and-property-based-testing" id="toc-synthetic-data-and-property-based-testing" class="nav-link" data-scroll-target="#synthetic-data-and-property-based-testing">Synthetic data and property-based testing</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#ai-generally" id="toc-ai-generally" class="nav-link" data-scroll-target="#ai-generally">AI, generally</a></li>
+  <li><a href="#periodicals-conferences-and-collections" id="toc-periodicals-conferences-and-collections" class="nav-link" data-scroll-target="#periodicals-conferences-and-collections">Periodicals, conferences, and collections</a></li>
+  <li><a href="#reasoning" id="toc-reasoning" class="nav-link" data-scroll-target="#reasoning">Reasoning</a></li>
+  <li><a href="#computational-law" id="toc-computational-law" class="nav-link" data-scroll-target="#computational-law">Computational law</a></li>
+  <li><a href="#useful-tools-for-hacking-llms" id="toc-useful-tools-for-hacking-llms" class="nav-link" data-scroll-target="#useful-tools-for-hacking-llms">Useful tools for hacking LLMs</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   </ul>
 </nav>
     </div>
@@ -147,9 +150,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Self-supervised evaluation</h1>
-</div>
+<h1 class="title">Legal informatics and AI</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">reference</div>
+    <div class="quarto-category">law</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Resources for treating law as data.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -158,10 +170,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 9, 2025</p>
+      <p class="date">November 12, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 9, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -170,48 +188,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="retrieval-evaluation-with-synthetic-queries" class="level2">
-<h2 class="anchored" data-anchor-id="retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</h2>
-<p>Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.</p>
-<p>For example, with a segmented text dataset you can:</p>
-<pre><code>loop:
-    choose arbitrary segment
-    query = create_query(segment)
-    save (query, segment) to dataset</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Leibniz_Stepped_Reckoner_drawing.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Stepped Reckoner (Leibniz, 1673)</figcaption>
+</figure>
+</div>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a <a href="https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf">Note</a> about it as a kind of protest.</p>
+<p>We’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?</p>
 </section>
-<section id="synthetic-data-and-property-based-testing" class="level2">
-<h2 class="anchored" data-anchor-id="synthetic-data-and-property-based-testing">Synthetic data and property-based testing</h2>
-<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph LR
-    segment -- create_query --&gt; query
-    query -- retrieve --&gt; segment
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>It turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):</p>
+<section id="ai-generally" class="level2">
+<h2 class="anchored" data-anchor-id="ai-generally">AI, generally</h2>
 <ul>
-<li>commutative relationships (and model-based approaches),</li>
-<li>invertible operations,</li>
-<li>invariance under transformation,</li>
-<li>idempotence, and</li>
-<li>structural induction.</li>
+<li>Bishop, C. and Bishop, H. (2024) <em>Deep Learning: Foundations and Concepts</em>. Springer. Authors’ <a href="https://www.bishopbook.com/">site</a>.</li>
+<li>Jurafsky, D. and Martin, C. (2025) <em>Speech and Language Processing</em> (3rd ed. draft Aug.&nbsp;24, 2025). Full draft <a href="https://web.stanford.edu/~jurafsky/slp3/">here</a>.</li>
+<li>Russell, S. and Norvig, P. (2021) <em>Artifical Intelligence: A Modern Approach</em> (4th ed.). Pearson. Authors’ <a href="https://aima.cs.berkeley.edu/">site</a>.</li>
 </ul>
-<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’. But really, for lots of properties involving a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
-<p><strong>References:</strong></p>
+</section>
+<section id="periodicals-conferences-and-collections" class="level2">
+<h2 class="anchored" data-anchor-id="periodicals-conferences-and-collections">Periodicals, conferences, and collections</h2>
 <ul>
-<li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
-<li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
-<li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
-<li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
-<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. F# blog.</li>
+<li><a href="https://link.springer.com/journal/10506">Artificial Intelligence and Law</a></li>
+<li><a href="https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/">CodeX Publications</a></li>
+<li><a href="https://jurix.nl/">JURIX</a></li>
+<li><a href="https://reglab.stanford.edu/publications/">Stanford Regulation Lab</a></li>
+</ul>
+</section>
+<section id="reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="reasoning">Reasoning</h2>
+<ul>
+<li>Besnard, P. and Hunter, A. (2008) <em>Elements of Argumentation</em>. MIT Press. <a href="https://www.researchgate.net/publication/220907500_Elements_of_Argumentation">Full text at ResearchGate</a>.</li>
+<li>Bradley, A. and Manna, Z. (2007) <em>The Calculus of Computation</em>. Springer. <a href="https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf">Manna lecture notes</a>.</li>
+<li>Halpern, J. (2017). <em>Reasoning about Uncertainty</em> (2nd. ed.). MIT Press. <a href="https://direct.mit.edu/books/monograph/3540/Reasoning-about-Uncertainty">Full text at MIT Press Direct</a>.</li>
+<li>Kroening, D. and Strichman, O. (2017). <em>Decision Procedures</em> (2nd ed.). Springer. <a href="https://www.decision-procedures.org">Authors’ site</a>.</li>
+<li>Kowalski, R. (2011) <em>Computational Logic and Human Thinking</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/computational-logic-and-human-thinking/C2AFB0483D922944067DBC76FFFEB295">Publisher site</a>.</li>
+<li>Mueller, E. (2014). <em>Commonsense Reasoning: An Event Calculus Based Approach</em> (2nd ed.). Elsevier. <a href="https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5">Publisher site</a></li>
+</ul>
+</section>
+<section id="computational-law" class="level2">
+<h2 class="anchored" data-anchor-id="computational-law">Computational law</h2>
+<ul>
+<li>Ashley, K. (2017). <em>Artificial Intelligence and Legal Analytics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0">Publisher site</a>.</li>
+<li>Katz, D., Dolin, R. and Bommarito, M., eds.&nbsp;(2021). <em>Legal Informatics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/legal-informatics/37956B00CC40F2803B77A164CD970757">Publisher site</a>.</li>
+<li>Lodder, A. and Oskamp, A. (2006). <em>Information Technology &amp; Lawyers</em>. Springer.</li>
+<li>Stranieri, A. and Zeleznikow, J. (2005). <em>Knowledge Discovery from Legal Databases</em>. Springer.</li>
+</ul>
+</section>
+<section id="useful-tools-for-hacking-llms" class="level2">
+<h2 class="anchored" data-anchor-id="useful-tools-for-hacking-llms">Useful tools for hacking LLMs</h2>
+<ul>
+<li><a href="https://deepeval.com/">DeepEval:</a> open-source LLM evaluation framework.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets</li>
+<li><a href="https://huggingface.co/docs/transformers/en/index">Hugging Face Transformers:</a> swiss army knife for transformer models.</li>
+<li><a href="https://python.useinstructor.com/">Instructor:</a> library for structured LLM outputs.</li>
+<li><a href="https://llm.datasette.io/en/stable/">LLM:</a> Simon Willison’s CLI and library for interacting with LLMs.</li>
+<li><a href="https://marimo.io/">Marimo:</a> reactive Python notebooks with bells and whistles.</li>
+<li><a href="https://github.com/alea-institute/nupunkt">nupunkt</a> sentence boundary detection library optimized for legal text.</li>
+<li><a href="https://ai.pydantic.dev">Pydantic AI:</a> Python ‘agent’ framework (validation, model abstraction, evals, workflows).</li>
+<li><a href="https://www.textualize.io">Textual:</a> TUI application framework (‘move at terminal velocity’).</li>
+<li><a href="https://github.com/astral-sh/uv">uv:</a> a modern Python package manager.</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<ul>
+<li><a href="https://free.law">Free Law Project:</a> case law database, etc.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets.</li>
+<li><a href="https://kl3m.ai">KL3M:</a> free-range LLMs, with training data (lots of legal sources) on Hugging Face.</li>
+<li><a href="https://reglab.stanford.edu/data/pile-of-law/">Pile of Law:</a> dataset on Hugging Face.</li>
 </ul>
 
 

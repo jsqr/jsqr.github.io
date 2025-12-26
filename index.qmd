@@ -7,6 +7,8 @@ listing:
         - ref
         - words
     sort: "date title"
+    sort-ui: [date, title]
+    filter-ui: false
     type: table
     fields: [date, title, description]
     categories: true

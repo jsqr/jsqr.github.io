@@ -13,12 +13,18 @@
 <lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Legal informatics and AI</title>
-  <link>https://jsqr.org/ref/ai-law.html</link>
+  <link>https://jsqr.org/ref/ai-law/</link>
   <description><![CDATA[ 
 
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://jsqr.org/ref/ai-law/Leibniz_Stepped_Reckoner_drawing.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Stepped Reckoner (Leibniz, 1673)</figcaption>
+</figure>
+</div>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <p>I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a <a href="https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf">Note</a> about it as a kind of protest.</p>
@@ -89,7 +95,9 @@
 </section>
 
  ]]></description>
-  <guid>https://jsqr.org/ref/ai-law.html</guid>
+  <category>reference</category>
+  <category>law</category>
+  <guid>https://jsqr.org/ref/ai-law/</guid>
   <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>

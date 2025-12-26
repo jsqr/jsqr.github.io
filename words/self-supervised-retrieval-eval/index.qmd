@@ -1,17 +1,21 @@
 ---
-title: Self-supervised evaluation
+title: Self-supervised retrieval evaluation
 date: 2025-12-09
-last-modified: 2025-12-10
+date-modified: 2025-12-26
+categories: [words, retrieval, shower]
 ---
 
-## Retrieval evaluation with synthetic queries
+## Evaluation with synthetic queries
 
-Even if you lack labeled data, it's still often possible to do meaningful evaluations with synthetic data.
+Even if you lack real labeled data, it's still often possible to do meaningful evaluations
+of retrieval performance using synthetic data.
 
-For example, with a segmented text dataset you can:
+For example, if you have a piece of text divided into segments and some way to generate
+a plausible query for which that segment would be a good response, you can
+create an evaluation dataset by doing this:
 
 ```
-loop:
+loop N times:
     choose arbitrary segment
     query = create_query(segment)
     save (query, segment) to dataset
@@ -20,9 +24,9 @@ loop:
 ## Synthetic data and property-based testing
 
 When synthetic data is used for training or fine-tuning, it makes sense to think of it as _data_.
-But in the context of evaluation, you can also think of this process as a kind of stochastic
-property-based testing, where we verify that a circuit we think ought to exist based on our
-understanding of the problem is in fact closed.
+But in the context of evaluation, you can also think of the whole process as a kind of stochastic
+property-based testing, where we verify that some circuit we think _ought_ to exist (based on our
+understanding of the problem) is in fact closed as expected.
 
 ```{mermaid}
 graph LR
@@ -41,8 +45,10 @@ properties of domain objects and operations on them. E.g. (following Wlaschin 20
 
 The example given above fits the 'invertible operations' paradigm, where the
 operations are 'given a query, retrieve a responsive segment' and 'given a segment,
-generate a plausible query'. But really, for lots of properties involving a generation
-step you could collect a dataset of generated examples and call it synthetic evaluation data.
+generate a plausible query'.
+
+But really, for lots of properties that involve a generation step you could collect
+a dataset of generated examples and call it synthetic evaluation data.
 
 
 **References:**

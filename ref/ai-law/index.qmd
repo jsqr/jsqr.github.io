@@ -1,9 +1,12 @@
 ---
 title: Legal informatics and AI
 date: 2025-11-12
-last-modified: 2025-12-09
+date-modified: 2025-12-09
+categories: [reference, law]
 description: Resources for treating law as data.
 ---
+
+![Stepped Reckoner (Leibniz, 1673)](Leibniz_Stepped_Reckoner_drawing.png){width=300}
 
 ## Background
 

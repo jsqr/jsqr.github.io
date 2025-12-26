@@ -12,25 +12,25 @@
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Tue, 09 Dec 2025 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Self-supervised evaluation</title>
-  <link>https://jsqr.org/words/self-supervised-retrieval-eval.html</link>
+  <title>Self-supervised retrieval evaluation</title>
+  <link>https://jsqr.org/words/self-supervised-retrieval-eval/</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="retrieval-evaluation-with-synthetic-queries" class="level2">
-<h2 class="anchored" data-anchor-id="retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</h2>
-<p>Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.</p>
-<p>For example, with a segmented text dataset you can:</p>
-<pre><code>loop:
+<section id="evaluation-with-synthetic-queries" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-with-synthetic-queries">Evaluation with synthetic queries</h2>
+<p>Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.</p>
+<p>For example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:</p>
+<pre><code>loop N times:
     choose arbitrary segment
     query = create_query(segment)
     save (query, segment) to dataset</code></pre>
 </section>
 <section id="synthetic-data-and-property-based-testing" class="level2">
 <h2 class="anchored" data-anchor-id="synthetic-data-and-property-based-testing">Synthetic data and property-based testing</h2>
-<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
+<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think <em>ought</em> to exist (based on our understanding of the problem) is in fact closed as expected.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -53,7 +53,8 @@
 <li>idempotence, and</li>
 <li>structural induction.</li>
 </ul>
-<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’. But really, for lots of properties involving a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
+<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.</p>
+<p>But really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
 <p><strong>References:</strong></p>
 <ul>
 <li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
@@ -67,12 +68,15 @@
 </section>
 
  ]]></description>
-  <guid>https://jsqr.org/words/self-supervised-retrieval-eval.html</guid>
+  <category>words</category>
+  <category>retrieval</category>
+  <category>shower</category>
+  <guid>https://jsqr.org/words/self-supervised-retrieval-eval/</guid>
   <pubDate>Tue, 09 Dec 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Test post</title>
-  <link>https://jsqr.org/words/test.html</link>
+  <link>https://jsqr.org/words/test/</link>
   <description><![CDATA[ 
 
 
@@ -356,14 +360,15 @@ font-style: inherit;">True</span></span></code></pre></div></div>
 </section>
 <section id="lightbox-demo" class="level2">
 <h2 class="anchored" data-anchor-id="lightbox-demo">Lightbox demo</h2>
-<p><a href="images/24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="https://jsqr.org/words/images/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="images/24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="https://jsqr.org/words/images/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="images/24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="https://jsqr.org/words/images/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
+<p><a href="24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="https://jsqr.org/words/test/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="https://jsqr.org/words/test/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="https://jsqr.org/words/test/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
 
 
 </section>
 
  ]]></description>
+  <category>words</category>
   <category>test</category>
-  <guid>https://jsqr.org/words/test.html</guid>
+  <guid>https://jsqr.org/words/test/</guid>
   <pubDate>Tue, 11 Nov 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -2,29 +2,29 @@
   {
     "listing": "/words.html",
     "items": [
-      "/words/self-supervised-retrieval-eval.html",
-      "/words/test.html"
+      "/words/self-supervised-retrieval-eval/index.html",
+      "/words/test/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/words/self-supervised-retrieval-eval.html",
-      "/proj/legal-epi.html",
-      "/ref/ai-law.html",
-      "/words/test.html"
+      "/words/self-supervised-retrieval-eval/index.html",
+      "/proj/legal-epi/index.html",
+      "/ref/ai-law/index.html",
+      "/words/test/index.html"
     ]
   },
   {
     "listing": "/reference.html",
     "items": [
-      "/ref/ai-law.html"
+      "/ref/ai-law/index.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
-      "/proj/legal-epi.html"
+      "/proj/legal-epi/index.html"
     ]
   }
 ]

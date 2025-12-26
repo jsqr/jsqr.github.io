@@ -1,16 +1,26 @@
 ---
 title: "jsqr.org"
+listing:
+    id: full-listing
+    contents:
+        - proj
+        - ref
+        - words
+    sort: "date title"
+    type: table
+    fields: [date, title, description]
+    categories: true
+    feed: true
 ---
 
 ![This is the homepage of Johnathan Jenkins. It's a sketchy site.](images/triangle-square-circle.png){width=50% fig-align="center"}
 
 ## Recent
 
-- [Retrieval evaluation with synthetic data](ref/self-supervised-retrieval-eval.html) _ref_
-- [AI for legal epidemiology](proj/legal-epi.html) _proj_
-- [Resources for legal informatics and AI](ref/ai-law.html) _ref_
+::: {#full-listing}
+:::
 
-## Miscellany
+## Reminders
 
 > If there's anyone that's gonna get replaced by AI, it's an editor who cuts to the beat.
 > -- Jesse Senko

@@ -59,4 +59,4 @@ arXiv:2503.23239 [cs.IR].
 Synthetic Test Collections for Retrieval Evaluation.
 arXiv:2405.07767 [cs.IR].
 - [Wlaschin, S. (2014)](https://fsharpforfunandprofit.com/posts/property-based-testing-2/).
-Choosing properties for property-based testing. F# Blog.
+Choosing properties for property-based testing. F# blog.

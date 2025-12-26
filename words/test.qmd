@@ -1,15 +1,18 @@
 ---
-title: Foo
-date: 2025-11-17
+title: Test post
+date: 2025-11-11
+date-modified: 2025-12-26
 number-section: true
 code-fold: true
 code-block-border-left: true
 code-line-numbers: true
 highlight-style: nord
 lightbox: true
+categories:
+    - test
 ---
 
-## Foo
+## Quarto feature demos
 
 Lorem post cenam in silva ambulavit.
 

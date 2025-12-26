@@ -1,6 +1,8 @@
 ---
 title: AI for legal epidemiology
 date: 2025-11-12
+date-modified: 2025-12-26
+description: Legal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.
 ---
 
 ## Overview
@@ -27,8 +29,7 @@ describing prototypes (Oct. 7, 2024).
 [Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?](https://www.milbank.org/quarterly/articles/stemming-the-tide-of-the-us-overdose-crisis-how-can-we-leverage-the-power-of-data-science-and-artificial-intelligence/),
 _Milbank Q._ 2025; 103(SI):0610 (June 10, 2025).
 
-4. Presentation at SER [Annual Meeting](https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf)
-(July 13, 2025).
+4. Presentation at Society for Epidemiologic Research (SER) [Annual Meeting](https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf) (July 13, 2025).
 
 ## Current version of code
 
@@ -36,11 +37,14 @@ _Milbank Q._ 2025; 103(SI):0610 (June 10, 2025).
 
 ## People
 
-- Samrachana Adhikari, PhD
-- Magdalena Cerda, DrPh
-- Corey Davis, JD
-- Jaskiran Dhinsa, MD
-- Charles DiMaggio, PhD
-- Spruha Joshi, PhD
-- Pooja Shah, BS
-- Utkarsh Srivastava, MS
+- Samrachana Adhikari (NYU Langone)
+- Kimberly Villalobos Carballo (NYU)
+- Magdalena Cerda (NYU Langone)
+- Corey Davis (Network for Public Health Law)
+- Jaskiran Dhinsa (NYU Langone)
+- Charles DiMaggio (NYU Langone)
+- Theodore Hill (NYU Langone)
+- Spruha Joshi (University of Michigan)
+- Daniel Neill (NYU)
+- Pooja Shah (NYU Langone)
+- Utkarsh Srivastava

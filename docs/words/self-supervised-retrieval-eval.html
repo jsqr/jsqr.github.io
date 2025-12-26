@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-11-17">
+<meta name="dcterms.date" content="2025-12-09">
 
-<title>Foo – jsqr.org</title>
+<title>Self-supervised evaluation – jsqr.org</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,13 +39,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e97fc0c53e03b0d912b748b5c8c98638.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8583a5e18f38d75ac8317d378daf51df.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3d9c20eb0336aa831465c704db43c641.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,36 +70,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -182,6 +118,7 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
+    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
     <a href="https://github.com/jsqr/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://www.linkedin.com/in/johnathan-jenkins-29806aa8/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://mstdn.social/@jsqr" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
@@ -200,10 +137,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#foo" id="toc-foo" class="nav-link active" data-scroll-target="#foo">Foo</a></li>
-  <li><a href="#tabset-demo" id="toc-tabset-demo" class="nav-link" data-scroll-target="#tabset-demo">Tabset demo</a></li>
-  <li><a href="#some-equations" id="toc-some-equations" class="nav-link" data-scroll-target="#some-equations">Some equations</a></li>
-  <li><a href="#lightbox-demo" id="toc-lightbox-demo" class="nav-link" data-scroll-target="#lightbox-demo">Lightbox demo</a></li>
+  <li><a href="#retrieval-evaluation-with-synthetic-queries" id="toc-retrieval-evaluation-with-synthetic-queries" class="nav-link active" data-scroll-target="#retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</a></li>
+  <li><a href="#synthetic-data-and-property-based-testing" id="toc-synthetic-data-and-property-based-testing" class="nav-link" data-scroll-target="#synthetic-data-and-property-based-testing">Synthetic data and property-based testing</a></li>
   </ul>
 </nav>
     </div>
@@ -212,7 +147,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Foo</h1>
+<h1 class="title">Self-supervised evaluation</h1>
 </div>
 
 
@@ -223,7 +158,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 17, 2025</p>
+      <p class="date">December 9, 2025</p>
     </div>
   </div>
   
@@ -235,67 +170,49 @@ window.Quarto = {
 </header>
 
 
-<section id="foo" class="level2">
-<h2 class="anchored" data-anchor-id="foo">Foo</h2>
-<p>Lorem post cenam in silva ambulavit.</p>
+<section id="retrieval-evaluation-with-synthetic-queries" class="level2">
+<h2 class="anchored" data-anchor-id="retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</h2>
+<p>Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.</p>
+<p>For example, with a segmented text dataset you can:</p>
+<pre><code>loop:
+    choose arbitrary segment
+    query = create_query(segment)
+    save (query, segment) to dataset</code></pre>
 </section>
-<section id="tabset-demo" class="level2">
-<h2 class="anchored" data-anchor-id="tabset-demo">Tabset demo</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Julia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Python</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource julia number-lines code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">function</span> <span class="fu">isprime</span>(n<span class="op">::</span><span class="dt">Integer</span>)</span>
-<span id="cb1-2"><a href="#cb1-2"></a>    <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="fl">1</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a>        <span class="cf">return</span> <span class="cn">false</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>    <span class="cf">elseif</span> n <span class="op">&lt;=</span> <span class="fl">3</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>        <span class="cf">return</span> <span class="cn">true</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a>    <span class="cf">elseif</span> n <span class="op">%</span> <span class="fl">2</span> <span class="op">==</span> <span class="fl">0</span> <span class="op">||</span> n <span class="op">%</span> <span class="fl">3</span> <span class="op">==</span> <span class="fl">0</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>        <span class="cf">return</span> <span class="cn">false</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a>    <span class="cf">end</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a>    i <span class="op">=</span> <span class="fl">5</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>    <span class="cf">while</span> i <span class="op">&lt;=</span> <span class="fu">isqrt</span>(n)</span>
-<span id="cb1-11"><a href="#cb1-11"></a>        <span class="cf">if</span> n <span class="op">%</span> i <span class="op">==</span> <span class="fl">0</span> <span class="op">||</span> n <span class="op">%</span> (i <span class="op">+</span> <span class="fl">2</span>) <span class="op">==</span> <span class="fl">0</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a>            <span class="cf">return</span> <span class="cn">false</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a>        <span class="cf">end</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a>        i <span class="op">+=</span> <span class="fl">6</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a>    <span class="cf">end</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a>    <span class="cf">return</span> <span class="cn">true</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="kw">end</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="synthetic-data-and-property-based-testing" class="level2">
+<h2 class="anchored" data-anchor-id="synthetic-data-and-property-based-testing">Synthetic data and property-based testing</h2>
+<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    segment -- create_query --&gt; query
+    query -- retrieve --&gt; segment
+</pre>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">def</span> is_prime(n: <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">bool</span>:</span>
-<span id="cb2-2"><a href="#cb2-2"></a>    <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
-<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a>    <span class="cf">elif</span> n <span class="op">&lt;=</span> <span class="dv">3</span>:</span>
-<span id="cb2-5"><a href="#cb2-5"></a>        <span class="cf">return</span> <span class="va">True</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a>    <span class="cf">elif</span> n <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span> <span class="kw">or</span> n <span class="op">%</span> <span class="dv">3</span> <span class="op">==</span> <span class="dv">0</span>:</span>
-<span id="cb2-7"><a href="#cb2-7"></a>        <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>    i <span class="op">=</span> <span class="dv">5</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a>    <span class="cf">while</span> i <span class="op">*</span> i <span class="op">&lt;=</span> n:</span>
-<span id="cb2-10"><a href="#cb2-10"></a>        <span class="cf">if</span> n <span class="op">%</span> i <span class="op">==</span> <span class="dv">0</span> <span class="kw">or</span> n <span class="op">%</span> (i <span class="op">+</span> <span class="dv">2</span>) <span class="op">==</span> <span class="dv">0</span>:</span>
-<span id="cb2-11"><a href="#cb2-11"></a>            <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb2-12"><a href="#cb2-12"></a>        i <span class="op">+=</span> <span class="dv">6</span></span>
-<span id="cb2-13"><a href="#cb2-13"></a>    <span class="cf">return</span> <span class="va">True</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p></p></figure><p></p>
 </div>
 </div>
 </div>
-</section>
-<section id="some-equations" class="level2">
-<h2 class="anchored" data-anchor-id="some-equations">Some equations</h2>
-<p><span class="math display">\[
-e^{i \pi} = -1
-\]</span></p>
-<p><span class="math display">\[
-\int_M \mathrm{d}\omega = \int_{\partial M} \omega
-\]</span></p>
-<p><span class="math display">\[
-G_{\mu \nu} = 8 \pi T_{\mu \nu}
-\]</span></p>
-</section>
-<section id="lightbox-demo" class="level2">
-<h2 class="anchored" data-anchor-id="lightbox-demo">Lightbox demo</h2>
-<p><a href="images/24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="images/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="images/24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="images/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="images/24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="images/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
+<p>It turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):</p>
+<ul>
+<li>commutative relationships (and model-based approaches),</li>
+<li>invertible operations,</li>
+<li>invariance under transformation,</li>
+<li>idempotence, and</li>
+<li>structural induction.</li>
+</ul>
+<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’. But really, for lots of properties involving a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
+<p><strong>References:</strong></p>
+<ul>
+<li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
+<li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
+<li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
+<li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. F# blog.</li>
+</ul>
 
 
 </section>
@@ -374,7 +291,7 @@ G_{\mu \nu} = 8 \pi T_{\mu \nu}
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/jsqr\.org");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -715,38 +632,6 @@ G_{\mu \nu} = 8 \pi T_{\mu \nu}
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

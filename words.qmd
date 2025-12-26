@@ -1,9 +1,10 @@
 ---
 title: Words
+listing:
+    contents: words
+    sort: "date title"
+    type: table
+    categories: true
+    feed: true
+    fields: [date, title, description]
 ---
-
-## Foo
-
-Lorem post cenam in silva ambulavit.
-
-[_More_.](words/foo.html)

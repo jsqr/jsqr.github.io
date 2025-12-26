@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>jsqr.org</title>
+<link>https://jsqr.org/projects.html</link>
+<atom:link href="https://jsqr.org/projects.xml" rel="self" type="application/rss+xml"/>
+<description>Johnathan Jenkins&#39; personal website</description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>AI for legal epidemiology</title>
+  <link>https://jsqr.org/proj/legal-epi.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible.</p>
+</section>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
+<ol type="1">
+<li><p>Initial presentation to the <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/center-opioid-epidemiology-policy">COEP</a> center at NYU Langone (March 28, 2024)</p></li>
+<li><p>Internal presentation with updated <a href="2024-10-07-preso.pdf">slides</a> describing prototypes (Oct.&nbsp;7, 2024).</p></li>
+<li><p>Magdalena Cerda et al., <a href="https://www.milbank.org/quarterly/articles/stemming-the-tide-of-the-us-overdose-crisis-how-can-we-leverage-the-power-of-data-science-and-artificial-intelligence/">Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?</a>, <em>Milbank Q.</em> 2025; 103(SI):0610 (June 10, 2025).</p></li>
+<li><p>Presentation at Society for Epidemiologic Research (SER) <a href="https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf">Annual Meeting</a> (July 13, 2025).</p></li>
+</ol>
+</section>
+<section id="current-version-of-code" class="level2">
+<h2 class="anchored" data-anchor-id="current-version-of-code">Current version of code</h2>
+<p><a href="https://github.com/jsqr/legiscope">Legiscope</a>.</p>
+</section>
+<section id="people" class="level2">
+<h2 class="anchored" data-anchor-id="people">People</h2>
+<ul>
+<li>Samrachana Adhikari (NYU Langone)</li>
+<li>Kimberly Villalobos Carballo (NYU)</li>
+<li>Magdalena Cerda (NYU Langone)</li>
+<li>Corey Davis (Network for Public Health Law)</li>
+<li>Jaskiran Dhinsa (NYU Langone)</li>
+<li>Charles DiMaggio (NYU Langone)</li>
+<li>Theodore Hill (NYU Langone)</li>
+<li>Spruha Joshi (University of Michigan)</li>
+<li>Daniel Neill (NYU)</li>
+<li>Pooja Shah (NYU Langone)</li>
+<li>Utkarsh Srivastava</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://jsqr.org/proj/legal-epi.html</guid>
+  <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,27 +1,10 @@
 ---
 title: Reference
+listing:
+    contents: ref
+    sort: "date title"
+    type: table
+    categories: true
+    feed: true
+    fields: [date, title, description]
 ---
-
-## Retrieval evaluation with synthetic queries
-
-Even if you lack labeled data, it's still often possible to do meaningful evaluations with synthetic data.
-
-[_More_.](ref/self-supervised-retrieval-eval.html)
-
-
-## Legal informatics and AI
-
-I came to law school after spending several years doing data analysis and modeling
-in the physical sciences and finance. In contrast to those fields, legal practice
-seemed old-fashioned. How could I automate my practices? How could I make sense of
-everything I was reading? Are we still in the nineteenth century or what?  For all
-of its zeal to tackle new problems, law remained in many ways stuck in the past
-when it came to actually doing the work. It was frustrating, and I even wrote a
-[Note](https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf) about
-it as a kind of protest.
-
-We're now in a different era, and the current crop of transformer-based language
-models promises to make lots of ideas that were enticingly out of reach a decade
-or two ago much closer. How can we take advantage of the new AI tools?
-
-[_More_.](ref/ai-law.html)

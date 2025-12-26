@@ -1,0 +1,30 @@
+[
+  {
+    "listing": "/words.html",
+    "items": [
+      "/words/self-supervised-retrieval-eval.html",
+      "/words/test.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/words/self-supervised-retrieval-eval.html",
+      "/proj/legal-epi.html",
+      "/ref/ai-law.html",
+      "/words/test.html"
+    ]
+  },
+  {
+    "listing": "/reference.html",
+    "items": [
+      "/ref/ai-law.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/proj/legal-epi.html"
+    ]
+  }
+]

@@ -1,16 +1,10 @@
 ---
 title: Projects
+listing:
+    contents: proj
+    sort: "title"
+    type: default
+    categories: true
+    feed: true
+    fields: [title, description, image]
 ---
-
-## AI for legal epidemiology
-
-Legal epidemiology -- understanding the effects of laws on health -- requires an
-understanding of what the law is. But laws are spread across jurisdictions and
-different levels of government, and are framed in technical language that can be
-difficult to encode for analysis. Since 2024, I have been working with
-collaborators on a [project](proj/legal-epi.html) to apply large language models
-and modern retrieval methods to make encoding of laws easier, focusing on the
-municipal codes and ordinances of hundreds of citites in the United States. This
-is part of a broader interest in making law more accessible.
-
-[_More_.](proj/legal-epi.html)

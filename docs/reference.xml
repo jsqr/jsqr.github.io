@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>jsqr.org</title>
+<link>https://jsqr.org/reference.html</link>
+<atom:link href="https://jsqr.org/reference.xml" rel="self" type="application/rss+xml"/>
+<description>Johnathan Jenkins&#39; personal website</description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Legal informatics and AI</title>
+  <link>https://jsqr.org/ref/ai-law.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a <a href="https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf">Note</a> about it as a kind of protest.</p>
+<p>We’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?</p>
+</section>
+<section id="ai-generally" class="level2">
+<h2 class="anchored" data-anchor-id="ai-generally">AI, generally</h2>
+<ul>
+<li>Bishop, C. and Bishop, H. (2024) <em>Deep Learning: Foundations and Concepts</em>. Springer. Authors’ <a href="https://www.bishopbook.com/">site</a>.</li>
+<li>Jurafsky, D. and Martin, C. (2025) <em>Speech and Language Processing</em> (3rd ed. draft Aug.&nbsp;24, 2025). Full draft <a href="https://web.stanford.edu/~jurafsky/slp3/">here</a>.</li>
+<li>Russell, S. and Norvig, P. (2021) <em>Artifical Intelligence: A Modern Approach</em> (4th ed.). Pearson. Authors’ <a href="https://aima.cs.berkeley.edu/">site</a>.</li>
+</ul>
+</section>
+<section id="periodicals-conferences-and-collections" class="level2">
+<h2 class="anchored" data-anchor-id="periodicals-conferences-and-collections">Periodicals, conferences, and collections</h2>
+<ul>
+<li><a href="https://link.springer.com/journal/10506">Artificial Intelligence and Law</a></li>
+<li><a href="https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/">CodeX Publications</a></li>
+<li><a href="https://jurix.nl/">JURIX</a></li>
+<li><a href="https://reglab.stanford.edu/publications/">Stanford Regulation Lab</a></li>
+</ul>
+</section>
+<section id="reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="reasoning">Reasoning</h2>
+<ul>
+<li>Besnard, P. and Hunter, A. (2008) <em>Elements of Argumentation</em>. MIT Press. <a href="https://www.researchgate.net/publication/220907500_Elements_of_Argumentation">Full text at ResearchGate</a>.</li>
+<li>Bradley, A. and Manna, Z. (2007) <em>The Calculus of Computation</em>. Springer. <a href="https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf">Manna lecture notes</a>.</li>
+<li>Halpern, J. (2017). <em>Reasoning about Uncertainty</em> (2nd. ed.). MIT Press. <a href="https://direct.mit.edu/books/monograph/3540/Reasoning-about-Uncertainty">Full text at MIT Press Direct</a>.</li>
+<li>Kroening, D. and Strichman, O. (2017). <em>Decision Procedures</em> (2nd ed.). Springer. <a href="https://www.decision-procedures.org">Authors’ site</a>.</li>
+<li>Kowalski, R. (2011) <em>Computational Logic and Human Thinking</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/computational-logic-and-human-thinking/C2AFB0483D922944067DBC76FFFEB295">Publisher site</a>.</li>
+<li>Mueller, E. (2014). <em>Commonsense Reasoning: An Event Calculus Based Approach</em> (2nd ed.). Elsevier. <a href="https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5">Publisher site</a></li>
+</ul>
+</section>
+<section id="computational-law" class="level2">
+<h2 class="anchored" data-anchor-id="computational-law">Computational law</h2>
+<ul>
+<li>Ashley, K. (2017). <em>Artificial Intelligence and Legal Analytics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0">Publisher site</a>.</li>
+<li>Katz, D., Dolin, R. and Bommarito, M., eds.&nbsp;(2021). <em>Legal Informatics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/legal-informatics/37956B00CC40F2803B77A164CD970757">Publisher site</a>.</li>
+<li>Lodder, A. and Oskamp, A. (2006). <em>Information Technology &amp; Lawyers</em>. Springer.</li>
+<li>Stranieri, A. and Zeleznikow, J. (2005). <em>Knowledge Discovery from Legal Databases</em>. Springer.</li>
+</ul>
+</section>
+<section id="useful-tools-for-hacking-llms" class="level2">
+<h2 class="anchored" data-anchor-id="useful-tools-for-hacking-llms">Useful tools for hacking LLMs</h2>
+<ul>
+<li><a href="https://deepeval.com/">DeepEval:</a> open-source LLM evaluation framework.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets</li>
+<li><a href="https://huggingface.co/docs/transformers/en/index">Hugging Face Transformers:</a> swiss army knife for transformer models.</li>
+<li><a href="https://python.useinstructor.com/">Instructor:</a> library for structured LLM outputs.</li>
+<li><a href="https://llm.datasette.io/en/stable/">LLM:</a> Simon Willison’s CLI and library for interacting with LLMs.</li>
+<li><a href="https://marimo.io/">Marimo:</a> reactive Python notebooks with bells and whistles.</li>
+<li><a href="https://github.com/alea-institute/nupunkt">nupunkt</a> sentence boundary detection library optimized for legal text.</li>
+<li><a href="https://ai.pydantic.dev">Pydantic AI:</a> Python ‘agent’ framework (validation, model abstraction, evals, workflows).</li>
+<li><a href="https://www.textualize.io">Textual:</a> TUI application framework (‘move at terminal velocity’).</li>
+<li><a href="https://github.com/astral-sh/uv">uv:</a> a modern Python package manager.</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<ul>
+<li><a href="https://free.law">Free Law Project:</a> case law database, etc.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets.</li>
+<li><a href="https://kl3m.ai">KL3M:</a> free-range LLMs, with training data (lots of legal sources) on Hugging Face.</li>
+<li><a href="https://reglab.stanford.edu/data/pile-of-law/">Pile of Law:</a> dataset on Hugging Face.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://jsqr.org/ref/ai-law.html</guid>
+  <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

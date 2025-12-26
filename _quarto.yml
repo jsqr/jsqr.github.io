@@ -1,36 +1,40 @@
 project:
-  type: website
-  output-dir: docs
+    type: website
+    output-dir: docs
 
 website:
-  title: "jsqr.org"
-  favicon: favicon.ico
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - projects.qmd
-      - reference.qmd
-      - words.qmd
-    tools:
-      - href: https://github.com/jsqr/
-        icon: github
-      - href: https://www.linkedin.com/in/johnathan-jenkins-29806aa8/
-        icon: linkedin
-      - href: https://mstdn.social/@jsqr
-        icon: mastodon
-      - href: https://bsky.app/profile/jsqr.bsky.social
-        icon: bluesky
-      - href: https://pixelfed.social/@jsqr
-        icon: camera
-  page-footer:
-    left: "© 2025 Johnathan Jenkins"
-    right: "This site does not collect your data."
+    title: "jsqr.org"
+    site-url: https://jsqr.org
+    description: "Johnathan Jenkins' personal website"
+    favicon: favicon.ico
+    navbar:
+        left:
+            - href: index.qmd
+              text: Home
+            - about.qmd
+            - projects.qmd
+            - reference.qmd
+            - words.qmd
+        tools:
+            - href: index.xml
+              icon: rss
+            - href: https://github.com/jsqr/
+              icon: github
+            - href: https://www.linkedin.com/in/johnathan-jenkins-29806aa8/
+              icon: linkedin
+            - href: https://mstdn.social/@jsqr
+              icon: mastodon
+            - href: https://bsky.app/profile/jsqr.bsky.social
+              icon: bluesky
+            - href: https://pixelfed.social/@jsqr
+              icon: camera
+    page-footer:
+        left: "© 2025 Johnathan Jenkins"
+        right: "This site does not collect your data."
 
 format:
-  html:
-    theme:
-      - sketchy
-    css: styles.css
-    toc: true
+    html:
+        theme:
+            - sketchy
+        css: styles.css
+        toc: true

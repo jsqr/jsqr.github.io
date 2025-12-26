@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>jsqr.org</title>
+<link>https://jsqr.org/</link>
+<atom:link href="https://jsqr.org/index.xml" rel="self" type="application/rss+xml"/>
+<description>Johnathan Jenkins&#39; personal website</description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 09 Dec 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Self-supervised evaluation</title>
+  <link>https://jsqr.org/words/self-supervised-retrieval-eval.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="retrieval-evaluation-with-synthetic-queries" class="level2">
+<h2 class="anchored" data-anchor-id="retrieval-evaluation-with-synthetic-queries">Retrieval evaluation with synthetic queries</h2>
+<p>Even if you lack labeled data, it’s still often possible to do meaningful evaluations with synthetic data.</p>
+<p>For example, with a segmented text dataset you can:</p>
+<pre><code>loop:
+    choose arbitrary segment
+    query = create_query(segment)
+    save (query, segment) to dataset</code></pre>
+</section>
+<section id="synthetic-data-and-property-based-testing" class="level2">
+<h2 class="anchored" data-anchor-id="synthetic-data-and-property-based-testing">Synthetic data and property-based testing</h2>
+<p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of this process as a kind of stochastic property-based testing, where we verify that a circuit we think ought to exist based on our understanding of the problem is in fact closed.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    segment -- create_query --&gt; query
+    query -- retrieve --&gt; segment
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>It turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):</p>
+<ul>
+<li>commutative relationships (and model-based approaches),</li>
+<li>invertible operations,</li>
+<li>invariance under transformation,</li>
+<li>idempotence, and</li>
+<li>structural induction.</li>
+</ul>
+<p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’. But really, for lots of properties involving a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p>
+<p><strong>References:</strong></p>
+<ul>
+<li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp.&nbsp;268-279.</li>
+<li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li>
+<li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li>
+<li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. F# blog.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://jsqr.org/words/self-supervised-retrieval-eval.html</guid>
+  <pubDate>Tue, 09 Dec 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AI for legal epidemiology</title>
+  <link>https://jsqr.org/proj/legal-epi.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Legal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible.</p>
+</section>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
+<ol type="1">
+<li><p>Initial presentation to the <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/center-opioid-epidemiology-policy">COEP</a> center at NYU Langone (March 28, 2024)</p></li>
+<li><p>Internal presentation with updated <a href="2024-10-07-preso.pdf">slides</a> describing prototypes (Oct.&nbsp;7, 2024).</p></li>
+<li><p>Magdalena Cerda et al., <a href="https://www.milbank.org/quarterly/articles/stemming-the-tide-of-the-us-overdose-crisis-how-can-we-leverage-the-power-of-data-science-and-artificial-intelligence/">Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?</a>, <em>Milbank Q.</em> 2025; 103(SI):0610 (June 10, 2025).</p></li>
+<li><p>Presentation at Society for Epidemiologic Research (SER) <a href="https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf">Annual Meeting</a> (July 13, 2025).</p></li>
+</ol>
+</section>
+<section id="current-version-of-code" class="level2">
+<h2 class="anchored" data-anchor-id="current-version-of-code">Current version of code</h2>
+<p><a href="https://github.com/jsqr/legiscope">Legiscope</a>.</p>
+</section>
+<section id="people" class="level2">
+<h2 class="anchored" data-anchor-id="people">People</h2>
+<ul>
+<li>Samrachana Adhikari (NYU Langone)</li>
+<li>Kimberly Villalobos Carballo (NYU)</li>
+<li>Magdalena Cerda (NYU Langone)</li>
+<li>Corey Davis (Network for Public Health Law)</li>
+<li>Jaskiran Dhinsa (NYU Langone)</li>
+<li>Charles DiMaggio (NYU Langone)</li>
+<li>Theodore Hill (NYU Langone)</li>
+<li>Spruha Joshi (University of Michigan)</li>
+<li>Daniel Neill (NYU)</li>
+<li>Pooja Shah (NYU Langone)</li>
+<li>Utkarsh Srivastava</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://jsqr.org/proj/legal-epi.html</guid>
+  <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Legal informatics and AI</title>
+  <link>https://jsqr.org/ref/ai-law.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>I came to law school after spending several years doing data analysis and modeling in the physical sciences and finance. In contrast to those fields, legal practice seemed old-fashioned. How could I automate a process? How could I make sense of everything I was reading? Are we still in the nineteenth century or what? For all of its zeal to tackle new problems, law remained in many ways stuck in the past when it came to actually doing the work. It was frustrating, and I even wrote a <a href="https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf">Note</a> about it as a kind of protest.</p>
+<p>We’re now in a different era, and the current crop of transformer-based language models promises to make lots of ideas that were enticingly out of reach a decade or two ago much closer. How can we take advantage of the new AI tools?</p>
+</section>
+<section id="ai-generally" class="level2">
+<h2 class="anchored" data-anchor-id="ai-generally">AI, generally</h2>
+<ul>
+<li>Bishop, C. and Bishop, H. (2024) <em>Deep Learning: Foundations and Concepts</em>. Springer. Authors’ <a href="https://www.bishopbook.com/">site</a>.</li>
+<li>Jurafsky, D. and Martin, C. (2025) <em>Speech and Language Processing</em> (3rd ed. draft Aug.&nbsp;24, 2025). Full draft <a href="https://web.stanford.edu/~jurafsky/slp3/">here</a>.</li>
+<li>Russell, S. and Norvig, P. (2021) <em>Artifical Intelligence: A Modern Approach</em> (4th ed.). Pearson. Authors’ <a href="https://aima.cs.berkeley.edu/">site</a>.</li>
+</ul>
+</section>
+<section id="periodicals-conferences-and-collections" class="level2">
+<h2 class="anchored" data-anchor-id="periodicals-conferences-and-collections">Periodicals, conferences, and collections</h2>
+<ul>
+<li><a href="https://link.springer.com/journal/10506">Artificial Intelligence and Law</a></li>
+<li><a href="https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/">CodeX Publications</a></li>
+<li><a href="https://jurix.nl/">JURIX</a></li>
+<li><a href="https://reglab.stanford.edu/publications/">Stanford Regulation Lab</a></li>
+</ul>
+</section>
+<section id="reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="reasoning">Reasoning</h2>
+<ul>
+<li>Besnard, P. and Hunter, A. (2008) <em>Elements of Argumentation</em>. MIT Press. <a href="https://www.researchgate.net/publication/220907500_Elements_of_Argumentation">Full text at ResearchGate</a>.</li>
+<li>Bradley, A. and Manna, Z. (2007) <em>The Calculus of Computation</em>. Springer. <a href="https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf">Manna lecture notes</a>.</li>
+<li>Halpern, J. (2017). <em>Reasoning about Uncertainty</em> (2nd. ed.). MIT Press. <a href="https://direct.mit.edu/books/monograph/3540/Reasoning-about-Uncertainty">Full text at MIT Press Direct</a>.</li>
+<li>Kroening, D. and Strichman, O. (2017). <em>Decision Procedures</em> (2nd ed.). Springer. <a href="https://www.decision-procedures.org">Authors’ site</a>.</li>
+<li>Kowalski, R. (2011) <em>Computational Logic and Human Thinking</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/computational-logic-and-human-thinking/C2AFB0483D922944067DBC76FFFEB295">Publisher site</a>.</li>
+<li>Mueller, E. (2014). <em>Commonsense Reasoning: An Event Calculus Based Approach</em> (2nd ed.). Elsevier. <a href="https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5">Publisher site</a></li>
+</ul>
+</section>
+<section id="computational-law" class="level2">
+<h2 class="anchored" data-anchor-id="computational-law">Computational law</h2>
+<ul>
+<li>Ashley, K. (2017). <em>Artificial Intelligence and Legal Analytics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0">Publisher site</a>.</li>
+<li>Katz, D., Dolin, R. and Bommarito, M., eds.&nbsp;(2021). <em>Legal Informatics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/legal-informatics/37956B00CC40F2803B77A164CD970757">Publisher site</a>.</li>
+<li>Lodder, A. and Oskamp, A. (2006). <em>Information Technology &amp; Lawyers</em>. Springer.</li>
+<li>Stranieri, A. and Zeleznikow, J. (2005). <em>Knowledge Discovery from Legal Databases</em>. Springer.</li>
+</ul>
+</section>
+<section id="useful-tools-for-hacking-llms" class="level2">
+<h2 class="anchored" data-anchor-id="useful-tools-for-hacking-llms">Useful tools for hacking LLMs</h2>
+<ul>
+<li><a href="https://deepeval.com/">DeepEval:</a> open-source LLM evaluation framework.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets</li>
+<li><a href="https://huggingface.co/docs/transformers/en/index">Hugging Face Transformers:</a> swiss army knife for transformer models.</li>
+<li><a href="https://python.useinstructor.com/">Instructor:</a> library for structured LLM outputs.</li>
+<li><a href="https://llm.datasette.io/en/stable/">LLM:</a> Simon Willison’s CLI and library for interacting with LLMs.</li>
+<li><a href="https://marimo.io/">Marimo:</a> reactive Python notebooks with bells and whistles.</li>
+<li><a href="https://github.com/alea-institute/nupunkt">nupunkt</a> sentence boundary detection library optimized for legal text.</li>
+<li><a href="https://ai.pydantic.dev">Pydantic AI:</a> Python ‘agent’ framework (validation, model abstraction, evals, workflows).</li>
+<li><a href="https://www.textualize.io">Textual:</a> TUI application framework (‘move at terminal velocity’).</li>
+<li><a href="https://github.com/astral-sh/uv">uv:</a> a modern Python package manager.</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<ul>
+<li><a href="https://free.law">Free Law Project:</a> case law database, etc.</li>
+<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets.</li>
+<li><a href="https://kl3m.ai">KL3M:</a> free-range LLMs, with training data (lots of legal sources) on Hugging Face.</li>
+<li><a href="https://reglab.stanford.edu/data/pile-of-law/">Pile of Law:</a> dataset on Hugging Face.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://jsqr.org/ref/ai-law.html</guid>
+  <pubDate>Wed, 12 Nov 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Test post</title>
+  <link>https://jsqr.org/words/test.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="quarto-feature-demos" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-feature-demos">Quarto feature demos</h2>
+<p>Lorem post cenam in silva ambulavit.</p>
+</section>
+<section id="tabset-demo" class="level2">
+<h2 class="anchored" data-anchor-id="tabset-demo">Tabset demo</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Julia</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource julia number-lines code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isprime</span>(n<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Integer</span>)</span>
+<span id="cb1-2">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-3">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb1-4">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elseif</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span></span>
+<span id="cb1-5">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb1-6">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elseif</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">||</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-7">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb1-8">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">end</span></span>
+<span id="cb1-9">    i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span></span>
+<span id="cb1-10">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isqrt</span>(n)</span>
+<span id="cb1-11">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">||</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> (i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-12">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">false</span></span>
+<span id="cb1-13">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">end</span></span>
+<span id="cb1-14">        i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span></span>
+<span id="cb1-15">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">end</span></span>
+<span id="cb1-16">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb1-17"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">end</span></span></code></pre></div></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> is_prime(n: <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">int</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">bool</span>:</span>
+<span id="cb2-2">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>:</span>
+<span id="cb2-3">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb2-4">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elif</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>:</span>
+<span id="cb2-5">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span></span>
+<span id="cb2-6">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elif</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>:</span>
+<span id="cb2-7">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb2-8">    i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span></span>
+<span id="cb2-9">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> n:</span>
+<span id="cb2-10">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> n <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> (i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>:</span>
+<span id="cb2-11">            <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span></span>
+<span id="cb2-12">        i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span></span>
+<span id="cb2-13">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span></span></code></pre></div></div>
+</div>
+</div>
+</div>
+</section>
+<section id="some-equations" class="level2">
+<h2 class="anchored" data-anchor-id="some-equations">Some equations</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%0Ae%5E%7Bi%20%5Cpi%7D%20=%20-1%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cint_M%20%5Cmathrm%7Bd%7D%5Comega%20=%20%5Cint_%7B%5Cpartial%20M%7D%20%5Comega%0A"></p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AG_%7B%5Cmu%20%5Cnu%7D%20=%208%20%5Cpi%20T_%7B%5Cmu%20%5Cnu%7D%0A"></p>
+</section>
+<section id="lightbox-demo" class="level2">
+<h2 class="anchored" data-anchor-id="lightbox-demo">Lightbox demo</h2>
+<p><a href="images/24d-04-1.5k.jpg" class="lightbox" data-gallery="ch" title="One"><img src="https://jsqr.org/words/images/24d-04-1.5k.jpg" height="300" alt="One"></a> <a href="images/24d-44-1.5k.jpg" class="lightbox" data-gallery="ch" title="Two"><img src="https://jsqr.org/words/images/24d-44-1.5k.jpg" height="300" alt="Two"></a> <a href="images/24d-85-1.5k.jpg" class="lightbox" data-gallery="ch" title="Three"><img src="https://jsqr.org/words/images/24d-85-1.5k.jpg" height="300" alt="Three"></a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>test</category>
+  <guid>https://jsqr.org/words/test.html</guid>
+  <pubDate>Tue, 11 Nov 2025 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

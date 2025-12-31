@@ -1,9 +1,9 @@
 ---
 title: Legal informatics and AI
 date: 2025-11-12
-date-modified: 2025-12-26
+date-modified: 2025-12-31
 categories: [reference, law]
-description: Resources for treating law as data.
+description: Resources for treating law as code, and law as data.
 ---
 
 ---
@@ -39,6 +39,11 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - [CodeX Publications](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/)
 - [JURIX](https://jurix.nl/)
 - [Stanford Regulation Lab](https://reglab.stanford.edu/publications/)
+
+## Organizations and projects
+
+- [Interoperable Europe](https://interoperable-europe.ec.europa.eu)
+- [POPVOX](https://www.popvox.org)
 
 ## Reasoning
 

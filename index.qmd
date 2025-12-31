@@ -7,7 +7,7 @@ listing:
         - ref
         - misc
     sort: "date title"
-    sort-ui: [date, title]
+    sort-ui: false
     filter-ui: false
     type: table
     fields: [date, title, description]
@@ -25,6 +25,10 @@ listing:
 ## Reminders
 
 > If there's anyone that's gonna get replaced by AI, it's an editor who cuts to the beat.
-> -- Jesse Senko
+> ---Jesse Senko
+
+> Clearly some powerful alien tool was handed around except it comes with no manual and
+> everyone has to figure out how to hold it and operate it....
+> ---Andrej Karpathy
 
 > _Rules:_ 1. Be specific. 2. Show, don't tell. 3. Nothing in excess.

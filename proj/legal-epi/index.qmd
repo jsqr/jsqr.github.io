@@ -22,7 +22,7 @@ interest in making law more accessible.
 
 ## Timeline
 
-1. Initial presentation to the
+1. Initial concept presentated to the
 [COEP](https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/center-opioid-epidemiology-policy)
 center at NYU Langone (March 28, 2024)
 
@@ -34,6 +34,8 @@ describing prototypes (Oct. 7, 2024).
 _Milbank Q._ 2025; 103(SI):0610 (June 10, 2025).
 
 4. Presentation at Society for Epidemiologic Research (SER) [Annual Meeting](https://epiresearch.org/wp-content/uploads/2025/06/2025-Participation-List.pdf) (July 13, 2025).
+
+5. NYU [Machine Learning for Good Lab](https://wp.nyu.edu/ml4good/) is hosting a Masters' thesis project related to this project. (Winter 2025---)
 
 ## Current version of code
 

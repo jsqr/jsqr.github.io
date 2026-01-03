@@ -42,32 +42,46 @@
     "text": "Organizations and projects\n\nInteroperable Europe\nPOPVOX"
   },
   {
-    "objectID": "ref/ai-law/index.html#reasoning",
-    "href": "ref/ai-law/index.html#reasoning",
+    "objectID": "ref/ai-law/index.html#books-on-reasoning",
+    "href": "ref/ai-law/index.html#books-on-reasoning",
     "title": "Legal informatics and AI",
-    "section": "Reasoning",
-    "text": "Reasoning\n\nBesnard, P. and Hunter, A. (2008) Elements of Argumentation. MIT Press. Full text at ResearchGate.\nBradley, A. and Manna, Z. (2007) The Calculus of Computation. Springer. Manna lecture notes.\nHalpern, J. (2017). Reasoning about Uncertainty (2nd. ed.). MIT Press. Full text at MIT Press Direct.\nKroening, D. and Strichman, O. (2017). Decision Procedures (2nd ed.). Springer. Authors’ site.\nKowalski, R. (2011) Computational Logic and Human Thinking. Cambridge Univ. Press. Publisher site.\nMueller, E. (2014). Commonsense Reasoning: An Event Calculus Based Approach (2nd ed.). Elsevier. Publisher site"
+    "section": "Books on reasoning",
+    "text": "Books on reasoning\n\nBesnard, P. and Hunter, A. (2008) Elements of Argumentation. MIT Press. Full text at ResearchGate.\nBradley, A. and Manna, Z. (2007) The Calculus of Computation. Springer. Manna lecture notes.\nHalpern, J. (2017). Reasoning about Uncertainty (2nd. ed.). MIT Press. Full text at MIT Press Direct.\nKroening, D. and Strichman, O. (2017). Decision Procedures (2nd ed.). Springer. Authors’ site.\nKowalski, R. (2011) Computational Logic and Human Thinking. Cambridge Univ. Press. Publisher site.\nMueller, E. (2014). Commonsense Reasoning: An Event Calculus Based Approach (2nd ed.). Elsevier. Publisher site"
   },
   {
-    "objectID": "ref/ai-law/index.html#computational-law",
-    "href": "ref/ai-law/index.html#computational-law",
+    "objectID": "ref/ai-law/index.html#books-on-computational-law-generally",
+    "href": "ref/ai-law/index.html#books-on-computational-law-generally",
     "title": "Legal informatics and AI",
-    "section": "Computational law",
-    "text": "Computational law\n\nAshley, K. (2017). Artificial Intelligence and Legal Analytics. Cambridge Univ. Press. Publisher site.\nKatz, D., Dolin, R. and Bommarito, M., eds. (2021). Legal Informatics. Cambridge Univ. Press. Publisher site.\nLodder, A. and Oskamp, A. (2006). Information Technology & Lawyers. Springer.\nStranieri, A. and Zeleznikow, J. (2005). Knowledge Discovery from Legal Databases. Springer."
+    "section": "Books on computational law, generally",
+    "text": "Books on computational law, generally\n\nAshley, K. (2017). Artificial Intelligence and Legal Analytics. Cambridge Univ. Press. Publisher site.\nKatz, D., Dolin, R. and Bommarito, M., eds. (2021). Legal Informatics. Cambridge Univ. Press. Publisher site.\nLodder, A. and Oskamp, A. (2006). Information Technology & Lawyers. Springer.\nStranieri, A. and Zeleznikow, J. (2005). Knowledge Discovery from Legal Databases. Springer."
+  },
+  {
+    "objectID": "ref/ai-law/index.html#writing-on-ethics-society",
+    "href": "ref/ai-law/index.html#writing-on-ethics-society",
+    "title": "Legal informatics and AI",
+    "section": "Writing on ethics & society",
+    "text": "Writing on ethics & society\n\nKate Crawford\nBruce Schneier\nShannon Vallor"
   },
   {
     "objectID": "ref/ai-law/index.html#useful-tools-for-hacking-llms",
     "href": "ref/ai-law/index.html#useful-tools-for-hacking-llms",
     "title": "Legal informatics and AI",
     "section": "Useful tools for hacking LLMs",
-    "text": "Useful tools for hacking LLMs\n\nDeepEval: open-source LLM evaluation framework.\nHugging Face: open models and data sets\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nMarimo: reactive Python notebooks with bells and whistles.\nnupunkt sentence boundary detection library optimized for legal text.\nPydantic AI: Python ‘agent’ framework (validation, model abstraction, evals, workflows).\nTextual: TUI application framework (‘move at terminal velocity’).\nuv: a modern Python package manager."
+    "text": "Useful tools for hacking LLMs\n\nAxolotl: fine-tune open-weight models.\nDeepEval: library for LLM evaluation.\ndstack: orchestration for GPU workloads.\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nMarimo: reactive Python notebooks with bells and whistles.\nnupunkt: sentence boundary detection library optimized for legal texts.\nNVIDIA DGX Spark: exampls and docs for GB10 developer workstations.\nOllama: local LLM inference (e.g., on a laptop).\nPydantic AI: Python ‘agent’ framework (validation, model abstraction, evals, workflows).\nPytorch: tensor library for deep learning.\nTextual: TUI application framework (‘move at terminal velocity’).\nTyper: Python CLI application library.\nuv: a modern Python package manager.\nvLLM: LLM inference (e.g., on NVIDIA data center GPUs)."
   },
   {
     "objectID": "ref/ai-law/index.html#data",
     "href": "ref/ai-law/index.html#data",
     "title": "Legal informatics and AI",
     "section": "Data",
-    "text": "Data\n\nFree Law Project: case law database, etc.\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
+    "text": "Data\n\nFree Law Project: case law database (RECAP, CourtListener, etc.)\nHLS Caselaw Access Project: scanned law books\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
+  },
+  {
+    "objectID": "ref/ai-law/index.html#online-courses",
+    "href": "ref/ai-law/index.html#online-courses",
+    "title": "Legal informatics and AI",
+    "section": "Online courses",
+    "text": "Online courses\n\nHugging Face: LLM Course\nMIT 6.S191: Introduction to Deep Learing\nStanford CS 336: Language Modeling from Scratch\nStanford CME 295: Transformers & Large Language Models"
   },
   {
     "objectID": "misc/test/index.html",

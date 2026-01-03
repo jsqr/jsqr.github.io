@@ -1,7 +1,7 @@
 ---
 title: Legal informatics and AI
 date: 2025-11-12
-date-modified: 2025-12-31
+date-modified: 2026-01-03
 categories: [reference, law]
 description: Resources for treating law as code, and law as data.
 ---
@@ -45,7 +45,7 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - [Interoperable Europe](https://interoperable-europe.ec.europa.eu)
 - [POPVOX](https://www.popvox.org)
 
-## Reasoning
+## Books on reasoning
 
 - Besnard, P. and Hunter, A. (2008) _Elements of Argumentation_. MIT Press.
 [Full text at ResearchGate](https://www.researchgate.net/publication/220907500_Elements_of_Argumentation).
@@ -60,7 +60,7 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - Mueller, E. (2014). _Commonsense Reasoning: An Event Calculus Based Approach_ (2nd ed.). Elsevier.
 [Publisher site](https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5)
 
-## Computational law
+## Books on computational law, generally
 
 - Ashley, K. (2017). _Artificial Intelligence and Legal Analytics_. Cambridge Univ. Press.
 [Publisher site](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0).
@@ -69,24 +69,44 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - Lodder, A. and Oskamp, A. (2006). _Information Technology & Lawyers_. Springer.
 - Stranieri, A. and Zeleznikow, J. (2005). _Knowledge Discovery from Legal Databases_. Springer.
 
+## Writing on ethics & society
+
+- [Kate Crawford](https://katecrawford.net)
+- [Bruce Schneier](https://www.schneier.com)
+- [Shannon Vallor](https://www.shannonvallor.net)
+
 ## Useful tools for hacking LLMs
 
-- [DeepEval:](https://deepeval.com/) open-source LLM evaluation framework.
-- [Hugging Face:](https://huggingface.co) open models and data sets
+- [Axolotl:](https://axolotl.ai) fine-tune open-weight models.
+- [DeepEval:](https://deepeval.com/) library for LLM evaluation.
+- [dstack:](https://dstack.ai) orchestration for GPU workloads.
 - [Hugging Face Transformers:](https://huggingface.co/docs/transformers/en/index)
 swiss army knife for transformer models.
 - [Instructor:](https://python.useinstructor.com/) library for structured LLM outputs.
 - [LLM:](https://llm.datasette.io/en/stable/) Simon Willison's CLI and library for
 interacting with LLMs.
 - [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
-- [nupunkt](https://github.com/alea-institute/nupunkt) sentence boundary detection library optimized for legal text.
+- [nupunkt:](https://github.com/alea-institute/nupunkt) sentence boundary detection library optimized for legal texts.
+- [NVIDIA DGX Spark:](https://build.nvidia.com/spark) exampls and docs for GB10 developer workstations.
+- [Ollama:](https://ollama.com) local LLM inference (e.g., on a laptop).
 - [Pydantic AI:](https://ai.pydantic.dev) Python 'agent' framework (validation, model abstraction, evals, workflows).
+- [Pytorch:](https://pytorch.org) tensor library for deep learning.
 - [Textual:](https://www.textualize.io) TUI application framework ('move at terminal velocity').
+- [Typer:](https://typer.tiangolo.com) Python CLI application library.
 - [uv:](https://github.com/astral-sh/uv) a modern Python package manager.
+- [vLLM:](https://vllm.ai) LLM inference (e.g., on NVIDIA data center GPUs).
 
 ## Data
 
-- [Free Law Project:](https://free.law) case law database, etc.
+- [Free Law Project:](https://free.law) case law database (RECAP, CourtListener, etc.)
+- [HLS Caselaw Access Project:](https://case.law) scanned law books
 - [Hugging Face:](https://huggingface.co) open models and data sets.
 - [KL3M:](https://kl3m.ai) free-range LLMs, with training data (lots of legal sources) on Hugging Face.
 - [Pile of Law:](https://reglab.stanford.edu/data/pile-of-law/) dataset on Hugging Face.
+
+## Online courses
+
+- [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/)
+- [MIT 6.S191: Introduction to Deep Learing](https://introtodeeplearning.com)
+- [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/)
+- [Stanford CME 295: Transformers & Large Language Models](https://cme295.stanford.edu/cheatsheet/)

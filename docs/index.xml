@@ -176,8 +176,8 @@
 <li><a href="https://www.popvox.org">POPVOX</a></li>
 </ul>
 </section>
-<section id="reasoning" class="level2">
-<h2 class="anchored" data-anchor-id="reasoning">Reasoning</h2>
+<section id="books-on-reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="books-on-reasoning">Books on reasoning</h2>
 <ul>
 <li>Besnard, P. and Hunter, A. (2008) <em>Elements of Argumentation</em>. MIT Press. <a href="https://www.researchgate.net/publication/220907500_Elements_of_Argumentation">Full text at ResearchGate</a>.</li>
 <li>Bradley, A. and Manna, Z. (2007) <em>The Calculus of Computation</em>. Springer. <a href="https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf">Manna lecture notes</a>.</li>
@@ -187,8 +187,8 @@
 <li>Mueller, E. (2014). <em>Commonsense Reasoning: An Event Calculus Based Approach</em> (2nd ed.). Elsevier. <a href="https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5">Publisher site</a></li>
 </ul>
 </section>
-<section id="computational-law" class="level2">
-<h2 class="anchored" data-anchor-id="computational-law">Computational law</h2>
+<section id="books-on-computational-law-generally" class="level2">
+<h2 class="anchored" data-anchor-id="books-on-computational-law-generally">Books on computational law, generally</h2>
 <ul>
 <li>Ashley, K. (2017). <em>Artificial Intelligence and Legal Analytics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0">Publisher site</a>.</li>
 <li>Katz, D., Dolin, R. and Bommarito, M., eds.&nbsp;(2021). <em>Legal Informatics</em>. Cambridge Univ. Press. <a href="https://www.cambridge.org/core/books/legal-informatics/37956B00CC40F2803B77A164CD970757">Publisher site</a>.</li>
@@ -196,28 +196,52 @@
 <li>Stranieri, A. and Zeleznikow, J. (2005). <em>Knowledge Discovery from Legal Databases</em>. Springer.</li>
 </ul>
 </section>
+<section id="writing-on-ethics-society" class="level2">
+<h2 class="anchored" data-anchor-id="writing-on-ethics-society">Writing on ethics &amp; society</h2>
+<ul>
+<li><a href="https://katecrawford.net">Kate Crawford</a></li>
+<li><a href="https://www.schneier.com">Bruce Schneier</a></li>
+<li><a href="https://www.shannonvallor.net">Shannon Vallor</a></li>
+</ul>
+</section>
 <section id="useful-tools-for-hacking-llms" class="level2">
 <h2 class="anchored" data-anchor-id="useful-tools-for-hacking-llms">Useful tools for hacking LLMs</h2>
 <ul>
-<li><a href="https://deepeval.com/">DeepEval:</a> open-source LLM evaluation framework.</li>
-<li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets</li>
+<li><a href="https://axolotl.ai">Axolotl:</a> fine-tune open-weight models.</li>
+<li><a href="https://deepeval.com/">DeepEval:</a> library for LLM evaluation.</li>
+<li><a href="https://dstack.ai">dstack:</a> orchestration for GPU workloads.</li>
 <li><a href="https://huggingface.co/docs/transformers/en/index">Hugging Face Transformers:</a> swiss army knife for transformer models.</li>
 <li><a href="https://python.useinstructor.com/">Instructor:</a> library for structured LLM outputs.</li>
 <li><a href="https://llm.datasette.io/en/stable/">LLM:</a> Simon Willison’s CLI and library for interacting with LLMs.</li>
 <li><a href="https://marimo.io/">Marimo:</a> reactive Python notebooks with bells and whistles.</li>
-<li><a href="https://github.com/alea-institute/nupunkt">nupunkt</a> sentence boundary detection library optimized for legal text.</li>
+<li><a href="https://github.com/alea-institute/nupunkt">nupunkt:</a> sentence boundary detection library optimized for legal texts.</li>
+<li><a href="https://build.nvidia.com/spark">NVIDIA DGX Spark:</a> exampls and docs for GB10 developer workstations.</li>
+<li><a href="https://ollama.com">Ollama:</a> local LLM inference (e.g., on a laptop).</li>
 <li><a href="https://ai.pydantic.dev">Pydantic AI:</a> Python ‘agent’ framework (validation, model abstraction, evals, workflows).</li>
+<li><a href="https://pytorch.org">Pytorch:</a> tensor library for deep learning.</li>
 <li><a href="https://www.textualize.io">Textual:</a> TUI application framework (‘move at terminal velocity’).</li>
+<li><a href="https://typer.tiangolo.com">Typer:</a> Python CLI application library.</li>
 <li><a href="https://github.com/astral-sh/uv">uv:</a> a modern Python package manager.</li>
+<li><a href="https://vllm.ai">vLLM:</a> LLM inference (e.g., on NVIDIA data center GPUs).</li>
 </ul>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
 <ul>
-<li><a href="https://free.law">Free Law Project:</a> case law database, etc.</li>
+<li><a href="https://free.law">Free Law Project:</a> case law database (RECAP, CourtListener, etc.)</li>
+<li><a href="https://case.law">HLS Caselaw Access Project:</a> scanned law books</li>
 <li><a href="https://huggingface.co">Hugging Face:</a> open models and data sets.</li>
 <li><a href="https://kl3m.ai">KL3M:</a> free-range LLMs, with training data (lots of legal sources) on Hugging Face.</li>
 <li><a href="https://reglab.stanford.edu/data/pile-of-law/">Pile of Law:</a> dataset on Hugging Face.</li>
+</ul>
+</section>
+<section id="online-courses" class="level2">
+<h2 class="anchored" data-anchor-id="online-courses">Online courses</h2>
+<ul>
+<li><a href="https://huggingface.co/learn/llm-course/">Hugging Face: LLM Course</a></li>
+<li><a href="https://introtodeeplearning.com">MIT 6.S191: Introduction to Deep Learing</a></li>
+<li><a href="https://stanford-cs336.github.io/spring2025/">Stanford CS 336: Language Modeling from Scratch</a></li>
+<li><a href="https://cme295.stanford.edu/cheatsheet/">Stanford CME 295: Transformers &amp; Large Language Models</a></li>
 </ul>
 
 

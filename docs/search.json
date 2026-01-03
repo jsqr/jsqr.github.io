@@ -67,21 +67,21 @@
     "href": "ref/ai-law/index.html#useful-tools-for-hacking-llms",
     "title": "Legal informatics and AI",
     "section": "Useful tools for hacking LLMs",
-    "text": "Useful tools for hacking LLMs\n\nAxolotl: fine-tune open-weight models.\nDeepEval: library for LLM evaluation.\ndstack: orchestration for GPU workloads.\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nMarimo: reactive Python notebooks with bells and whistles.\nnupunkt: sentence boundary detection library optimized for legal texts.\nNVIDIA DGX Spark: exampls and docs for GB10 developer workstations.\nOllama: local LLM inference (e.g., on a laptop).\nPydantic AI: Python ‘agent’ framework (validation, model abstraction, evals, workflows).\nPytorch: tensor library for deep learning.\nTextual: TUI application framework (‘move at terminal velocity’).\nTyper: Python CLI application library.\nuv: a modern Python package manager.\nvLLM: LLM inference (e.g., on NVIDIA data center GPUs)."
+    "text": "Useful tools for hacking LLMs\n\nAxolotl: fine-tune open-weight models.\nDeepEval: library for LLM evaluation.\ndstack: orchestration for GPU workloads.\nHugging Face Transformers: swiss army knife for transformer models.\nInstructor: library for structured LLM outputs.\nLLM: Simon Willison’s CLI and library for interacting with LLMs.\nMarimo: reactive Python notebooks with bells and whistles.\nnupunkt: sentence boundary detection library optimized for legal texts.\nNVIDIA DGX Spark: examples and docs for GB10 developer workstations.\nOllama: local LLM inference (e.g., on a laptop).\nPydantic AI: Python ‘agent’ framework (validation, model abstraction, evals, workflows).\nPytorch: tensor library for deep learning.\nTextual: TUI application framework (‘move at terminal velocity’).\nTyper: Python CLI application library.\nuv: a modern Python package manager.\nvLLM: LLM inference (e.g., on NVIDIA data center GPUs)."
   },
   {
     "objectID": "ref/ai-law/index.html#data",
     "href": "ref/ai-law/index.html#data",
     "title": "Legal informatics and AI",
     "section": "Data",
-    "text": "Data\n\nFree Law Project: case law database (RECAP, CourtListener, etc.)\nHLS Caselaw Access Project: scanned law books\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
+    "text": "Data\n\nFree Law Project: case law database (RECAP, CourtListener, etc.).\nHLS Caselaw Access Project: scanned law books.\nHugging Face: open models and data sets.\nKL3M: free-range LLMs, with training data (lots of legal sources) on Hugging Face.\nPile of Law: dataset on Hugging Face."
   },
   {
     "objectID": "ref/ai-law/index.html#online-courses",
     "href": "ref/ai-law/index.html#online-courses",
     "title": "Legal informatics and AI",
     "section": "Online courses",
-    "text": "Online courses\n\nHugging Face: LLM Course\nMIT 6.S191: Introduction to Deep Learing\nStanford CS 336: Language Modeling from Scratch\nStanford CME 295: Transformers & Large Language Models"
+    "text": "Online courses\n\nHugging Face: LLM Course\nMIT 6.S191: Introduction to Deep Learning\nStanford CS 336: Language Modeling from Scratch\nStanford CME 295: Transformers & Large Language Models"
   },
   {
     "objectID": "misc/test/index.html",

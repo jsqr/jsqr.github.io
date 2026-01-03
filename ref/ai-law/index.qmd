@@ -87,7 +87,7 @@ swiss army knife for transformer models.
 interacting with LLMs.
 - [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
 - [nupunkt:](https://github.com/alea-institute/nupunkt) sentence boundary detection library optimized for legal texts.
-- [NVIDIA DGX Spark:](https://build.nvidia.com/spark) exampls and docs for GB10 developer workstations.
+- [NVIDIA DGX Spark:](https://build.nvidia.com/spark) examples and docs for GB10 developer workstations.
 - [Ollama:](https://ollama.com) local LLM inference (e.g., on a laptop).
 - [Pydantic AI:](https://ai.pydantic.dev) Python 'agent' framework (validation, model abstraction, evals, workflows).
 - [Pytorch:](https://pytorch.org) tensor library for deep learning.
@@ -98,8 +98,8 @@ interacting with LLMs.
 
 ## Data
 
-- [Free Law Project:](https://free.law) case law database (RECAP, CourtListener, etc.)
-- [HLS Caselaw Access Project:](https://case.law) scanned law books
+- [Free Law Project:](https://free.law) case law database (RECAP, CourtListener, etc.).
+- [HLS Caselaw Access Project:](https://case.law) scanned law books.
 - [Hugging Face:](https://huggingface.co) open models and data sets.
 - [KL3M:](https://kl3m.ai) free-range LLMs, with training data (lots of legal sources) on Hugging Face.
 - [Pile of Law:](https://reglab.stanford.edu/data/pile-of-law/) dataset on Hugging Face.
@@ -107,6 +107,6 @@ interacting with LLMs.
 ## Online courses
 
 - [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/)
-- [MIT 6.S191: Introduction to Deep Learing](https://introtodeeplearning.com)
+- [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com)
 - [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/)
 - [Stanford CME 295: Transformers & Large Language Models](https://cme295.stanford.edu/cheatsheet/)

@@ -26,11 +26,11 @@ or two ago much closer. How can we take advantage of the new AI tools?
 
 ## AI, generally
 
-- Bishop, C. and Bishop, H. (2024) _Deep Learning: Foundations and Concepts_.
+- Bishop, C. and Bishop, H. (2024). _Deep Learning: Foundations and Concepts_.
 Springer. Authors' [site](https://www.bishopbook.com/).
-- Jurafsky, D. and Martin, C. (2025) _Speech and Language Processing_ (3rd ed.
+- Jurafsky, D. and Martin, C. (2025). _Speech and Language Processing_ (3rd ed.
 draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/).
-- Russell, S. and Norvig, P. (2021) _Artifical Intelligence: A Modern Approach_
+- Russell, S. and Norvig, P. (2021). _Artifical Intelligence: A Modern Approach_
  (4th ed.). Pearson. Authors' [site](https://aima.cs.berkeley.edu/).
 
 ## Periodicals, conferences, and collections
@@ -47,15 +47,15 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 
 ## Books on reasoning
 
-- Besnard, P. and Hunter, A. (2008) _Elements of Argumentation_. MIT Press.
+- Besnard, P. and Hunter, A. (2008). _Elements of Argumentation_. MIT Press.
 [Full text at ResearchGate](https://www.researchgate.net/publication/220907500_Elements_of_Argumentation).
-- Bradley, A. and Manna, Z. (2007) _The Calculus of Computation_. Springer.
+- Bradley, A. and Manna, Z. (2007). _The Calculus of Computation_. Springer.
 [Manna lecture notes](https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf).
 - Halpern, J. (2017). _Reasoning about Uncertainty_ (2nd. ed.). MIT Press.
 [Full text at MIT Press Direct](https://direct.mit.edu/books/monograph/3540/Reasoning-about-Uncertainty).
 - Kroening, D. and Strichman, O. (2017). _Decision Procedures_ (2nd ed.). Springer.
 [Authors' site](https://www.decision-procedures.org).
-- Kowalski, R. (2011) _Computational Logic and Human Thinking_. Cambridge Univ. Press.
+- Kowalski, R. (2011). _Computational Logic and Human Thinking_. Cambridge Univ. Press.
 [Publisher site](https://www.cambridge.org/core/books/computational-logic-and-human-thinking/C2AFB0483D922944067DBC76FFFEB295).
 - Mueller, E. (2014). _Commonsense Reasoning: An Event Calculus Based Approach_ (2nd ed.). Elsevier.
 [Publisher site](https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5)
@@ -71,14 +71,22 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 
 ## Writing on ethics & society
 
-- Bullock, J. et al., eds. (2022)[The Oxford Handbook of AI Governance](https://academic.oup.com/edited-volume/41989). The print version is expensive, but it should be available in electronic form through institutional libraries.
-- Crawford, K. (2021)[Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence](https://katecrawford.net).
-- Dubber, M., Pasquale, F. and Das, S., eds. (2020)[Oxford Handbook of Ethics of AI](https://academic.oup.com/edited-volume/34287).
-- Hernández-Cano, A. et al. (2025)[Apertus v1 Technical Report](https://www.swiss-ai.org/apertus). Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.
-- Lessig, L. (2006), [Code v2.0](https://lessig.org/product/codev2/). Code may be law, but isn't the converse also true?
-- Schneier, B. (2023), [A Hacker's Mind](https://www.schneier.com/books/a-hackers-mind/). Especially the chapters on law and government.
-- Schneier, B. and Sanders, N. (2025), [Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship](https://www.schneier.com/books/rewiring-democracy/).
-- Vallor, S. (2024), [The AI Mirror](https://www.shannonvallor.net/books.html).
+- Bullock, J. et al., eds. (2022). _The Oxford Handbook of AI Governance_. Oxford Univ. Press.
+[Publisher site](https://academic.oup.com/edited-volume/41989). The print version is expensive, but it should be available in electronic form through institutional libraries.
+- Crawford, K. (2021). _Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence_. Yale Univ. Press.
+[Author's site](https://katecrawford.net).
+- Dubber, M., Pasquale, F. and Das, S., eds. (2020). _Oxford Handbook of Ethics of AI_. Oxford Univ. Press.
+[Publisher site](https://academic.oup.com/edited-volume/34287).
+- Hernández-Cano, A. et al. (2025). _Apertus v1 Technical Report_.
+[Project site](https://www.swiss-ai.org/apertus). Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.
+- Lessig, L. (2006), _Code v2.0_. Basic Books.
+[Author's site with full text](https://lessig.org/product/codev2/). Code may be law, but isn't the converse also true?
+- Schneier, B. (2023). _A Hacker's Mind_. Norton.
+[Author's site](https://www.schneier.com/books/a-hackers-mind/). Especially the chapters on law and government.
+- Schneier, B. and Sanders, N. (2025). _Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship_. MIT Press.
+[Authors' site](https://www.schneier.com/books/rewiring-democracy/).
+- Vallor, S. (2024), _The AI Mirror_. Oxford Univ. Press.
+[Author's site](https://www.shannonvallor.net/books.html).
 
 ## Useful tools for hacking LLMs
 

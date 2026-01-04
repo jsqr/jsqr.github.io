@@ -25,7 +25,7 @@
     "href": "ref/ai-law/index.html#ai-generally",
     "title": "AI and Legal informatics Resources",
     "section": "AI, generally",
-    "text": "AI, generally\n\nBishop, C. and Bishop, H. (2024) Deep Learning: Foundations and Concepts. Springer. Authors’ site.\nJurafsky, D. and Martin, C. (2025) Speech and Language Processing (3rd ed. draft Aug. 24, 2025). Full draft here.\nRussell, S. and Norvig, P. (2021) Artifical Intelligence: A Modern Approach (4th ed.). Pearson. Authors’ site."
+    "text": "AI, generally\n\nBishop, C. and Bishop, H. (2024). Deep Learning: Foundations and Concepts. Springer. Authors’ site.\nJurafsky, D. and Martin, C. (2025). Speech and Language Processing (3rd ed. draft Aug. 24, 2025). Full draft here.\nRussell, S. and Norvig, P. (2021). Artifical Intelligence: A Modern Approach (4th ed.). Pearson. Authors’ site."
   },
   {
     "objectID": "ref/ai-law/index.html#periodicals-conferences-and-collections",
@@ -46,7 +46,7 @@
     "href": "ref/ai-law/index.html#books-on-reasoning",
     "title": "AI and Legal informatics Resources",
     "section": "Books on reasoning",
-    "text": "Books on reasoning\n\nBesnard, P. and Hunter, A. (2008) Elements of Argumentation. MIT Press. Full text at ResearchGate.\nBradley, A. and Manna, Z. (2007) The Calculus of Computation. Springer. Manna lecture notes.\nHalpern, J. (2017). Reasoning about Uncertainty (2nd. ed.). MIT Press. Full text at MIT Press Direct.\nKroening, D. and Strichman, O. (2017). Decision Procedures (2nd ed.). Springer. Authors’ site.\nKowalski, R. (2011) Computational Logic and Human Thinking. Cambridge Univ. Press. Publisher site.\nMueller, E. (2014). Commonsense Reasoning: An Event Calculus Based Approach (2nd ed.). Elsevier. Publisher site"
+    "text": "Books on reasoning\n\nBesnard, P. and Hunter, A. (2008). Elements of Argumentation. MIT Press. Full text at ResearchGate.\nBradley, A. and Manna, Z. (2007). The Calculus of Computation. Springer. Manna lecture notes.\nHalpern, J. (2017). Reasoning about Uncertainty (2nd. ed.). MIT Press. Full text at MIT Press Direct.\nKroening, D. and Strichman, O. (2017). Decision Procedures (2nd ed.). Springer. Authors’ site.\nKowalski, R. (2011). Computational Logic and Human Thinking. Cambridge Univ. Press. Publisher site.\nMueller, E. (2014). Commonsense Reasoning: An Event Calculus Based Approach (2nd ed.). Elsevier. Publisher site"
   },
   {
     "objectID": "ref/ai-law/index.html#books-on-computational-law-generally",
@@ -60,7 +60,7 @@
     "href": "ref/ai-law/index.html#writing-on-ethics-society",
     "title": "AI and Legal informatics Resources",
     "section": "Writing on ethics & society",
-    "text": "Writing on ethics & society\n\nBullock, J. et al., eds. (2022)The Oxford Handbook of AI Governance. The print version is expensive, but it should be available in electronic form through institutional libraries.\nCrawford, K. (2021)Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence.\nDubber, M., Pasquale, F. and Das, S., eds. (2020)Oxford Handbook of Ethics of AI.\nHernández-Cano, A. et al. (2025)Apertus v1 Technical Report. Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.\nLessig, L. (2006), Code v2.0. Code may be law, but isn’t the converse also true?\nSchneier, B. (2023), A Hacker’s Mind. Especially the chapters on law and government.\nSchneier, B. and Sanders, N. (2025), Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship.\nVallor, S. (2024), The AI Mirror."
+    "text": "Writing on ethics & society\n\nBullock, J. et al., eds. (2022). The Oxford Handbook of AI Governance. Oxford Univ. Press. Publisher site. The print version is expensive, but it should be available in electronic form through institutional libraries.\nCrawford, K. (2021). Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence. Yale Univ. Press. Author’s site.\nDubber, M., Pasquale, F. and Das, S., eds. (2020). Oxford Handbook of Ethics of AI. Oxford Univ. Press. Publisher site.\nHernández-Cano, A. et al. (2025). Apertus v1 Technical Report. Project site. Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.\nLessig, L. (2006), Code v2.0. Basic Books. Author’s site with full text. Code may be law, but isn’t the converse also true?\nSchneier, B. (2023). A Hacker’s Mind. Norton. Author’s site. Especially the chapters on law and government.\nSchneier, B. and Sanders, N. (2025). Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship. MIT Press. Authors’ site.\nVallor, S. (2024), The AI Mirror. Oxford Univ. Press. Author’s site."
   },
   {
     "objectID": "ref/ai-law/index.html#useful-tools-for-hacking-llms",

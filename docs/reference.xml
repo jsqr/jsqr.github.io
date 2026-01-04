@@ -12,7 +12,7 @@
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>AI and Legal informatics Resources</title>
+  <title>AI and Legal informatics</title>
   <link>https://jsqr.org/ref/ai-law/</link>
   <description><![CDATA[ 
 
@@ -75,8 +75,8 @@
 <li>Stranieri, A. and Zeleznikow, J. (2005). <em>Knowledge Discovery from Legal Databases</em>. Springer.</li>
 </ul>
 </section>
-<section id="writing-on-ethics-society" class="level2">
-<h2 class="anchored" data-anchor-id="writing-on-ethics-society">Writing on ethics &amp; society</h2>
+<section id="books-on-ethics-society" class="level2">
+<h2 class="anchored" data-anchor-id="books-on-ethics-society">Books on ethics &amp; society</h2>
 <ul>
 <li>Bullock, J. et al., eds.&nbsp;(2022). <em>The Oxford Handbook of AI Governance</em>. Oxford Univ. Press. <a href="https://academic.oup.com/edited-volume/41989">Publisher site</a>. The print version is expensive, but it should be available in electronic form through institutional libraries.</li>
 <li>Crawford, K. (2021). <em>Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence</em>. Yale Univ. Press. <a href="https://katecrawford.net">Author’s site</a>.</li>
@@ -122,9 +122,10 @@
 <section id="online-courses" class="level2">
 <h2 class="anchored" data-anchor-id="online-courses">Online courses</h2>
 <ul>
-<li><a href="https://huggingface.co/learn/llm-course/">Hugging Face: LLM Course</a></li>
-<li><a href="https://introtodeeplearning.com">MIT 6.S191: Introduction to Deep Learning</a></li>
-<li><a href="https://stanford-cs336.github.io/spring2025/">Stanford CS 336: Language Modeling from Scratch</a></li>
+<li><a href="https://huggingface.co/learn/llm-course/">Hugging Face: LLM Course</a>.</li>
+<li><a href="https://introtodeeplearning.com">MIT 6.S191: Introduction to Deep Learning</a>.</li>
+<li><a href="https://web.stanford.edu/class/cs224n/">Stanford CS 224N: Natural Language Processing with Deep Learning</a>.</li>
+<li><a href="https://stanford-cs336.github.io/spring2025/">Stanford CS 336: Language Modeling from Scratch</a>.</li>
 </ul>
 
 

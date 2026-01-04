@@ -1,5 +1,5 @@
 ---
-title: AI and Legal informatics Resources
+title: AI and Legal informatics
 date: 2025-11-12
 date-modified: 2026-01-04
 categories: [reference, law]
@@ -69,7 +69,7 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - Lodder, A. and Oskamp, A. (2006). _Information Technology & Lawyers_. Springer.
 - Stranieri, A. and Zeleznikow, J. (2005). _Knowledge Discovery from Legal Databases_. Springer.
 
-## Writing on ethics & society
+## Books on ethics & society
 
 - Bullock, J. et al., eds. (2022). _The Oxford Handbook of AI Governance_. Oxford Univ. Press.
 [Publisher site](https://academic.oup.com/edited-volume/41989). The print version is expensive, but it should be available in electronic form through institutional libraries.
@@ -119,6 +119,7 @@ interacting with LLMs.
 
 ## Online courses
 
-- [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/)
-- [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com)
-- [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/)
+- [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/).
+- [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com).
+- [Stanford CS 224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/).
+- [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/).

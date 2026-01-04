@@ -1,7 +1,7 @@
 ---
-title: Legal informatics and AI
+title: AI and Legal informatics Resources
 date: 2025-11-12
-date-modified: 2026-01-03
+date-modified: 2026-01-04
 categories: [reference, law]
 description: Resources for treating law as code, and law as data.
 ---
@@ -71,9 +71,14 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 
 ## Writing on ethics & society
 
-- [Kate Crawford](https://katecrawford.net)
-- [Bruce Schneier](https://www.schneier.com)
-- [Shannon Vallor](https://www.shannonvallor.net)
+- Bullock, J. et al., eds. (2022)[The Oxford Handbook of AI Governance](https://academic.oup.com/edited-volume/41989). The print version is expensive, but it should be available in electronic form through institutional libraries.
+- Crawford, K. (2021)[Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence](https://katecrawford.net).
+- Dubber, M., Pasquale, F. and Das, S., eds. (2020)[Oxford Handbook of Ethics of AI](https://academic.oup.com/edited-volume/34287).
+- Hernández-Cano, A. et al. (2025)[Apertus v1 Technical Report](https://www.swiss-ai.org/apertus). Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.
+- Lessig, L. (2006), [Code v2.0](https://lessig.org/product/codev2/). Code may be law, but isn't the converse also true?
+- Schneier, B. (2023), [A Hacker's Mind](https://www.schneier.com/books/a-hackers-mind/). Especially the chapters on law and government.
+- Schneier, B. and Sanders, N. (2025), [Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship](https://www.schneier.com/books/rewiring-democracy/).
+- Vallor, S. (2024), [The AI Mirror](https://www.shannonvallor.net/books.html).
 
 ## Useful tools for hacking LLMs
 
@@ -81,8 +86,8 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - [DeepEval:](https://deepeval.com/) library for LLM evaluation.
 - [dstack:](https://dstack.ai) orchestration for GPU workloads.
 - [Hugging Face Transformers:](https://huggingface.co/docs/transformers/en/index)
-swiss army knife for transformer models.
-- [Instructor:](https://python.useinstructor.com/) library for structured LLM outputs.
+swiss army knife for working with transformer models.
+- [Instructor:](https://python.useinstructor.com/) provider-agnostic library for structured LLM outputs.
 - [LLM:](https://llm.datasette.io/en/stable/) Simon Willison's CLI and library for
 interacting with LLMs.
 - [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
@@ -109,4 +114,3 @@ interacting with LLMs.
 - [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/)
 - [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com)
 - [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/)
-- [Stanford CME 295: Transformers & Large Language Models](https://cme295.stanford.edu/cheatsheet/)

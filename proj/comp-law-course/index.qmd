@@ -1,0 +1,106 @@
+---
+title: Computational Law
+date: 2026-01-04
+date-modified: 2026-01-05
+categories: [projects, law]
+description: Concept for a notebook-based introduction to computational law
+---
+
+---
+## Background: Introduction to Computational Thinking
+
+MIT offers a course called Introduction to Computational Thinking (6.C25 / 18.C25), which is
+available [online](https://computationalthinking.mit.edu). Okay---nothing special so far.
+There are lots of course videos and lecture notes on the web now. What's more remarkable is
+that the entire course---lectures and homeworks---is structured around interactive notebooks
+mixing explanatory text, worked examples, and exercises.
+
+This is a brilliant way to organize a course. And, of course, it's not entirely new. Wolfram
+has been sponsoring [books](https://www.wolfram.com/books/) that are essentially Mathematica
+notebook printouts since at least the early 90s. And the idea of a notebook interface
+borrows from Knuth's
+[literate programming](https://en.wikipedia.org/wiki/Literate_programming). But somehow
+bundling everything together in a consistent package on the web makes a difference, inviting
+engagement and experimentation.
+
+I worked through the Fall 2024 version of the course because I was interested in the core
+topics (epidemic models, climate science, and the Julia programming language). I wonder,
+though, if the main thing I took away was enthusiasm for this style of teaching technical
+information.
+
+## Law $\subset$ Code
+
+Running with the thesis that law is like computer code, or that law is a form of 'code'
+in the broader sense, we can imagine what an analogue of the MIT course might look like.
+Begin with adapting existing coding agents, just to get a sense of the possibilities of
+working with text in the same way programmers work with computer languages. Then, progress
+through a sequence of notebooks, demonstrating approaches to increasingly complex legal
+tasks.
+
+Along the way, we'd need to explore answers to several questions. Programming languages
+have compilers (or interpreters), linters, type-checkers, assertions, and test suites; how can
+we adapt those ideas to legal language? What is the equivalent of formal verification
+for natural language, and is it worth the trouble? How do we handle editing and versioning?
+Coding agents are currently a bit like REPLs; what's the right user interface for other
+modes of development? Is there something like 'literate programming' when the object code
+is itself a contorted form of natural language?
+
+I wouldn't expect to come up with definitive answers to those questions, which are both difficult
+and vague, but it is important to adopt a point of view on at least some of them.
+
+## An outline for an introduction to computational law
+
+_Very much a work in progress._
+
+1. **Prelude.** Reading on the recent history of neural networks, transformers, and
+language models. Moving beyond the chatbot: data curation, coding agents & tools.
+_Exercise:_ develop several [agent skills](https://agentskills.io) to aid legal problems.
+Example: extracting citations from a brief along with a summary of the relevant rule of law.
+
+2. **Using Language Models through an API.** _Exercise:_ set up infrastructure (notebooks,
+dependency management, API keys) for the rest of the sequence. Practice extracting
+structured data from text and generating summaries.
+
+3. **Embeddings, classification, and retrieval.** _Exercise:_ implement a classifier for
+legal clauses in two ways (few-shot prompting and using kNN and embeddings). Implement a
+retrieval tool for legal texts.
+
+4. **Working with legal texts.** Structural properties of legal texts: outlines, headings,
+citations, rules, and entities. _Exercise:_ redo the example from first-week exercise
+(extracting citations and summarizing rules) in computer code.
+
+5. **Evaluation.** Simple metrics and strategies for evaluating classification, retrieval,
+and quality of generated output. _Exercise:_ characterize (a) classification performance on
+a simple labeled dataset, (b) retrieval performance, and (c) performance on generating
+summaries of legal rules.
+
+6. **Logic, law, and automated reasoning.** Classical propositional and predicate logic.
+Modal logic and defeasible logic. Approaches to automated reasoning. _Exercise:_ try
+evaluating legal propositions by 'faking' formal logic. Where do you draw the line between
+capturing relevant domain logic (the logic of a legal rule) and falling back on the language
+model's sea of background knowledge? Compare results in toy examples to automated reasoning
+systems like the Z3 SMT solver or Prolog.
+
+7. **Tabular data.** Overview of commercial applications. _Exercise:_ build a tabular
+analysis tool for collections of legal documents, building on the previous exercises.
+
+8. **Ethics & citation-checking.** Ethical considerations in applying AI to the law. Ethics
+of assistive tools for citations. _Exercise:_ build a system that operates over a corpus of
+interlinked documents, checking citations to other documents in the corpus and checking that
+the references actually support the claims, and presenting results for human verification.
+
+9. **Specs & drafting aids.** _Exercise:_ build a tool to aid drafting legal texts.
+Generated text should be a fragment of a legal document, based on a precedent, satisfying
+requirements (i.e., checked using a suite of specs or tests), and making claims grounded in
+cited authorities.
+
+10. **Fine-tuning.** Basics of fine-tuning models using [Axolotl](https://axolotl.ai) or
+similar tools. _Exercise:_ reimplement one of the functional elements you've built in
+previous modules (e.g., extracting citations) by fine-tuning a small model. Evaluate task
+performance as well as resource requirements; can you maintain quality while increasing
+speed and efficiency on the task?
+
+11. **Orchestration.** Compare approaches to orchestrating AI functions: coding agents and
+skills, programming frameworks, tools & MCP. _Exercise:_ create a legal agent for working
+with precedents, specifications, and authorities to produce fragments of legal text to serve
+as first drafts of a memo.

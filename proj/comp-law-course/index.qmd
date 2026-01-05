@@ -3,7 +3,7 @@ title: Computational Law
 date: 2026-01-04
 date-modified: 2026-01-05
 categories: [projects, law]
-description: Concept for a notebook-based introduction to computational law
+description: Concept for a lab-based introduction to computational law
 ---
 
 ---
@@ -18,10 +18,12 @@ mixing explanatory text, worked examples, and exercises.
 This is a brilliant way to organize a course. And, of course, it's not entirely new. Wolfram
 has been sponsoring [books](https://www.wolfram.com/books/) that are essentially Mathematica
 notebook printouts since at least the early 90s. And the idea of a notebook interface
-borrows from Knuth's
-[literate programming](https://en.wikipedia.org/wiki/Literate_programming). But somehow
-bundling everything together in a consistent package on the web makes a difference, inviting
-engagement and experimentation.
+borrows from Knuth's [literate
+programming](https://en.wikipedia.org/wiki/Literate_programming). But somehow bundling
+everything together in a consistent package on the web makes a difference, inviting
+engagement and experimentation. It takes on the spirit of an upper-level physics lab, where
+you are given background reading, equipment, aims, and some high-level notes on procedure,
+but have enough options and flexibility to make things interesting.
 
 I worked through the Fall 2024 version of the course because I was interested in the core
 topics (epidemic models, climate science, and the Julia programming language). I wonder,
@@ -52,8 +54,9 @@ and vague, but it is important to adopt a point of view on at least some of them
 
 _Very much a work in progress._
 
-1. **Prelude.** Reading on the recent history of neural networks, transformers, and
-language models. Moving beyond the chatbot: data curation, coding agents & tools.
+1. **Prelude.** Reading on the recent history of neural networks, transformers, and language
+models. Augmentation versus automation: what factors make technology positive or negative,
+and for which groups? Moving beyond the chatbot: data curation, coding agents & tools.
 _Exercise:_ develop several [agent skills](https://agentskills.io) to aid legal problems.
 Example: extracting citations from a brief along with a summary of the relevant rule of law.
 

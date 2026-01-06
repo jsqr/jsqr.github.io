@@ -60,50 +60,57 @@ and for which groups? Moving beyond the chatbot: data curation, coding agents & 
 _Exercise:_ develop several [agent skills](https://agentskills.io) to aid legal problems.
 Example: extracting citations from a brief along with a summary of the relevant rule of law.
 
-2. **Using Language Models through an API.** _Exercise:_ set up infrastructure (notebooks,
-dependency management, API keys) for the rest of the sequence. Practice extracting
-structured data from text and generating summaries.
+2. **Using Language Models through an API.** _Legal topic:_ regulation of the legal
+profession; unauthorized practice of law. Python and technical infrastructure review.
+_Exercise:_ set up infrastructure (notebooks, dependency management, API keys) for the rest
+of the sequence. Practice extracting structured data from text and generating summaries.
 
-3. **Embeddings, classification, and retrieval.** _Exercise:_ implement a classifier for
-legal clauses in two ways (few-shot prompting and using kNN and embeddings). Implement a
-retrieval tool for legal texts.
+3. **Embeddings, classification, and retrieval.** _Legal topic:_ statutes, court opinions,
+and applying legal rules to facts. _Exercise:_ implement a classifier for legal clauses in
+two ways (few-shot prompting and using kNN and embeddings). Implement a retrieval tool for
+legal texts.
 
 4. **Working with legal texts.** Structural properties of legal texts: outlines, headings,
 citations, rules, and entities. _Exercise:_ redo the example from first-week exercise
 (extracting citations and summarizing rules) in computer code.
 
-5. **Evaluation.** Simple metrics and strategies for evaluating classification, retrieval,
-and quality of generated output. _Exercise:_ characterize (a) classification performance on
-a simple labeled dataset, (b) retrieval performance, and (c) performance on generating
-summaries of legal rules.
+5. **Evaluation.** _Legal topic:_ professional ethics and use of technology (competence;
+confidentiality, privacy and security). Simple metrics and strategies for evaluating
+classification, retrieval, and quality of generated output. _Exercise:_ characterize (a)
+classification performance on a simple labeled dataset, (b) retrieval performance, and (c)
+performance on generating summaries of legal rules.
 
 6. **Logic, law, and automated reasoning.** Classical propositional and predicate logic.
-Modal logic and defeasible logic. Approaches to automated reasoning. _Exercise:_ try
-evaluating legal propositions by 'faking' formal logic. Where do you draw the line between
-capturing relevant domain logic (the logic of a legal rule) and falling back on the language
-model's sea of background knowledge? Compare results in toy examples to automated reasoning
-systems like the Z3 SMT solver or Prolog.
+Modal logic, defeasible logic, and temporal logic or situation/event calculus. Approaches to
+automated reasoning. _Legal topic:_ civil law jurisdictions. _Exercise:_ try evaluating
+legal propositions by 'faking' formal logic. Where do you draw the line between capturing
+relevant domain logic (the logic of a legal rule) and falling back on the language model's
+sea of background knowledge? Compare results in toy examples to automated reasoning systems
+like the Z3 SMT solver or Prolog.
 
-7. **Tabular data.** Overview of commercial applications. _Exercise:_ build a tabular
-analysis tool for collections of legal documents, building on the previous exercises.
+7. **Tabular data.** _Legal topic:_ contracts and litigation discovery. Overview of
+commercial applications. _Exercise:_ build a tabular analysis tool for collections of legal
+documents, building on the previous exercises.
 
-8. **Ethics & citation-checking.** Ethical considerations in applying AI to the law. Ethics
-of assistive tools for citations. _Exercise:_ build a system that operates over a corpus of
-interlinked documents, checking citations to other documents in the corpus and checking that
-the references actually support the claims, and presenting results for human verification.
+8. **Ethics & citation-checking.** AI ethics: transparency, explainability and
+interpretability, biases, errors. Ethics of assistive tools for citations. _Exercise:_ build
+a system that operates over a corpus of interlinked documents, checking citations to other
+documents in the corpus and checking that the references actually support the claims, and
+presenting results for human verification. Build a knowledge graph from the citations in a
+set of cases and a simple 'Shepardizing' tool.
 
-9. **Specs & drafting aids.** _Exercise:_ build a tool to aid drafting legal texts.
-Generated text should be a fragment of a legal document, based on a precedent, satisfying
-requirements (i.e., checked using a suite of specs or tests), and making claims grounded in
-cited authorities.
+9. **Specifications & drafting aids.** _Legal topic:_ drafting a legal memo. _Exercise:_
+build a tool to aid drafting legal texts. Generated text should be a fragment of a legal
+document, based on a precedent, satisfying requirements (i.e., checked using a suite of
+specs or tests), and making claims grounded in cited authorities.
 
-10. **Fine-tuning.** Basics of fine-tuning models using [Axolotl](https://axolotl.ai) or
-similar tools. _Exercise:_ reimplement one of the functional elements you've built in
-previous modules (e.g., extracting citations) by fine-tuning a small model. Evaluate task
-performance as well as resource requirements; can you maintain quality while increasing
-speed and efficiency on the task?
+10. **Fine-tuning.** _Legal topic:_ Regulation of AI. Basics of fine-tuning models using
+[Axolotl](https://axolotl.ai) or similar tools. _Exercise:_ reimplement one of the
+functional elements you've built in previous modules (e.g., extracting citations) by
+fine-tuning a small model. Evaluate task performance as well as resource requirements; can
+you maintain quality while increasing speed and efficiency on the task?
 
-11. **Orchestration.** Compare approaches to orchestrating AI functions: coding agents and
-skills, programming frameworks, tools & MCP. _Exercise:_ create a legal agent for working
-with precedents, specifications, and authorities to produce fragments of legal text to serve
-as first drafts of a memo.
+11. **Orchestration.** _Legal topic:_ Government and AI. Compare approaches to orchestrating
+AI functions: coding agents and skills, programming frameworks, tools & MCP. _Exercise:_
+create a legal agent for working with precedents, specifications, and authorities to produce
+fragments of legal text to serve as first drafts of a memo.

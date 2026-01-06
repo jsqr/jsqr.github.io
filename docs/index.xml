@@ -34,7 +34,7 @@
 </section>
 <section id="an-outline-for-an-introduction-to-computational-law" class="level2">
 <h2 class="anchored" data-anchor-id="an-outline-for-an-introduction-to-computational-law">An outline for an introduction to computational law</h2>
-<p><em>Very much a work in progress.</em></p>
+<p><em>Very much a work in progress.</em> Exercises would be in the form of interactive notebooks with explanatory text, background references, and some scaffolding and examples already in place to make things more accessible.</p>
 <ol type="1">
 <li><p><strong>Prelude.</strong> Reading on the recent history of neural networks, transformers, and language models. Augmentation versus automation: what factors make technology positive or negative, and for which groups? Moving beyond the chatbot: data curation, coding agents &amp; tools. <em>Exercise:</em> develop several <a href="https://agentskills.io">agent skills</a> to aid legal problems. Example: extracting citations from a brief along with a summary of the relevant rule of law.</p></li>
 <li><p><strong>Using Language Models through an API.</strong> <em>Legal topic:</em> regulation of the legal profession; unauthorized practice of law. Python and technical infrastructure review. <em>Exercise:</em> set up infrastructure (notebooks, dependency management, API keys) for the rest of the sequence. Practice extracting structured data from text and generating summaries.</p></li>

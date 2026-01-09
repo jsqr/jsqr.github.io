@@ -1,7 +1,7 @@
 ---
 title: AI and Legal informatics
 date: 2025-11-12
-date-modified: 2026-01-04
+date-modified: 2026-01-09
 categories: [reference, law]
 description: Resources for treating law as code, and law as data.
 ---
@@ -24,7 +24,11 @@ We're now in a different era, and the current crop of transformer-based language
 models promises to make lots of ideas that were enticingly out of reach a decade
 or two ago much closer. How can we take advantage of the new AI tools?
 
-## AI, generally
+> _Caveat lector_: this list is clearly a bit scattered and idiosyncratic.
+Among other things, it doesn't include any individual papers. May it improve
+over time!
+
+## AI, general background
 
 - Bishop, C. and Bishop, H. (2024). _Deep Learning: Foundations and Concepts_.
 Springer. Authors' [site](https://www.bishopbook.com/).
@@ -35,8 +39,11 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 
 ## Periodicals, conferences, and collections
 
+- [ACM Symposium on Computer Science and Law](https://computersciencelaw.org)
 - [Artificial Intelligence and Law](https://link.springer.com/journal/10506)
+- [arXiv > cs.CY](https://arxiv.org/list/cs.CY/recent) Computers and Society
 - [CodeX Publications](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/)
+- [International Association for Artificial Intellligence and Law](http://www.iaail.org)
 - [JURIX](https://jurix.nl/)
 - [Stanford Regulation Lab](https://reglab.stanford.edu/publications/)
 

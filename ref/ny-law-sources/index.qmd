@@ -67,19 +67,19 @@ Bill jackets contain memoranda, correspondence, and other materials considered b
 
 ### Current Regulations
 
-- **[NYCRR (Unofficial Online Version)](https://dos.ny.gov/rules-and-regulations)** - Department of State hosts an unofficial but free version of the New York Codes, Rules and Regulations, powered by Westlaw. Web access; no API.
+- **Official NYCRR** - Published in print by Thomson Reuters. No comprehensive free official online version exists.
 
-- **[Cornell LII - NYCRR](https://www.law.cornell.edu/regulations/new-york)** - Free browsable collection of NY regulations by title. Updated quarterly. Clean interface for navigating regulatory text.
+- **[Cornell LII - NYCRR](https://www.law.cornell.edu/regulations/new-york)** - Free browsable collection of NY regulations by title. Clean interface for navigating regulatory text.
 
 - **[NYCRR on Westlaw/Lexis](https://www.westlaw.com)** - Official and annotated NYCRR available on both commercial platforms. Subscription required.
 
 ### Proposed Rules and Rulemaking
 
-- **[New York State Register](https://dos.ny.gov/state-register)** - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2007-present.
+- **[New York State Register](https://dos.ny.gov/state-register)** - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2015-present.
 
 ### Historical Regulations
 
-- **[NYCRR Digital Archive](http://law.lib.buffalo.edu/nycrr/)** (UB Law Library) - Free access to superseded NYCRR pages ("takeouts") for 1945-2001 in PDF format.
+- **[NYCRR Digital Archive](https://library.buffalo.edu/law/nycrr.html)** (UB Law Library) - Free access to superseded NYCRR pages ("takeouts") for 1945-2001 in PDF format.
 
 ### Agency-Specific
 
@@ -91,7 +91,7 @@ Individual agencies often publish their regulations on their own websites (e.g.,
 
 - **[NY Courts - Official Reports](https://www.nycourts.gov/reporter/decisions.shtml)** - Free access to Court of Appeals and Appellate Division decisions from 1956-present. Slip opinions available same-day for Court of Appeals. Web interface; no public API.
 
-- **[Court-PASS](https://www.nycourts.gov/ctapps/courtpass.htm)** - Court of Appeals Public Access and Search System. Free access to Court of Appeals materials for cases filed after January 1, 2013.
+- **[Court-PASS](https://courtpass.nycourts.gov/)** - Court of Appeals Public Access and Search System. Free access to Court of Appeals materials for cases filed after January 1, 2013.
 
 - **[NY eCourts](https://iapps.courts.state.ny.us/webcivil/ecourtsMain)** - Case information and filings for state courts. Primarily docket/status information rather than full opinions.
 

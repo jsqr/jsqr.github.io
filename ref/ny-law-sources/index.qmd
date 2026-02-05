@@ -73,6 +73,8 @@ Bill jackets contain memoranda, correspondence, and other materials considered b
 
 - **[NYCRR on Westlaw/Lexis](https://www.westlaw.com)** - Official and annotated NYCRR available on both commercial platforms. Subscription required.
 
+- **[Unofficial NYCRR on Westlaw](https://govt.westlaw.com/nycrr/)** - Free browsable collection.
+
 ### Proposed Rules and Rulemaking
 
 - **[New York State Register](https://dos.ny.gov/state-register)** - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2015-present.

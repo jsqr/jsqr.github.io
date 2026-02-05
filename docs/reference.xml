@@ -9,8 +9,148 @@
 <link>https://jsqr.org/reference.html</link>
 <atom:link href="https://jsqr.org/reference.xml" rel="self" type="application/rss+xml"/>
 <description>Johnathan Jenkins&#39; personal website</description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 12 Nov 2025 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Thu, 05 Feb 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Sources of New York Law</title>
+  <link>https://jsqr.org/ref/ny-law-sources/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="statutes" class="level2">
+<h2 class="anchored" data-anchor-id="statutes">Statutes</h2>
+<section id="free-officialsemi-official-sources" class="level3">
+<h3 class="anchored" data-anchor-id="free-officialsemi-official-sources">Free Official/Semi-Official Sources</h3>
+<ul>
+<li><p><strong><a href="https://public.leginfo.state.ny.us/lawssrch.cgi">New York State Legislature - Laws of New York</a></strong> - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.</p></li>
+<li><p><strong><a href="https://legislation.nysenate.gov/">NY Senate Open Legislation</a></strong> - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).</p></li>
+<li><p><strong><a href="https://www.law.cornell.edu/states/new_york">Cornell LII - New York</a></strong> - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.</p></li>
+</ul>
+</section>
+<section id="paid-annotated-codes" class="level3">
+<h3 class="anchored" data-anchor-id="paid-annotated-codes">Paid Annotated Codes</h3>
+<ul>
+<li><p><strong>McKinney’s Consolidated Laws of New York Annotated</strong> (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.</p></li>
+<li><p><strong>New York Consolidated Laws Service (CLS)</strong> (Lexis) - Alternative annotated code with similar features. Subscription required.</p></li>
+</ul>
+</section>
+<section id="session-laws" class="level3">
+<h3 class="anchored" data-anchor-id="session-laws">Session Laws</h3>
+<ul>
+<li><strong><a href="https://legislativelibrary.ny.gov/legislative-resources">NYS Legislative Library</a></strong> - Session Laws (chapter laws) from legislative sessions. Web access.</li>
+</ul>
+</section>
+</section>
+<section id="bills-in-flight" class="level2">
+<h2 class="anchored" data-anchor-id="bills-in-flight">Bills in Flight</h2>
+<section id="official-sources" class="level3">
+<h3 class="anchored" data-anchor-id="official-sources">Official Sources</h3>
+<ul>
+<li><p><strong><a href="https://nyassembly.gov/leg/">NY Assembly Bill Search</a></strong> - Official Assembly bill tracking. Web interface for searching current and prior session bills.</p></li>
+<li><p><strong><a href="https://legislation.nysenate.gov/">NY Senate Open Legislation</a></strong> - Primary resource for real-time bill tracking. Offers a free <a href="https://legislation.nysenate.gov/static/docs/html/index.html">REST API</a> (registration required) returning JSON. Includes bill text, sponsors, committee assignments, votes, and status. <a href="https://github.com/nysenate/OpenLegislation/">Open source</a>.</p></li>
+<li><p><strong><a href="http://public.leginfo.state.ny.us/navigate.cgi">Leginfo</a></strong> - Older official interface for bill search, still functional.</p></li>
+</ul>
+</section>
+<section id="third-party-tracking" class="level3">
+<h3 class="anchored" data-anchor-id="third-party-tracking">Third-Party Tracking</h3>
+<ul>
+<li><strong><a href="https://legiscan.com/NY">LegiScan - New York</a></strong> - Aggregates NY legislative data with API access. Free tier available; enhanced features require subscription.</li>
+</ul>
+</section>
+</section>
+<section id="legislative-history" class="level2">
+<h2 class="anchored" data-anchor-id="legislative-history">Legislative History</h2>
+<p>Legislative history materials for New York are more limited than federal sources. Key materials include: bills, sponsor’s memoranda, governor’s messages, bill jackets, and (rarely) hearing transcripts.</p>
+<section id="research-guides" class="level3">
+<h3 class="anchored" data-anchor-id="research-guides">Research Guides</h3>
+<ul>
+<li><strong><a href="https://www.nysl.nysed.gov/leghist">NYS Library Legislative History Tutorial</a></strong> - Comprehensive free tutorial from the State Library.</li>
+<li><strong><a href="https://nyulaw.libguides.com/c.php?g=773848&amp;p=5551755">NYU Law - NY Legislative History</a></strong> - Academic research guide.</li>
+<li><strong><a href="https://guides.brooklaw.edu/NYS_legislative_history_research">Brooklyn Law - NYS Legislative History</a></strong> - Detailed guide with finding aids.</li>
+<li><strong><a href="https://guides.ll.georgetown.edu/c.php?g=277242&amp;p=7664166">Georgetown Law - NY Legislative History</a></strong> - Overview of available documents and locations.</li>
+</ul>
+</section>
+<section id="bill-jackets" class="level3">
+<h3 class="anchored" data-anchor-id="bill-jackets">Bill Jackets</h3>
+<p>Bill jackets contain memoranda, correspondence, and other materials considered by the Governor when signing or vetoing bills. Unique to New York legislative history research.</p>
+<ul>
+<li><p><strong><a href="https://digitalcollections.archives.nysed.gov/index.php/Detail/collections/7782">NYS Archives Digital Collections - Bill Jackets</a></strong> - Free PDF downloads of Governor’s bill jackets from 1995 to present. Searchable by year, chapter, or keyword.</p></li>
+<li><p><strong><a href="https://www.nysl.nysed.gov/billjack">NYS Library Bill Jackets</a></strong> - Holdings for 1905 and 1921-2009 (microform and CD-ROM). Some digitized in library’s digital collections.</p></li>
+</ul>
+</section>
+<section id="session-laws-and-governors-messages" class="level3">
+<h3 class="anchored" data-anchor-id="session-laws-and-governors-messages">Session Laws and Governor’s Messages</h3>
+<ul>
+<li>Governor’s approval and veto messages are published with the Session Laws and are often the most accessible legislative history documents.</li>
+</ul>
+</section>
+</section>
+<section id="regulations" class="level2">
+<h2 class="anchored" data-anchor-id="regulations">Regulations</h2>
+<section id="current-regulations" class="level3">
+<h3 class="anchored" data-anchor-id="current-regulations">Current Regulations</h3>
+<ul>
+<li><p><strong><a href="https://dos.ny.gov/rules-and-regulations">NYCRR (Unofficial Online Version)</a></strong> - Department of State hosts an unofficial but free version of the New York Codes, Rules and Regulations, powered by Westlaw. Web access; no API.</p></li>
+<li><p><strong><a href="https://www.law.cornell.edu/regulations/new-york">Cornell LII - NYCRR</a></strong> - Free browsable collection of NY regulations by title. Updated quarterly. Clean interface for navigating regulatory text.</p></li>
+<li><p><strong><a href="https://www.westlaw.com">NYCRR on Westlaw/Lexis</a></strong> - Official and annotated NYCRR available on both commercial platforms. Subscription required.</p></li>
+</ul>
+</section>
+<section id="proposed-rules-and-rulemaking" class="level3">
+<h3 class="anchored" data-anchor-id="proposed-rules-and-rulemaking">Proposed Rules and Rulemaking</h3>
+<ul>
+<li><strong><a href="https://dos.ny.gov/state-register">New York State Register</a></strong> - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2007-present.</li>
+</ul>
+</section>
+<section id="historical-regulations" class="level3">
+<h3 class="anchored" data-anchor-id="historical-regulations">Historical Regulations</h3>
+<ul>
+<li><strong><a href="http://law.lib.buffalo.edu/nycrr/">NYCRR Digital Archive</a></strong> (UB Law Library) - Free access to superseded NYCRR pages (“takeouts”) for 1945-2001 in PDF format.</li>
+</ul>
+</section>
+<section id="agency-specific" class="level3">
+<h3 class="anchored" data-anchor-id="agency-specific">Agency-Specific</h3>
+<p>Individual agencies often publish their regulations on their own websites (e.g., <a href="https://dec.ny.gov/regulatory/regulations">DEC Regulations</a>, <a href="https://www.counsel.nysed.gov/rulesandregs">Education Department</a>).</p>
+</section>
+</section>
+<section id="judicial-opinions" class="level2">
+<h2 class="anchored" data-anchor-id="judicial-opinions">Judicial Opinions</h2>
+<section id="official-free-sources" class="level3">
+<h3 class="anchored" data-anchor-id="official-free-sources">Official Free Sources</h3>
+<ul>
+<li><p><strong><a href="https://www.nycourts.gov/reporter/decisions.shtml">NY Courts - Official Reports</a></strong> - Free access to Court of Appeals and Appellate Division decisions from 1956-present. Slip opinions available same-day for Court of Appeals. Web interface; no public API.</p></li>
+<li><p><strong><a href="https://www.nycourts.gov/ctapps/courtpass.htm">Court-PASS</a></strong> - Court of Appeals Public Access and Search System. Free access to Court of Appeals materials for cases filed after January 1, 2013.</p></li>
+<li><p><strong><a href="https://iapps.courts.state.ny.us/webcivil/ecourtsMain">NY eCourts</a></strong> - Case information and filings for state courts. Primarily docket/status information rather than full opinions.</p></li>
+<li><p><strong><a href="https://iapps.courts.state.ny.us/nyscef/CaseSearch">NYSCEF Case Search</a></strong> - New York State Courts Electronic Filing system. Access to filed documents in participating courts.</p></li>
+</ul>
+</section>
+<section id="free-third-party-sources" class="level3">
+<h3 class="anchored" data-anchor-id="free-third-party-sources">Free Third-Party Sources</h3>
+<ul>
+<li><strong><a href="https://www.law.cornell.edu/states/new_york">Cornell LII</a></strong> - Links to NY court opinions and encyclopedic legal information. Strong for constitutional and statutory interpretation context.</li>
+<li><strong><a href="https://scholar.google.com/">Google Scholar</a></strong> - Searchable NY case law. Free but unofficial; useful for quick research.</li>
+<li><strong><a href="https://law.justia.com/cases/new-york/">Justia</a></strong> - Free NY case law database.</li>
+<li><strong><a href="https://caselaw.findlaw.com/court/ny-supreme-court">Findlaw</a></strong> - NY Supreme Court opinions from 1959-present.</li>
+</ul>
+</section>
+<section id="paid-commercial-databases" class="level3">
+<h3 class="anchored" data-anchor-id="paid-commercial-databases">Paid Commercial Databases</h3>
+<ul>
+<li><p><strong>Westlaw</strong> (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. The standard for most NY practitioners. Subscription required.</p></li>
+<li><p><strong>Lexis+</strong> (LexisNexis) - Comparable coverage with Shepard’s citator. Subscription required.</p></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>reference</category>
+  <category>law</category>
+  <guid>https://jsqr.org/ref/ny-law-sources/</guid>
+  <pubDate>Thu, 05 Feb 2026 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>AI and Legal informatics</title>
   <link>https://jsqr.org/ref/ai-law/</link>

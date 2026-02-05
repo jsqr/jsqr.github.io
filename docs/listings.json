@@ -16,12 +16,14 @@
   {
     "listing": "/reference.html",
     "items": [
+      "/ref/ny-law-sources/index.html",
       "/ref/ai-law/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/ref/ny-law-sources/index.html",
       "/proj/comp-law-course/index.html",
       "/misc/self-supervised-retrieval-eval/index.html",
       "/proj/legal-epi/index.html",

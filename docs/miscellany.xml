@@ -9,7 +9,7 @@
 <link>https://jsqr.org/miscellany.html</link>
 <atom:link href="https://jsqr.org/miscellany.xml" rel="self" type="application/rss+xml"/>
 <description>Johnathan Jenkins&#39; personal website</description>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Tue, 09 Dec 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Self-supervised retrieval evaluation</title>

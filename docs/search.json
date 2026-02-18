@@ -14,6 +14,160 @@
     "text": "AI for legal epidemiology\n\n\nLegal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Law\n\n\nConcept for a lab-based introduction to computational law\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "ref/ny-law-sources/index.html",
+    "href": "ref/ny-law-sources/index.html",
+    "title": "Sources of New York Law",
+    "section": "",
+    "text": "New York State Legislature - Laws of New York - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.\nNY Senate Open Legislation - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).\nCornell LII - New York - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.\n\n\n\n\n\nMcKinney’s Consolidated Laws of New York Annotated (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.\nNew York Consolidated Laws Service (CLS) (Lexis) - Alternative annotated code with similar features. Subscription required.\n\n\n\n\n\nNYS Legislative Library - Session Laws (chapter laws) from legislative sessions. Web access."
+  },
+  {
+    "objectID": "ref/ny-law-sources/index.html#statutes",
+    "href": "ref/ny-law-sources/index.html#statutes",
+    "title": "Sources of New York Law",
+    "section": "",
+    "text": "New York State Legislature - Laws of New York - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.\nNY Senate Open Legislation - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).\nCornell LII - New York - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.\n\n\n\n\n\nMcKinney’s Consolidated Laws of New York Annotated (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.\nNew York Consolidated Laws Service (CLS) (Lexis) - Alternative annotated code with similar features. Subscription required.\n\n\n\n\n\nNYS Legislative Library - Session Laws (chapter laws) from legislative sessions. Web access."
+  },
+  {
+    "objectID": "ref/ny-law-sources/index.html#bills-in-flight",
+    "href": "ref/ny-law-sources/index.html#bills-in-flight",
+    "title": "Sources of New York Law",
+    "section": "Bills in Flight",
+    "text": "Bills in Flight\n\nOfficial Sources\n\nNY Assembly Bill Search - Official Assembly bill tracking. Web interface for searching current and prior session bills.\nNY Senate Open Legislation - Primary resource for real-time bill tracking. Offers a free REST API (registration required) returning JSON. Includes bill text, sponsors, committee assignments, votes, and status. Open source.\nLeginfo - Older official interface for bill search, still functional.\n\n\n\nThird-Party Tracking\n\nLegiScan - New York - Aggregates NY legislative data with API access. Free tier available; enhanced features require subscription."
+  },
+  {
+    "objectID": "ref/ny-law-sources/index.html#legislative-history",
+    "href": "ref/ny-law-sources/index.html#legislative-history",
+    "title": "Sources of New York Law",
+    "section": "Legislative History",
+    "text": "Legislative History\nLegislative history materials for New York are more limited than federal sources. Key materials include: bills, sponsor’s memoranda, governor’s messages, bill jackets, and (rarely) hearing transcripts.\n\nResearch Guides\n\nNYS Library Legislative History Tutorial - Comprehensive free tutorial from the State Library.\nNYU Law - NY Legislative History - Academic research guide.\nBrooklyn Law - NYS Legislative History - Detailed guide with finding aids.\nGeorgetown Law - NY Legislative History - Overview of available documents and locations.\n\n\n\nBill Jackets\nBill jackets contain memoranda, correspondence, and other materials considered by the Governor when signing or vetoing bills. Unique to New York legislative history research.\n\nNYS Archives Digital Collections - Bill Jackets - Free PDF downloads of Governor’s bill jackets from 1995 to present. Searchable by year, chapter, or keyword.\nNYS Library Bill Jackets - Holdings for 1905 and 1921-2009 (microform and CD-ROM). Some digitized in library’s digital collections.\n\n\n\nSession Laws and Governor’s Messages\n\nGovernor’s approval and veto messages are published with the Session Laws and are often the most accessible legislative history documents."
+  },
+  {
+    "objectID": "ref/ny-law-sources/index.html#regulations",
+    "href": "ref/ny-law-sources/index.html#regulations",
+    "title": "Sources of New York Law",
+    "section": "Regulations",
+    "text": "Regulations\n\nCurrent Regulations\n\nOfficial NYCRR - Published in print by Thomson Reuters. No comprehensive free official online version exists.\nCornell LII - NYCRR - Free browsable collection of NY regulations by title. Clean interface for navigating regulatory text.\nNYCRR on Westlaw/Lexis - Official and annotated NYCRR available on both commercial platforms. Subscription required.\nUnofficial NYCRR on Westlaw - Free browsable collection.\n\n\n\nProposed Rules and Rulemaking\n\nNew York State Register - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2015-present.\n\n\n\nHistorical Regulations\n\nNYCRR Digital Archive (UB Law Library) - Free access to superseded NYCRR pages (“takeouts”) for 1945-2001 in PDF format.\n\n\n\nAgency-Specific\nIndividual agencies often publish their regulations on their own websites (e.g., DEC Regulations, Education Department)."
+  },
+  {
+    "objectID": "ref/ny-law-sources/index.html#judicial-opinions",
+    "href": "ref/ny-law-sources/index.html#judicial-opinions",
+    "title": "Sources of New York Law",
+    "section": "Judicial Opinions",
+    "text": "Judicial Opinions\n\nOfficial Free Sources\n\nNY Courts - Official Reports - Free access to Court of Appeals and Appellate Division decisions from 1956-present. Slip opinions available same-day for Court of Appeals. Web interface; no public API.\nCourt-PASS - Court of Appeals Public Access and Search System. Free access to Court of Appeals materials for cases filed after January 1, 2013.\nNY eCourts - Case information and filings for state courts. Primarily docket/status information rather than full opinions.\nNYSCEF Case Search - New York State Courts Electronic Filing system. Access to filed documents in participating courts.\n\n\n\nFree Third-Party Sources\n\nCornell LII - Links to NY court opinions and encyclopedic legal information. Strong for constitutional and statutory interpretation context.\nGoogle Scholar - Searchable NY case law. Free but unofficial; useful for quick research.\nJustia - Free NY case law database.\nFindlaw - NY Supreme Court opinions from 1959-present.\n\n\n\nPaid Commercial Databases\n\nWestlaw (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. The standard for most NY practitioners. Subscription required.\nLexis+ (LexisNexis) - Comparable coverage with Shepard’s citator. Subscription required."
+  },
+  {
+    "objectID": "miscellany.html",
+    "href": "miscellany.html",
+    "title": "Miscellany",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html",
+    "href": "misc/self-supervised-retrieval-eval/index.html",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "",
+    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
+    "href": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "",
+    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
+  },
+  {
+    "objectID": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
+    "href": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
+    "title": "Self-supervised retrieval evaluation",
+    "section": "Synthetic data and property-based testing",
+    "text": "Synthetic data and property-based testing\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think ought to exist (based on our understanding of the problem) is in fact closed as expected.\n\n\n\n\n\ngraph LR\n    segment -- create_query --&gt; query\n    query -- retrieve --&gt; segment\n\n\n\n\n\n\nIt turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):\n\ncommutative relationships (and model-based approaches),\ninvertible operations,\ninvariance under transformation,\nidempotence, and\nstructural induction.\n\nThe example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.\nBut really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].\nWlaschin, S. (2014). Choosing properties for property-based testing. F# blog."
+  },
+  {
+    "objectID": "proj/comp-law-course/index.html#background-introduction-to-computational-thinking",
+    "href": "proj/comp-law-course/index.html#background-introduction-to-computational-thinking",
+    "title": "Computational Law",
+    "section": "Background: Introduction to Computational Thinking",
+    "text": "Background: Introduction to Computational Thinking\nMIT offers a course called Introduction to Computational Thinking (6.C25 / 18.C25), which is available online. Okay—nothing special so far. There are lots of course videos and lecture notes on the web now. What’s more remarkable is that the entire course—lectures and homeworks—is structured around interactive notebooks mixing explanatory text, worked examples, and exercises.\nThis is a brilliant way to organize a course. And, of course, it’s not entirely new. Wolfram has been sponsoring books that are essentially Mathematica notebook printouts since at least the early 90s. And the idea of a notebook interface borrows from Knuth’s literate programming. But somehow bundling everything together in a consistent package on the web makes a difference, inviting engagement and experimentation. It takes on the spirit of an upper-level physics lab, where you are given background reading, equipment, aims, and some high-level notes on procedure, but have enough options and flexibility to make things interesting.\nI worked through the Fall 2024 version of the course because I was interested in the core topics (epidemic models, climate science, and the Julia programming language). I wonder, though, if the main thing I took away was enthusiasm for this style of teaching technical information."
+  },
+  {
+    "objectID": "proj/comp-law-course/index.html#law-subset-code",
+    "href": "proj/comp-law-course/index.html#law-subset-code",
+    "title": "Computational Law",
+    "section": "Law \\(\\subset\\) Code",
+    "text": "Law \\(\\subset\\) Code\nRunning with the thesis that law is like computer code, or that law is a form of ‘code’ in the broader sense, we can imagine what an analogue of the MIT course might look like. Begin with adapting existing coding agents, just to get a sense of the possibilities of working with text in the same way programmers work with computer languages. Then, progress through a sequence of notebooks, demonstrating approaches to increasingly complex legal tasks.\nAlong the way, we’d need to explore answers to several questions. Programming languages have compilers (or interpreters), linters, type-checkers, assertions, and test suites; how can we adapt those ideas to legal language? What is the equivalent of formal verification for natural language, and is it worth the trouble? How do we handle editing and versioning? Coding agents are currently a bit like REPLs; what’s the right user interface for other modes of development? Is there something like ‘literate programming’ when the object code is itself a contorted form of natural language?\nI wouldn’t expect to come up with definitive answers to those questions, which are both difficult and vague, but it is important to adopt a point of view on at least some of them."
+  },
+  {
+    "objectID": "proj/comp-law-course/index.html#an-outline-for-an-introduction-to-computational-law",
+    "href": "proj/comp-law-course/index.html#an-outline-for-an-introduction-to-computational-law",
+    "title": "Computational Law",
+    "section": "An outline for an introduction to computational law",
+    "text": "An outline for an introduction to computational law\nVery much a work in progress. Exercises would be in the form of interactive notebooks with explanatory text, background references, and some scaffolding and examples already in place to make things more accessible.\n\nPrelude. Reading on the recent history of neural networks, transformers, and language models. Augmentation versus automation: what factors make technology positive or negative, and for which groups? Moving beyond the chatbot: data curation, coding agents & tools. Exercise: develop several agent skills to aid legal problems. Example: extracting citations from a brief along with a summary of the relevant rule of law.\nUsing Language Models through an API. Legal topic: regulation of the legal profession; unauthorized practice of law. Python and technical infrastructure review. Exercise: set up infrastructure (notebooks, dependency management, API keys) for the rest of the sequence. Practice extracting structured data from text and generating summaries.\nEmbeddings, classification, and retrieval. Legal topic: statutes, court opinions, and applying legal rules to facts. Exercise: implement a classifier for legal clauses in two ways (few-shot prompting and using kNN and embeddings). Implement a retrieval tool for legal texts.\nWorking with legal texts. Structural properties of legal texts: outlines, headings, citations, rules, and entities. Exercise: redo the example from first-week exercise (extracting citations and summarizing rules) in computer code.\nEvaluation. Legal topic: professional ethics and use of technology (competence; confidentiality, privacy and security). Simple metrics and strategies for evaluating classification, retrieval, and quality of generated output. Exercise: characterize (a) classification performance on a simple labeled dataset, (b) retrieval performance, and (c) performance on generating summaries of legal rules.\nLogic, law, and automated reasoning. Classical propositional and predicate logic. Modal logic, defeasible logic, and temporal logic or situation/event calculus. Approaches to automated reasoning. Legal topic: civil law jurisdictions. Exercise: try evaluating legal propositions by ‘faking’ formal logic. Where do you draw the line between capturing relevant domain logic (the logic of a legal rule) and falling back on the language model’s sea of background knowledge? Compare results in toy examples to automated reasoning systems like the Z3 SMT solver or Prolog.\nTabular data. Legal topic: contracts and litigation discovery. Overview of commercial applications. Exercise: build a tabular analysis tool for collections of legal documents, building on the previous exercises.\nEthics & citation-checking. AI ethics: transparency, explainability and interpretability, biases, errors. Ethics of assistive tools for citations. Exercise: build a system that operates over a corpus of interlinked documents, checking citations to other documents in the corpus and checking that the references actually support the claims, and presenting results for human verification. Build a knowledge graph from the citations in a set of cases and a simple ‘Shepardizing’ tool.\nSpecifications & drafting aids. Legal topic: drafting a legal memo. Exercise: build a tool to aid drafting legal texts. Generated text should be a fragment of a legal document, based on a precedent, satisfying requirements (i.e., checked using a suite of specs or tests), and making claims grounded in cited authorities.\nFine-tuning. Legal topic: Regulation of AI. Basics of fine-tuning models using Axolotl or similar tools. Exercise: reimplement one of the functional elements you’ve built in previous modules (e.g., extracting citations) by fine-tuning a small model. Evaluate task performance as well as resource requirements; can you maintain quality while increasing speed and efficiency on the task?\nOrchestration. Legal topic: Government and AI. Compare approaches to orchestrating AI functions: coding agents and skills, programming frameworks, tools & MCP. Exercise: create a legal agent for working with precedents, specifications, and authorities to produce fragments of legal text to serve as first drafts of a memo."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#overview",
+    "href": "proj/legal-epi/index.html#overview",
+    "title": "AI for legal epidemiology",
+    "section": "Overview",
+    "text": "Overview\nLegal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#timeline",
+    "href": "proj/legal-epi/index.html#timeline",
+    "title": "AI for legal epidemiology",
+    "section": "Timeline",
+    "text": "Timeline\n\nInitial concept presentated to the COEP center at NYU Langone (March 28, 2024)\nInternal presentation with updated slides describing prototypes (Oct. 7, 2024).\nMagdalena Cerda et al., Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?, Milbank Q. 2025; 103(SI):0610 (June 10, 2025).\nPresentation at Society for Epidemiologic Research (SER) Annual Meeting (July 13, 2025).\nNYU Machine Learning for Good Lab is hosting a Masters’ thesis project related to this project. (Winter 2025—)"
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#current-version-of-code",
+    "href": "proj/legal-epi/index.html#current-version-of-code",
+    "title": "AI for legal epidemiology",
+    "section": "Current version of code",
+    "text": "Current version of code\nLegiscope."
+  },
+  {
+    "objectID": "proj/legal-epi/index.html#people",
+    "href": "proj/legal-epi/index.html#people",
+    "title": "AI for legal epidemiology",
+    "section": "People",
+    "text": "People\n\nSamrachana Adhikari (NYU Langone)\nKimberly Villalobos Carballo (NYU)\nMagdalena Cerda (NYU Langone)\nCorey Davis (Network for Public Health Law)\nJaskiran Dhinsa (NYU Langone)\nCharles DiMaggio (NYU Langone)\nTheodore Hill (NYU Langone)\nSpruha Joshi (University of Michigan)\nDaniel Neill (NYU)\nPooja Shah (NYU Langone)\nUtkarsh Srivastava"
+  },
+  {
+    "objectID": "misc/test/index.html",
+    "href": "misc/test/index.html",
+    "title": "Test post",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit."
+  },
+  {
+    "objectID": "misc/test/index.html#quarto-feature-demos",
+    "href": "misc/test/index.html#quarto-feature-demos",
+    "title": "Test post",
+    "section": "",
+    "text": "Lorem post cenam in silva ambulavit."
+  },
+  {
+    "objectID": "misc/test/index.html#tabset-demo",
+    "href": "misc/test/index.html#tabset-demo",
+    "title": "Test post",
+    "section": "Tabset demo",
+    "text": "Tabset demo\n\nJuliaPython\n\n\nfunction isprime(n::Integer)\n    if n &lt;= 1\n        return false\n    elseif n &lt;= 3\n        return true\n    elseif n % 2 == 0 || n % 3 == 0\n        return false\n    end\n    i = 5\n    while i &lt;= isqrt(n)\n        if n % i == 0 || n % (i + 2) == 0\n            return false\n        end\n        i += 6\n    end\n    return true\nend\n\n\ndef is_prime(n: int) -&gt; bool:\n    if n &lt;= 1:\n        return False\n    elif n &lt;= 3:\n        return True\n    elif n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i &lt;= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True"
+  },
+  {
+    "objectID": "misc/test/index.html#some-equations",
+    "href": "misc/test/index.html#some-equations",
+    "title": "Test post",
+    "section": "Some equations",
+    "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
+  },
+  {
+    "objectID": "misc/test/index.html#lightbox-demo",
+    "href": "misc/test/index.html#lightbox-demo",
+    "title": "Test post",
+    "section": "Lightbox demo",
+    "text": "Lightbox demo"
+  },
+  {
     "objectID": "ref/ai-law/index.html#background",
     "href": "ref/ai-law/index.html#background",
     "title": "AI and Legal informatics",
@@ -84,118 +238,6 @@
     "text": "Online courses\n\nHugging Face: LLM Course.\nMIT 6.S191: Introduction to Deep Learning.\nStanford CS 224N: Natural Language Processing with Deep Learning.\nStanford CS 336: Language Modeling from Scratch."
   },
   {
-    "objectID": "misc/test/index.html",
-    "href": "misc/test/index.html",
-    "title": "Test post",
-    "section": "",
-    "text": "Lorem post cenam in silva ambulavit."
-  },
-  {
-    "objectID": "misc/test/index.html#quarto-feature-demos",
-    "href": "misc/test/index.html#quarto-feature-demos",
-    "title": "Test post",
-    "section": "",
-    "text": "Lorem post cenam in silva ambulavit."
-  },
-  {
-    "objectID": "misc/test/index.html#tabset-demo",
-    "href": "misc/test/index.html#tabset-demo",
-    "title": "Test post",
-    "section": "Tabset demo",
-    "text": "Tabset demo\n\nJuliaPython\n\n\nfunction isprime(n::Integer)\n    if n &lt;= 1\n        return false\n    elseif n &lt;= 3\n        return true\n    elseif n % 2 == 0 || n % 3 == 0\n        return false\n    end\n    i = 5\n    while i &lt;= isqrt(n)\n        if n % i == 0 || n % (i + 2) == 0\n            return false\n        end\n        i += 6\n    end\n    return true\nend\n\n\ndef is_prime(n: int) -&gt; bool:\n    if n &lt;= 1:\n        return False\n    elif n &lt;= 3:\n        return True\n    elif n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i &lt;= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True"
-  },
-  {
-    "objectID": "misc/test/index.html#some-equations",
-    "href": "misc/test/index.html#some-equations",
-    "title": "Test post",
-    "section": "Some equations",
-    "text": "Some equations\n\\[\ne^{i \\pi} = -1\n\\]\n\\[\n\\int_M \\mathrm{d}\\omega = \\int_{\\partial M} \\omega\n\\]\n\\[\nG_{\\mu \\nu} = 8 \\pi T_{\\mu \\nu}\n\\]"
-  },
-  {
-    "objectID": "misc/test/index.html#lightbox-demo",
-    "href": "misc/test/index.html#lightbox-demo",
-    "title": "Test post",
-    "section": "Lightbox demo",
-    "text": "Lightbox demo"
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#overview",
-    "href": "proj/legal-epi/index.html#overview",
-    "title": "AI for legal epidemiology",
-    "section": "Overview",
-    "text": "Overview\nLegal epidemiology – understanding the effects of laws on health – requires an understanding of what the law is. But laws are spread across jurisdictions and different levels of government, and are framed in technical language that can be difficult to encode for analysis. Since 2024, I have been working with collaborators on a project to apply large language models and modern retrieval methods to make encoding of laws easier, focusing on the municipal codes and ordinances of hundreds of citites in the United States. This is part of a broader interest in making law more accessible."
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#timeline",
-    "href": "proj/legal-epi/index.html#timeline",
-    "title": "AI for legal epidemiology",
-    "section": "Timeline",
-    "text": "Timeline\n\nInitial concept presentated to the COEP center at NYU Langone (March 28, 2024)\nInternal presentation with updated slides describing prototypes (Oct. 7, 2024).\nMagdalena Cerda et al., Stemming the Tide of the US Overdose Crisis: How Can We Leverage the Power of Data Science and Artificial Intelligence?, Milbank Q. 2025; 103(SI):0610 (June 10, 2025).\nPresentation at Society for Epidemiologic Research (SER) Annual Meeting (July 13, 2025).\nNYU Machine Learning for Good Lab is hosting a Masters’ thesis project related to this project. (Winter 2025—)"
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#current-version-of-code",
-    "href": "proj/legal-epi/index.html#current-version-of-code",
-    "title": "AI for legal epidemiology",
-    "section": "Current version of code",
-    "text": "Current version of code\nLegiscope."
-  },
-  {
-    "objectID": "proj/legal-epi/index.html#people",
-    "href": "proj/legal-epi/index.html#people",
-    "title": "AI for legal epidemiology",
-    "section": "People",
-    "text": "People\n\nSamrachana Adhikari (NYU Langone)\nKimberly Villalobos Carballo (NYU)\nMagdalena Cerda (NYU Langone)\nCorey Davis (Network for Public Health Law)\nJaskiran Dhinsa (NYU Langone)\nCharles DiMaggio (NYU Langone)\nTheodore Hill (NYU Langone)\nSpruha Joshi (University of Michigan)\nDaniel Neill (NYU)\nPooja Shah (NYU Langone)\nUtkarsh Srivastava"
-  },
-  {
-    "objectID": "proj/comp-law-course/index.html#background-introduction-to-computational-thinking",
-    "href": "proj/comp-law-course/index.html#background-introduction-to-computational-thinking",
-    "title": "Computational Law",
-    "section": "Background: Introduction to Computational Thinking",
-    "text": "Background: Introduction to Computational Thinking\nMIT offers a course called Introduction to Computational Thinking (6.C25 / 18.C25), which is available online. Okay—nothing special so far. There are lots of course videos and lecture notes on the web now. What’s more remarkable is that the entire course—lectures and homeworks—is structured around interactive notebooks mixing explanatory text, worked examples, and exercises.\nThis is a brilliant way to organize a course. And, of course, it’s not entirely new. Wolfram has been sponsoring books that are essentially Mathematica notebook printouts since at least the early 90s. And the idea of a notebook interface borrows from Knuth’s literate programming. But somehow bundling everything together in a consistent package on the web makes a difference, inviting engagement and experimentation. It takes on the spirit of an upper-level physics lab, where you are given background reading, equipment, aims, and some high-level notes on procedure, but have enough options and flexibility to make things interesting.\nI worked through the Fall 2024 version of the course because I was interested in the core topics (epidemic models, climate science, and the Julia programming language). I wonder, though, if the main thing I took away was enthusiasm for this style of teaching technical information."
-  },
-  {
-    "objectID": "proj/comp-law-course/index.html#law-subset-code",
-    "href": "proj/comp-law-course/index.html#law-subset-code",
-    "title": "Computational Law",
-    "section": "Law \\(\\subset\\) Code",
-    "text": "Law \\(\\subset\\) Code\nRunning with the thesis that law is like computer code, or that law is a form of ‘code’ in the broader sense, we can imagine what an analogue of the MIT course might look like. Begin with adapting existing coding agents, just to get a sense of the possibilities of working with text in the same way programmers work with computer languages. Then, progress through a sequence of notebooks, demonstrating approaches to increasingly complex legal tasks.\nAlong the way, we’d need to explore answers to several questions. Programming languages have compilers (or interpreters), linters, type-checkers, assertions, and test suites; how can we adapt those ideas to legal language? What is the equivalent of formal verification for natural language, and is it worth the trouble? How do we handle editing and versioning? Coding agents are currently a bit like REPLs; what’s the right user interface for other modes of development? Is there something like ‘literate programming’ when the object code is itself a contorted form of natural language?\nI wouldn’t expect to come up with definitive answers to those questions, which are both difficult and vague, but it is important to adopt a point of view on at least some of them."
-  },
-  {
-    "objectID": "proj/comp-law-course/index.html#an-outline-for-an-introduction-to-computational-law",
-    "href": "proj/comp-law-course/index.html#an-outline-for-an-introduction-to-computational-law",
-    "title": "Computational Law",
-    "section": "An outline for an introduction to computational law",
-    "text": "An outline for an introduction to computational law\nVery much a work in progress. Exercises would be in the form of interactive notebooks with explanatory text, background references, and some scaffolding and examples already in place to make things more accessible.\n\nPrelude. Reading on the recent history of neural networks, transformers, and language models. Augmentation versus automation: what factors make technology positive or negative, and for which groups? Moving beyond the chatbot: data curation, coding agents & tools. Exercise: develop several agent skills to aid legal problems. Example: extracting citations from a brief along with a summary of the relevant rule of law.\nUsing Language Models through an API. Legal topic: regulation of the legal profession; unauthorized practice of law. Python and technical infrastructure review. Exercise: set up infrastructure (notebooks, dependency management, API keys) for the rest of the sequence. Practice extracting structured data from text and generating summaries.\nEmbeddings, classification, and retrieval. Legal topic: statutes, court opinions, and applying legal rules to facts. Exercise: implement a classifier for legal clauses in two ways (few-shot prompting and using kNN and embeddings). Implement a retrieval tool for legal texts.\nWorking with legal texts. Structural properties of legal texts: outlines, headings, citations, rules, and entities. Exercise: redo the example from first-week exercise (extracting citations and summarizing rules) in computer code.\nEvaluation. Legal topic: professional ethics and use of technology (competence; confidentiality, privacy and security). Simple metrics and strategies for evaluating classification, retrieval, and quality of generated output. Exercise: characterize (a) classification performance on a simple labeled dataset, (b) retrieval performance, and (c) performance on generating summaries of legal rules.\nLogic, law, and automated reasoning. Classical propositional and predicate logic. Modal logic, defeasible logic, and temporal logic or situation/event calculus. Approaches to automated reasoning. Legal topic: civil law jurisdictions. Exercise: try evaluating legal propositions by ‘faking’ formal logic. Where do you draw the line between capturing relevant domain logic (the logic of a legal rule) and falling back on the language model’s sea of background knowledge? Compare results in toy examples to automated reasoning systems like the Z3 SMT solver or Prolog.\nTabular data. Legal topic: contracts and litigation discovery. Overview of commercial applications. Exercise: build a tabular analysis tool for collections of legal documents, building on the previous exercises.\nEthics & citation-checking. AI ethics: transparency, explainability and interpretability, biases, errors. Ethics of assistive tools for citations. Exercise: build a system that operates over a corpus of interlinked documents, checking citations to other documents in the corpus and checking that the references actually support the claims, and presenting results for human verification. Build a knowledge graph from the citations in a set of cases and a simple ‘Shepardizing’ tool.\nSpecifications & drafting aids. Legal topic: drafting a legal memo. Exercise: build a tool to aid drafting legal texts. Generated text should be a fragment of a legal document, based on a precedent, satisfying requirements (i.e., checked using a suite of specs or tests), and making claims grounded in cited authorities.\nFine-tuning. Legal topic: Regulation of AI. Basics of fine-tuning models using Axolotl or similar tools. Exercise: reimplement one of the functional elements you’ve built in previous modules (e.g., extracting citations) by fine-tuning a small model. Evaluate task performance as well as resource requirements; can you maintain quality while increasing speed and efficiency on the task?\nOrchestration. Legal topic: Government and AI. Compare approaches to orchestrating AI functions: coding agents and skills, programming frameworks, tools & MCP. Exercise: create a legal agent for working with precedents, specifications, and authorities to produce fragments of legal text to serve as first drafts of a memo."
-  },
-  {
-    "objectID": "misc/self-supervised-retrieval-eval/index.html",
-    "href": "misc/self-supervised-retrieval-eval/index.html",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "",
-    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
-  },
-  {
-    "objectID": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
-    "href": "misc/self-supervised-retrieval-eval/index.html#evaluation-with-synthetic-queries",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "",
-    "text": "Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.\nFor example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:\nloop N times:\n    choose arbitrary segment\n    query = create_query(segment)\n    save (query, segment) to dataset"
-  },
-  {
-    "objectID": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
-    "href": "misc/self-supervised-retrieval-eval/index.html#synthetic-data-and-property-based-testing",
-    "title": "Self-supervised retrieval evaluation",
-    "section": "Synthetic data and property-based testing",
-    "text": "Synthetic data and property-based testing\nWhen synthetic data is used for training or fine-tuning, it makes sense to think of it as data. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think ought to exist (based on our understanding of the problem) is in fact closed as expected.\n\n\n\n\n\ngraph LR\n    segment -- create_query --&gt; query\n    query -- retrieve --&gt; segment\n\n\n\n\n\n\nIt turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):\n\ncommutative relationships (and model-based approaches),\ninvertible operations,\ninvariance under transformation,\nidempotence, and\nstructural induction.\n\nThe example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.\nBut really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.\nReferences:\n\nClaessen, K. and Hughes, J. (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.\nEs, S. (2024). All about synthetic data generation. Ragas blog.\nEsfandiarpoor, R. et at. (2025). Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].\nRahmani, H. (2024). Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].\nWlaschin, S. (2014). Choosing properties for property-based testing. F# blog."
-  },
-  {
-    "objectID": "miscellany.html",
-    "href": "miscellany.html",
-    "title": "Miscellany",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDec 9, 2025\n\n\nSelf-supervised retrieval evaluation\n\n\n\n\n\n\n\n\n\nNov 11, 2025\n\n\nTest post\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "reference.html",
     "href": "reference.html",
     "title": "Reference",
@@ -221,48 +263,6 @@
     "href": "index.html#reminders",
     "title": "jsqr.org",
     "section": "Reminders",
-    "text": "Reminders\n\n“If there’s anyone that’s gonna get replaced by AI, it’s an editor who cuts to the beat.” —Jesse Senko\n\n\n“…time is short, my strength is limited, the office is a horror, the apartment is noisy, and if a pleasant, straightforward life is not possible then one must try to wriggle through by subtle maneuvers.” —Franz Kafka\n\n\nRules: 1. Be specific. 2. Show, don’t tell. 3. Nothing in excess."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html",
-    "href": "ref/ny-law-sources/index.html",
-    "title": "Sources of New York Law",
-    "section": "",
-    "text": "New York State Legislature - Laws of New York - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.\nNY Senate Open Legislation - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).\nCornell LII - New York - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.\n\n\n\n\n\nMcKinney’s Consolidated Laws of New York Annotated (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.\nNew York Consolidated Laws Service (CLS) (Lexis) - Alternative annotated code with similar features. Subscription required.\n\n\n\n\n\nNYS Legislative Library - Session Laws (chapter laws) from legislative sessions. Web access."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html#statutes",
-    "href": "ref/ny-law-sources/index.html#statutes",
-    "title": "Sources of New York Law",
-    "section": "",
-    "text": "New York State Legislature - Laws of New York - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.\nNY Senate Open Legislation - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).\nCornell LII - New York - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.\n\n\n\n\n\nMcKinney’s Consolidated Laws of New York Annotated (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.\nNew York Consolidated Laws Service (CLS) (Lexis) - Alternative annotated code with similar features. Subscription required.\n\n\n\n\n\nNYS Legislative Library - Session Laws (chapter laws) from legislative sessions. Web access."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html#bills-in-flight",
-    "href": "ref/ny-law-sources/index.html#bills-in-flight",
-    "title": "Sources of New York Law",
-    "section": "Bills in Flight",
-    "text": "Bills in Flight\n\nOfficial Sources\n\nNY Assembly Bill Search - Official Assembly bill tracking. Web interface for searching current and prior session bills.\nNY Senate Open Legislation - Primary resource for real-time bill tracking. Offers a free REST API (registration required) returning JSON. Includes bill text, sponsors, committee assignments, votes, and status. Open source.\nLeginfo - Older official interface for bill search, still functional.\n\n\n\nThird-Party Tracking\n\nLegiScan - New York - Aggregates NY legislative data with API access. Free tier available; enhanced features require subscription."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html#legislative-history",
-    "href": "ref/ny-law-sources/index.html#legislative-history",
-    "title": "Sources of New York Law",
-    "section": "Legislative History",
-    "text": "Legislative History\nLegislative history materials for New York are more limited than federal sources. Key materials include: bills, sponsor’s memoranda, governor’s messages, bill jackets, and (rarely) hearing transcripts.\n\nResearch Guides\n\nNYS Library Legislative History Tutorial - Comprehensive free tutorial from the State Library.\nNYU Law - NY Legislative History - Academic research guide.\nBrooklyn Law - NYS Legislative History - Detailed guide with finding aids.\nGeorgetown Law - NY Legislative History - Overview of available documents and locations.\n\n\n\nBill Jackets\nBill jackets contain memoranda, correspondence, and other materials considered by the Governor when signing or vetoing bills. Unique to New York legislative history research.\n\nNYS Archives Digital Collections - Bill Jackets - Free PDF downloads of Governor’s bill jackets from 1995 to present. Searchable by year, chapter, or keyword.\nNYS Library Bill Jackets - Holdings for 1905 and 1921-2009 (microform and CD-ROM). Some digitized in library’s digital collections.\n\n\n\nSession Laws and Governor’s Messages\n\nGovernor’s approval and veto messages are published with the Session Laws and are often the most accessible legislative history documents."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html#regulations",
-    "href": "ref/ny-law-sources/index.html#regulations",
-    "title": "Sources of New York Law",
-    "section": "Regulations",
-    "text": "Regulations\n\nCurrent Regulations\n\nOfficial NYCRR - Published in print by Thomson Reuters. No comprehensive free official online version exists.\nCornell LII - NYCRR - Free browsable collection of NY regulations by title. Clean interface for navigating regulatory text.\nNYCRR on Westlaw/Lexis - Official and annotated NYCRR available on both commercial platforms. Subscription required.\nUnofficial NYCRR on Westlaw - Free browsable collection.\n\n\n\nProposed Rules and Rulemaking\n\nNew York State Register - Official journal of state government published weekly. Contains Notices of Proposed Rule Making and Notices of Adoption. Free online from 2015-present.\n\n\n\nHistorical Regulations\n\nNYCRR Digital Archive (UB Law Library) - Free access to superseded NYCRR pages (“takeouts”) for 1945-2001 in PDF format.\n\n\n\nAgency-Specific\nIndividual agencies often publish their regulations on their own websites (e.g., DEC Regulations, Education Department)."
-  },
-  {
-    "objectID": "ref/ny-law-sources/index.html#judicial-opinions",
-    "href": "ref/ny-law-sources/index.html#judicial-opinions",
-    "title": "Sources of New York Law",
-    "section": "Judicial Opinions",
-    "text": "Judicial Opinions\n\nOfficial Free Sources\n\nNY Courts - Official Reports - Free access to Court of Appeals and Appellate Division decisions from 1956-present. Slip opinions available same-day for Court of Appeals. Web interface; no public API.\nCourt-PASS - Court of Appeals Public Access and Search System. Free access to Court of Appeals materials for cases filed after January 1, 2013.\nNY eCourts - Case information and filings for state courts. Primarily docket/status information rather than full opinions.\nNYSCEF Case Search - New York State Courts Electronic Filing system. Access to filed documents in participating courts.\n\n\n\nFree Third-Party Sources\n\nCornell LII - Links to NY court opinions and encyclopedic legal information. Strong for constitutional and statutory interpretation context.\nGoogle Scholar - Searchable NY case law. Free but unofficial; useful for quick research.\nJustia - Free NY case law database.\nFindlaw - NY Supreme Court opinions from 1959-present.\n\n\n\nPaid Commercial Databases\n\nWestlaw (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. The standard for most NY practitioners. Subscription required.\nLexis+ (LexisNexis) - Comparable coverage with Shepard’s citator. Subscription required."
+    "text": "Reminders\n\n“…time is short, my strength is limited, the office is a horror, the apartment is noisy, and if a pleasant, straightforward life is not possible then one must try to wriggle through by subtle maneuvers.” —Franz Kafka\n\n\n“If there’s anyone that’s gonna get replaced by AI, it’s an editor who cuts to the beat.” —Jesse Senko\n\n\n“Now it’s time for me to stop presenting general platitudes and to move on to something tangible. —Don Knuth"
   }
 ]

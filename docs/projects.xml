@@ -9,7 +9,7 @@
 <link>https://jsqr.org/projects.html</link>
 <atom:link href="https://jsqr.org/projects.xml" rel="self" type="application/rss+xml"/>
 <description>Johnathan Jenkins&#39; personal website</description>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Sun, 04 Jan 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Computational Law</title>

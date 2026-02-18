@@ -1,10 +1,16 @@
 ---
 title: Sources of New York Law
 date: 2026-02-05
-date-modified: 2026-02-05
+date-modified: 2026-02-18
 categories: [reference, law]
 description: Resources for New York laws, regulations, and related materials.
 ---
+
+## Pointers and Lists
+
+- **[Cornell LII - New York](https://www.law.cornell.edu/states/new_york)** - List of New York resources from the Legal Information Institute.
+
+- **[New York State Legislative Library](https://legislativelibrary.ny.gov)** - Legislative resources including session laws and local laws.
 
 ## Statutes
 
@@ -14,8 +20,6 @@ description: Resources for New York laws, regulations, and related materials.
 
 - **[NY Senate Open Legislation](https://legislation.nysenate.gov/)** - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).
 
-- **[Cornell LII - New York](https://www.law.cornell.edu/states/new_york)** - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.
-
 ### Paid Annotated Codes
 
 - **McKinney's Consolidated Laws of New York Annotated** (Westlaw/Thomson Reuters) - The primary annotated code used by practitioners. Includes case annotations, practice commentaries, and session law citations. Subscription required.
@@ -24,7 +28,7 @@ description: Resources for New York laws, regulations, and related materials.
 
 ### Session Laws
 
-- **[NYS Legislative Library](https://legislativelibrary.ny.gov/legislative-resources)** - Session Laws (chapter laws) from legislative sessions. Web access.
+- **[NYS Legislative Library](https://nysl.ptfs.com/#!/s?v=L&a=f&q=*&type=16&criteria=browse2_ss%3D%22New%20York%20State%20Session%20Laws%22)** - Laws of the State passed at the sessions of the Legislature.
 
 ## Bills in Flight
 
@@ -32,7 +36,7 @@ description: Resources for New York laws, regulations, and related materials.
 
 - **[NY Assembly Bill Search](https://nyassembly.gov/leg/)** - Official Assembly bill tracking. Web interface for searching current and prior session bills.
 
-- **[NY Senate Open Legislation](https://legislation.nysenate.gov/)** - Primary resource for real-time bill tracking. Offers a free [REST API](https://legislation.nysenate.gov/static/docs/html/index.html) (registration required) returning JSON. Includes bill text, sponsors, committee assignments, votes, and status. [Open source](https://github.com/nysenate/OpenLegislation/).
+- **[NY Senate Open Legislation](https://legislation.nysenate.gov/)** - Primary resource for real-time bill tracking. Offers a free [REST API](https://legislation.nysenate.gov/static/docs/html/index.html) (registration required). Includes bill text, sponsors, committee assignments, votes, and status. [Code on GitHub](https://github.com/nysenate/OpenLegislation/).
 
 - **[Leginfo](http://public.leginfo.state.ny.us/navigate.cgi)** - Older official interface for bill search, still functional.
 
@@ -42,11 +46,11 @@ description: Resources for New York laws, regulations, and related materials.
 
 ## Legislative History
 
-Legislative history materials for New York are more limited than federal sources. Key materials include: bills, sponsor's memoranda, governor's messages, bill jackets, and (rarely) hearing transcripts.
+Legislative history materials for New York, including: bills, sponsor's memoranda, governor's messages, bill jackets, and (sometimes) hearing transcripts.
 
 ### Research Guides
 
-- **[NYS Library Legislative History Tutorial](https://www.nysl.nysed.gov/leghist)** - Comprehensive free tutorial from the State Library.
+- **[NYS Library Legislative History Tutorial](https://www.nysl.nysed.gov/leghist)** - Research tutorial from the State Library.
 - **[NYU Law - NY Legislative History](https://nyulaw.libguides.com/c.php?g=773848&p=5551755)** - Academic research guide.
 - **[Brooklyn Law - NYS Legislative History](https://guides.brooklaw.edu/NYS_legislative_history_research)** - Detailed guide with finding aids.
 - **[Georgetown Law - NY Legislative History](https://guides.ll.georgetown.edu/c.php?g=277242&p=7664166)** - Overview of available documents and locations.
@@ -67,13 +71,11 @@ Bill jackets contain memoranda, correspondence, and other materials considered b
 
 ### Current Regulations
 
-- **Official NYCRR** - Published in print by Thomson Reuters. No comprehensive free official online version exists.
-
-- **[Cornell LII - NYCRR](https://www.law.cornell.edu/regulations/new-york)** - Free browsable collection of NY regulations by title. Clean interface for navigating regulatory text.
-
-- **[NYCRR on Westlaw/Lexis](https://www.westlaw.com)** - Official and annotated NYCRR available on both commercial platforms. Subscription required.
+- **NYCRR on Westlaw and Lexis** - Official and annotated NYCRR available on commercial platforms. Subscription required.
 
 - **[Unofficial NYCRR on Westlaw](https://govt.westlaw.com/nycrr/)** - Free browsable collection.
+
+- **[Cornell LII - NYCRR](https://www.law.cornell.edu/regulations/new-york)** - Free browsable collection of NY regulations by title. Clean interface.
 
 ### Proposed Rules and Rulemaking
 
@@ -101,13 +103,14 @@ Individual agencies often publish their regulations on their own websites (e.g.,
 
 ### Free Third-Party Sources
 
-- **[Cornell LII](https://www.law.cornell.edu/states/new_york)** - Links to NY court opinions and encyclopedic legal information. Strong for constitutional and statutory interpretation context.
-- **[Google Scholar](https://scholar.google.com/)** - Searchable NY case law. Free but unofficial; useful for quick research.
 - **[Justia](https://law.justia.com/cases/new-york/)** - Free NY case law database.
+
 - **[Findlaw](https://caselaw.findlaw.com/court/ny-supreme-court)** - NY Supreme Court opinions from 1959-present.
+
+- **[Google Scholar](https://scholar.google.com/)** - Searchable NY case law. Free but unofficial.
 
 ### Paid Commercial Databases
 
-- **Westlaw** (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. The standard for most NY practitioners. Subscription required.
+- **Westlaw** (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. Subscription required.
 
 - **Lexis+** (LexisNexis) - Comparable coverage with Shepard's citator. Subscription required.

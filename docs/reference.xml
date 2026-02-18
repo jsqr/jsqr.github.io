@@ -19,6 +19,13 @@
 
 
 
+<section id="pointers-and-lists" class="level2">
+<h2 class="anchored" data-anchor-id="pointers-and-lists">Pointers and Lists</h2>
+<ul>
+<li><p><strong><a href="https://www.law.cornell.edu/states/new_york">Cornell LII - New York</a></strong> - List of New York resources from the Legal Information Institute.</p></li>
+<li><p><strong><a href="https://legislativelibrary.ny.gov">New York State Legislative Library</a></strong> - Legislative resources including session laws and local laws.</p></li>
+</ul>
+</section>
 <section id="statutes" class="level2">
 <h2 class="anchored" data-anchor-id="statutes">Statutes</h2>
 <section id="free-officialsemi-official-sources" class="level3">
@@ -26,7 +33,6 @@
 <ul>
 <li><p><strong><a href="https://public.leginfo.state.ny.us/lawssrch.cgi">New York State Legislature - Laws of New York</a></strong> - Official unannotated text of the Consolidated Laws and unconsolidated laws. Access via web interface; no API. Updated regularly.</p></li>
 <li><p><strong><a href="https://legislation.nysenate.gov/">NY Senate Open Legislation</a></strong> - Provides current statutory text through the same platform as bills. Free REST API available (requires registration for API key).</p></li>
-<li><p><strong><a href="https://www.law.cornell.edu/states/new_york">Cornell LII - New York</a></strong> - Free access to NY Constitution and Consolidated Laws with clean interface. Links to official sources. No API but well-organized for browsing.</p></li>
 </ul>
 </section>
 <section id="paid-annotated-codes" class="level3">
@@ -39,7 +45,7 @@
 <section id="session-laws" class="level3">
 <h3 class="anchored" data-anchor-id="session-laws">Session Laws</h3>
 <ul>
-<li><strong><a href="https://legislativelibrary.ny.gov/legislative-resources">NYS Legislative Library</a></strong> - Session Laws (chapter laws) from legislative sessions. Web access.</li>
+<li><strong><a href="https://nysl.ptfs.com/#!/s?v=L&amp;a=f&amp;q=*&amp;type=16&amp;criteria=browse2_ss%3D%22New%20York%20State%20Session%20Laws%22">NYS Legislative Library</a></strong> - Laws of the State passed at the sessions of the Legislature.</li>
 </ul>
 </section>
 </section>
@@ -49,7 +55,7 @@
 <h3 class="anchored" data-anchor-id="official-sources">Official Sources</h3>
 <ul>
 <li><p><strong><a href="https://nyassembly.gov/leg/">NY Assembly Bill Search</a></strong> - Official Assembly bill tracking. Web interface for searching current and prior session bills.</p></li>
-<li><p><strong><a href="https://legislation.nysenate.gov/">NY Senate Open Legislation</a></strong> - Primary resource for real-time bill tracking. Offers a free <a href="https://legislation.nysenate.gov/static/docs/html/index.html">REST API</a> (registration required) returning JSON. Includes bill text, sponsors, committee assignments, votes, and status. <a href="https://github.com/nysenate/OpenLegislation/">Open source</a>.</p></li>
+<li><p><strong><a href="https://legislation.nysenate.gov/">NY Senate Open Legislation</a></strong> - Primary resource for real-time bill tracking. Offers a free <a href="https://legislation.nysenate.gov/static/docs/html/index.html">REST API</a> (registration required). Includes bill text, sponsors, committee assignments, votes, and status. <a href="https://github.com/nysenate/OpenLegislation/">Code on GitHub</a>.</p></li>
 <li><p><strong><a href="http://public.leginfo.state.ny.us/navigate.cgi">Leginfo</a></strong> - Older official interface for bill search, still functional.</p></li>
 </ul>
 </section>
@@ -62,11 +68,11 @@
 </section>
 <section id="legislative-history" class="level2">
 <h2 class="anchored" data-anchor-id="legislative-history">Legislative History</h2>
-<p>Legislative history materials for New York are more limited than federal sources. Key materials include: bills, sponsor’s memoranda, governor’s messages, bill jackets, and (rarely) hearing transcripts.</p>
+<p>Legislative history materials for New York, including: bills, sponsor’s memoranda, governor’s messages, bill jackets, and (sometimes) hearing transcripts.</p>
 <section id="research-guides" class="level3">
 <h3 class="anchored" data-anchor-id="research-guides">Research Guides</h3>
 <ul>
-<li><strong><a href="https://www.nysl.nysed.gov/leghist">NYS Library Legislative History Tutorial</a></strong> - Comprehensive free tutorial from the State Library.</li>
+<li><strong><a href="https://www.nysl.nysed.gov/leghist">NYS Library Legislative History Tutorial</a></strong> - Research tutorial from the State Library.</li>
 <li><strong><a href="https://nyulaw.libguides.com/c.php?g=773848&amp;p=5551755">NYU Law - NY Legislative History</a></strong> - Academic research guide.</li>
 <li><strong><a href="https://guides.brooklaw.edu/NYS_legislative_history_research">Brooklyn Law - NYS Legislative History</a></strong> - Detailed guide with finding aids.</li>
 <li><strong><a href="https://guides.ll.georgetown.edu/c.php?g=277242&amp;p=7664166">Georgetown Law - NY Legislative History</a></strong> - Overview of available documents and locations.</li>
@@ -92,10 +98,9 @@
 <section id="current-regulations" class="level3">
 <h3 class="anchored" data-anchor-id="current-regulations">Current Regulations</h3>
 <ul>
-<li><p><strong>Official NYCRR</strong> - Published in print by Thomson Reuters. No comprehensive free official online version exists.</p></li>
-<li><p><strong><a href="https://www.law.cornell.edu/regulations/new-york">Cornell LII - NYCRR</a></strong> - Free browsable collection of NY regulations by title. Clean interface for navigating regulatory text.</p></li>
-<li><p><strong><a href="https://www.westlaw.com">NYCRR on Westlaw/Lexis</a></strong> - Official and annotated NYCRR available on both commercial platforms. Subscription required.</p></li>
+<li><p><strong>NYCRR on Westlaw and Lexis</strong> - Official and annotated NYCRR available on commercial platforms. Subscription required.</p></li>
 <li><p><strong><a href="https://govt.westlaw.com/nycrr/">Unofficial NYCRR on Westlaw</a></strong> - Free browsable collection.</p></li>
+<li><p><strong><a href="https://www.law.cornell.edu/regulations/new-york">Cornell LII - NYCRR</a></strong> - Free browsable collection of NY regulations by title. Clean interface.</p></li>
 </ul>
 </section>
 <section id="proposed-rules-and-rulemaking" class="level3">
@@ -129,16 +134,15 @@
 <section id="free-third-party-sources" class="level3">
 <h3 class="anchored" data-anchor-id="free-third-party-sources">Free Third-Party Sources</h3>
 <ul>
-<li><strong><a href="https://www.law.cornell.edu/states/new_york">Cornell LII</a></strong> - Links to NY court opinions and encyclopedic legal information. Strong for constitutional and statutory interpretation context.</li>
-<li><strong><a href="https://scholar.google.com/">Google Scholar</a></strong> - Searchable NY case law. Free but unofficial; useful for quick research.</li>
-<li><strong><a href="https://law.justia.com/cases/new-york/">Justia</a></strong> - Free NY case law database.</li>
-<li><strong><a href="https://caselaw.findlaw.com/court/ny-supreme-court">Findlaw</a></strong> - NY Supreme Court opinions from 1959-present.</li>
+<li><p><strong><a href="https://law.justia.com/cases/new-york/">Justia</a></strong> - Free NY case law database.</p></li>
+<li><p><strong><a href="https://caselaw.findlaw.com/court/ny-supreme-court">Findlaw</a></strong> - NY Supreme Court opinions from 1959-present.</p></li>
+<li><p><strong><a href="https://scholar.google.com/">Google Scholar</a></strong> - Searchable NY case law. Free but unofficial.</p></li>
 </ul>
 </section>
 <section id="paid-commercial-databases" class="level3">
 <h3 class="anchored" data-anchor-id="paid-commercial-databases">Paid Commercial Databases</h3>
 <ul>
-<li><p><strong>Westlaw</strong> (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. The standard for most NY practitioners. Subscription required.</p></li>
+<li><p><strong>Westlaw</strong> (Thomson Reuters) - Comprehensive NY case law with headnotes, KeyCite citator, and secondary sources. Subscription required.</p></li>
 <li><p><strong>Lexis+</strong> (LexisNexis) - Comparable coverage with Shepard’s citator. Subscription required.</p></li>
 </ul>
 

@@ -1,7 +1,7 @@
 ---
 title: AI and Legal informatics
 date: 2025-11-12
-date-modified: 2026-01-09
+date-modified: 2026-03-10
 categories: [reference, law]
 description: Resources for treating law as code, and law as data.
 ---
@@ -103,15 +103,13 @@ draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/
 - [Hugging Face Transformers:](https://huggingface.co/docs/transformers/en/index)
 swiss army knife for working with transformer models.
 - [Instructor:](https://python.useinstructor.com/) provider-agnostic library for structured LLM outputs.
-- [LLM:](https://llm.datasette.io/en/stable/) Simon Willison's CLI and library for
-interacting with LLMs.
+- [llama.cpp:](https://llama-cpp.com) local LLM inference (e.g., on a laptop), GGUF format models
 - [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
 - [nupunkt:](https://github.com/alea-institute/nupunkt) sentence boundary detection library optimized for legal texts.
 - [NVIDIA DGX Spark:](https://build.nvidia.com/spark) examples and docs for GB10 developer workstations.
-- [Ollama:](https://ollama.com) local LLM inference (e.g., on a laptop).
 - [Pydantic AI:](https://ai.pydantic.dev) Python 'agent' framework (validation, model abstraction, evals, workflows).
-- [Pytorch:](https://pytorch.org) tensor library for deep learning.
-- [Textual:](https://www.textualize.io) TUI application framework ('move at terminal velocity').
+- [Pytorch:](https://pytorch.org) ubiquitous tensor library for deep learning.
+- [Textual:](https://www.textualize.io) Python TUI application framework ('move at terminal velocity').
 - [Typer:](https://typer.tiangolo.com) Python CLI application library.
 - [uv:](https://github.com/astral-sh/uv) a modern Python package manager.
 - [vLLM:](https://vllm.ai) LLM inference (e.g., on NVIDIA data center GPUs).
@@ -126,6 +124,7 @@ interacting with LLMs.
 
 ## Online courses
 
+- [CMU 10-202: Introduction to Modern AI](https://modernaicourse.org).
 - [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/).
 - [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com).
 - [Stanford CS 224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/).

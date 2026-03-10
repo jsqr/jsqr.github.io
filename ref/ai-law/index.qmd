@@ -128,4 +128,4 @@ swiss army knife for working with transformer models.
 - [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/).
 - [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com).
 - [Stanford CS 224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/).
-- [Stanford CS 336: Language Modeling from Scratch](https://stanford-cs336.github.io/spring2025/).
+- [Stanford CS 336: Language Modeling from Scratch](https://cs336.stanford.edu/).

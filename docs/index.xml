@@ -9,7 +9,7 @@
 <link>https://jsqr.org/</link>
 <atom:link href="https://jsqr.org/index.xml" rel="self" type="application/rss+xml"/>
 <description>Johnathan Jenkins&#39; personal website</description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.36</generator>
 <lastBuildDate>Thu, 05 Feb 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Sources of New York Law</title>
@@ -425,6 +425,7 @@
 <li><a href="https://typer.tiangolo.com">Typer:</a> Python CLI application library.</li>
 <li><a href="https://github.com/astral-sh/uv">uv:</a> a modern Python package manager.</li>
 <li><a href="https://vllm.ai">vLLM:</a> LLM inference (e.g., on NVIDIA data center GPUs).</li>
+<li><a href="https://apxml.com/tools/vram-calculator">VRAM &amp; Performance Calculator:</a> plan for memory and computation needs.</li>
 </ul>
 </section>
 <section id="data" class="level2">
@@ -445,6 +446,12 @@
 <li><a href="https://introtodeeplearning.com">MIT 6.S191: Introduction to Deep Learning</a>.</li>
 <li><a href="https://web.stanford.edu/class/cs224n/">Stanford CS 224N: Natural Language Processing with Deep Learning</a>.</li>
 <li><a href="https://cs336.stanford.edu/">Stanford CS 336: Language Modeling from Scratch</a>.</li>
+</ul>
+</section>
+<section id="guides" class="level2">
+<h2 class="anchored" data-anchor-id="guides">Guides</h2>
+<ul>
+<li><a href="https://huggingface.co/spaces/HuggingFaceFW/finephrase#introduction">The Synthetic Data Playbook: Generating Trillions of the Finest Tokens</a>.</li>
 </ul>
 
 

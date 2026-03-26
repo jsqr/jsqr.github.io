@@ -1,7 +1,7 @@
 ---
 title: AI and Legal informatics
 date: 2025-11-12
-date-modified: 2026-03-10
+date-modified: 2026-03-26
 categories: [reference, law]
 description: Resources for treating law as code, and law as data.
 ---
@@ -113,6 +113,7 @@ swiss army knife for working with transformer models.
 - [Typer:](https://typer.tiangolo.com) Python CLI application library.
 - [uv:](https://github.com/astral-sh/uv) a modern Python package manager.
 - [vLLM:](https://vllm.ai) LLM inference (e.g., on NVIDIA data center GPUs).
+- [VRAM & Performance Calculator:](https://apxml.com/tools/vram-calculator) plan for memory and computation needs.
 
 ## Data
 

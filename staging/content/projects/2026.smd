@@ -1,0 +1,22 @@
+---
+.title = "2026",
+.date = .date("2026-01-01T00:00:00"),
+.layout = "projects.shtml",
+---
+[]($section.id('about'))
+## Project snippets
+
+A chronological log of project updates and notes. You can [subscribe via
+RSS]($link.page('projects').alternative('rss')); this page lists entries for 2026,
+and past or future years are in the [projects archive](/projects/).
+
+## [Presented at SER Annual Meeting]($section.id("2026-06-25T00:00:00"))
+Presentation on the [legal epidemiology](/trails/legal-epidemiology/) project,
+including preliminary results from T. Hill's Master's thesis, at the
+Society for Epidemiologic Research (SER) 2026 Annual Meeting in Phoenix.
+
+## [Master's thesis at NYU ML4Good Lab]($section.id("2026-01-01T00:00:00"))
+The NYU [Machine Learning for Good Lab](https://wp.nyu.edu/ml4good/) is hosting a
+Master's thesis project (T. Hill) related to the [AI for legal
+epidemiology](/trails/legal-epidemiology/) project. (Jan.--May)
+

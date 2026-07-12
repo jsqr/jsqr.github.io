@@ -1,0 +1,16 @@
+---
+.title = "Trails",
+.date = .date("1990-01-01T00:00:00"),
+.layout = "trails.shtml",
+.alternatives = [.{
+    .name = "rss",
+    .layout = "trails.xml",
+    .output = "index.xml",
+}],
+---
+
+A _trail_ is a shareable record of sources and personal notes. So ... a web page with links?
+The excerpt [here](/trails/why-trails/) explains a little more. You could call a short trail
+about a single source a _gobbet exercise_, but that would be ridiculous.
+
+[RSS feed]($link.alternative('rss')).

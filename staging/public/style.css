@@ -1,0 +1,153 @@
+/* Junicode — SIL Open Font License; see Junicode-OFL.txt.
+   Self-hosted (subset to Latin, weight axis 400–700) so no third party
+   is contacted when the page loads. */
+@font-face {
+  font-family: "Junicode";
+  src: url("Junicode-Roman-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Junicode";
+  src: url("Junicode-Italic-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Kanagawa Dragon */
+  --bg: #181616;         /* sumiInk / dragon black */
+  --bg-soft: #282727;    /* slightly raised surface */
+  --fg: #c5c9c5;         /* dragon white (body text) */
+  --fg-bright: #dcd7ba;  /* fuji white (headings) */
+  --border: #625e5a;     /* dragon black 6 (rules, borders) */
+  /* accents */
+  --red: #c4746e;
+  --blue: #8ba4b0;
+  --yellow: #c4b28a;
+
+  /* Jenson-adjacent old-style serif, using fonts already on the machine
+     (no external font downloads, so nothing leaks to a third party). */
+  --serif: "Junicode", "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+           Palatino, "URW Palladio L", "P052", "Georgia", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--fg-bright);
+  font-family: var(--serif);
+  line-height: 1.15;
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+}
+
+/* body text sits close under its heading, but paragraphs keep breathing room.
+   (.post / body are flex columns, so margins don't collapse — keep these small.) */
+.post > p,
+.post > ul,
+.post > ol {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+b,
+strong {
+  color: var(--yellow);
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--red);
+}
+
+html {
+  color: var(--fg);
+  font-family: var(--serif);
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--bg);
+}
+
+body {
+  max-width: 800px;
+  overflow-x: scroll;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  /* text-align: center; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+pre {
+  overflow-x: scroll;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* keep content images (e.g. figures in posts) to a modest, readable size;
+   figure's text-align:center then centers them in the column. */
+.post img {
+  max-width: 320px;
+}
+
+.block {
+  border: 1px dotted var(--border);
+  padding: 5px 15px;
+  margin: 0 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block h1 {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.wave {
+  background: var(--bg);
+  color: var(--fg-bright);
+  text-shadow: 1px 1px 10px var(--fg-bright), 1px 1px 10px var(--fg);
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer hr {
+  width: 100%;
+}

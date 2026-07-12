@@ -1,0 +1,136 @@
+---
+.title = "AI and Legal Informatics",
+.date = .date("2025-11-12T00:00:00"),
+.description = "Resources for treating law as code, and law as data.",
+.layout = "post.shtml",
+---
+
+_Last updated: March 26, 2026_
+
+![Stepped Reckoner (Leibniz, 1673)](Leibniz_Stepped_Reckoner_drawing.png)
+
+## Background
+
+I came to law school after spending several years doing data analysis and modeling
+in the physical sciences and finance. In contrast to those fields, legal practice
+seemed old-fashioned. How could I automate a process? How could I make sense of
+everything I was reading? Are we still in the nineteenth century or what?  For all
+of its zeal to tackle new problems, law remained in many ways stuck in the past
+when it came to actually doing the work. It was frustrating, and I even wrote a
+[Note](https://jolt.law.harvard.edu/articles/pdf/v21/21HarvJLTech589.pdf) about
+it as a kind of protest.
+
+We're now in a different era, and the current crop of transformer-based language
+models promises to make lots of ideas that were enticingly out of reach a decade
+or two ago much closer. How can we take advantage of the new AI tools?
+
+> _Caveat lector_: this list is clearly a bit scattered and idiosyncratic.
+Among other things, it doesn't include any individual papers. May it improve
+over time!
+
+## AI, general background
+
+- Bishop, C. and Bishop, H. (2024). _Deep Learning: Foundations and Concepts_.
+Springer. Authors' [site](https://www.bishopbook.com/).
+- Jurafsky, D. and Martin, C. (2025). _Speech and Language Processing_ (3rd ed.
+draft Aug. 24, 2025). Full draft [here](https://web.stanford.edu/~jurafsky/slp3/).
+- Russell, S. and Norvig, P. (2021). _Artifical Intelligence: A Modern Approach_
+ (4th ed.). Pearson. Authors' [site](https://aima.cs.berkeley.edu/).
+
+## Periodicals, conferences, and collections
+
+- [ACM Symposium on Computer Science and Law](https://computersciencelaw.org)
+- [Artificial Intelligence and Law](https://link.springer.com/journal/10506)
+- [arXiv > cs.CY](https://arxiv.org/list/cs.CY/recent) Computers and Society
+- [CodeX Publications](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/codex-publications/)
+- [International Association for Artificial Intellligence and Law](http://www.iaail.org)
+- [JURIX](https://jurix.nl/)
+- [Stanford Regulation Lab](https://reglab.stanford.edu/publications/)
+
+## Organizations and projects
+
+- [Interoperable Europe](https://interoperable-europe.ec.europa.eu)
+- [POPVOX](https://www.popvox.org)
+
+## Books on reasoning
+
+- Besnard, P. and Hunter, A. (2008). _Elements of Argumentation_. MIT Press.
+[Full text at ResearchGate](https://www.researchgate.net/publication/220907500_Elements_of_Argumentation).
+- Bradley, A. and Manna, Z. (2007). _The Calculus of Computation_. Springer.
+[Manna lecture notes](https://web.stanford.edu/class/cs156/slides/Technion/coc_technion_1.pdf).
+- Halpern, J. (2017). _Reasoning about Uncertainty_ (2nd. ed.). MIT Press.
+[Full text at MIT Press Direct](https://direct.mit.edu/books/monograph/3540/Reasoning-about-Uncertainty).
+- Kroening, D. and Strichman, O. (2017). _Decision Procedures_ (2nd ed.). Springer.
+[Authors' site](https://www.decision-procedures.org).
+- Kowalski, R. (2011). _Computational Logic and Human Thinking_. Cambridge Univ. Press.
+[Publisher site](https://www.cambridge.org/core/books/computational-logic-and-human-thinking/C2AFB0483D922944067DBC76FFFEB295).
+- Mueller, E. (2014). _Commonsense Reasoning: An Event Calculus Based Approach_ (2nd ed.). Elsevier.
+[Publisher site](https://shop.elsevier.com/books/commonsense-reasoning/mueller/978-0-12-801416-5)
+
+## Books on computational law, generally
+
+- Ashley, K. (2017). _Artificial Intelligence and Legal Analytics_. Cambridge Univ. Press.
+[Publisher site](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0).
+- Katz, D., Dolin, R. and Bommarito, M., eds. (2021). _Legal Informatics_. Cambridge Univ. Press.
+[Publisher site](https://www.cambridge.org/core/books/legal-informatics/37956B00CC40F2803B77A164CD970757).
+- Lodder, A. and Oskamp, A. (2006). _Information Technology & Lawyers_. Springer.
+- Stranieri, A. and Zeleznikow, J. (2005). _Knowledge Discovery from Legal Databases_. Springer.
+
+## Books on ethics & society
+
+- Bullock, J. et al., eds. (2022). _The Oxford Handbook of AI Governance_. Oxford Univ. Press.
+[Publisher site](https://academic.oup.com/edited-volume/41989). The print version is expensive, but it should be available in electronic form through institutional libraries.
+- Crawford, K. (2021). _Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence_. Yale Univ. Press.
+[Author's site](https://katecrawford.net).
+- Dubber, M., Pasquale, F. and Das, S., eds. (2020). _Oxford Handbook of Ethics of AI_. Oxford Univ. Press.
+[Publisher site](https://academic.oup.com/edited-volume/34287).
+- Hernández-Cano, A. et al. (2025). _Apertus v1 Technical Report_.
+[Project site](https://www.swiss-ai.org/apertus). Report on a family of language models trained by a team at EPFL and ETH Zurich with transparency and other ethical considerations top of mind.
+- Lessig, L. (2006), _Code v2.0_. Basic Books.
+[Author's site with full text](https://lessig.org/product/codev2/). Code may be law, but isn't the converse also true?
+- Schneier, B. (2023). _A Hacker's Mind_. Norton.
+[Author's site](https://www.schneier.com/books/a-hackers-mind/). Especially the chapters on law and government.
+- Schneier, B. and Sanders, N. (2025). _Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship_. MIT Press.
+[Authors' site](https://www.schneier.com/books/rewiring-democracy/).
+- Vallor, S. (2024), _The AI Mirror_. Oxford Univ. Press.
+[Author's site](https://www.shannonvallor.net/books.html).
+
+## Useful tools for hacking LLMs
+
+- [Axolotl:](https://axolotl.ai) fine-tune open-weight models.
+- [DeepEval:](https://deepeval.com/) library for LLM evaluation.
+- [dstack:](https://dstack.ai) orchestration for GPU workloads.
+- [Hugging Face Transformers:](https://huggingface.co/docs/transformers/en/index)
+swiss army knife for working with transformer models.
+- [Instructor:](https://python.useinstructor.com/) provider-agnostic library for structured LLM outputs.
+- [llama.cpp:](https://llama-cpp.com) local LLM inference (e.g., on a laptop), GGUF format models
+- [Marimo:](https://marimo.io/) reactive Python notebooks with bells and whistles.
+- [nupunkt:](https://github.com/alea-institute/nupunkt) sentence boundary detection library optimized for legal texts.
+- [NVIDIA DGX Spark:](https://build.nvidia.com/spark) examples and docs for GB10 developer workstations.
+- [Pydantic AI:](https://ai.pydantic.dev) Python 'agent' framework (validation, model abstraction, evals, workflows).
+- [Pytorch:](https://pytorch.org) ubiquitous tensor library for deep learning.
+- [Textual:](https://www.textualize.io) Python TUI application framework ('move at terminal velocity').
+- [Typer:](https://typer.tiangolo.com) Python CLI application library.
+- [uv:](https://github.com/astral-sh/uv) a modern Python package manager.
+- [vLLM:](https://vllm.ai) LLM inference (e.g., on NVIDIA data center GPUs).
+- [VRAM & Performance Calculator:](https://apxml.com/tools/vram-calculator) plan for memory and computation needs.
+
+## Data
+
+- [Free Law Project:](https://free.law) case law database (RECAP, CourtListener, etc.).
+- [HLS Caselaw Access Project:](https://case.law) scanned law books.
+- [Hugging Face:](https://huggingface.co) open models and data sets.
+- [KL3M:](https://kl3m.ai) free-range LLMs, with training data (lots of legal sources) on Hugging Face.
+- [Pile of Law:](https://reglab.stanford.edu/data/pile-of-law/) dataset on Hugging Face.
+
+## Online courses
+
+- [CMU 10-202: Introduction to Modern AI](https://modernaicourse.org).
+- [Hugging Face: LLM Course](https://huggingface.co/learn/llm-course/).
+- [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com).
+- [Stanford CS 224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/).
+- [Stanford CS 336: Language Modeling from Scratch](https://cs336.stanford.edu/).
+
+## Guides
+
+- [The Synthetic Data Playbook: Generating Trillions of the Finest Tokens](https://huggingface.co/spaces/HuggingFaceFW/finephrase#introduction).

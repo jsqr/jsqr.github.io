@@ -1,0 +1,39 @@
+:root {
+  /* Kanagawa Dragon syntax palette */
+  --light-yellow: #c4b28a;   /* dragon yellow  */
+  --dark-yellow: #b6927b;    /* dragon orange  */
+  --blue: #8ba4b0;           /* dragon blue    */
+  --cyan: #8ea4a2;           /* dragon aqua    */
+  --light-red: #c4746e;      /* dragon red     */
+  --dark-red: #b98d7b;       /* dragon orange2 */
+  --comment-gray: #737c73;   /* dragon ash     */
+  --magenta: #a292a3;        /* dragon pink    */
+  --string-green: #8a9a7b;   /* dragon green   */
+}
+
+pre {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 5px;
+}
+
+code.ziggy {
+  color: var(--cyan);
+}
+
+code.ziggy .keyword,
+code.ziggy .type {
+  color: var(--light-yellow);
+}
+
+code.ziggy .string {
+  color: var(--string-green);
+}
+
+code.ziggy .numeric.constant {
+  color: var(--magenta);
+}
+
+code.ziggy .function {
+  color: var(--blue);
+}

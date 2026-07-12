@@ -1,0 +1,15 @@
+.zine_version = "0.12.0",
+.site = .simple(.{
+    .title = "~ JSQR ~",
+    .host_url = "https://jsqr.org",
+    .content_dir_path = "content",
+    .layouts_dir_path = "layouts",
+    .assets_dir_path = "assets",
+    .static_assets = [
+        "favicon.ico",
+        "Temml.woff2",
+        "Junicode-Roman-latin.woff2",
+        "Junicode-Italic-latin.woff2",
+        "Junicode-OFL.txt",
+    ],
+}),

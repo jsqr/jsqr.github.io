@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1">
+		<title>~ JSQR ~</title>
+		<link type="text/css" rel="stylesheet" href="/style.css">
+		<link type="text/css" rel="stylesheet" href="/highlight.css">
+		<!-- mathtex -->
+		<link type="text/css" rel="stylesheet" href="/Temml-Local.css">
+		<script defer src="/temml.min.js"></script>
+		<script defer src="/render-mathtex.js"></script>
+		<!-- /mathtex -->
+		
+	<style>
+		#prev-next {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 40px;
+		}
+		
+		figure {
+			align-self: center;
+			text-align: center;
+			font-style: italic;
+		}
+		
+		.post {
+			display:flex;
+			flex-direction: column;
+		}
+	</style>
+
+	</head>
+	<body id="body">
+		<h1 class="site-title">~ JSQR ~</h1>
+		<nav>
+			<a href="/">Home</a>
+			&nbsp; • &nbsp;
+			<a href="/trails/">Trails</a>
+			
+				&nbsp; • &nbsp;
+				<a href="/projects/2026/">Projects</a>
+			
+		</nav>
+		
+	<h1>Self-supervised retrieval evaluation</h1>
+	<div class="post"><p><em>Last updated: December 26, 2025</em></p><h2>Evaluation with synthetic queries</h2><p>Even if you lack real labeled data, it’s still often possible to do meaningful evaluations of retrieval performance using synthetic data.</p><p>For example, if you have a piece of text divided into segments and some way to generate a plausible query for which that segment would be a good response, you can create an evaluation dataset by doing this:</p><pre><code>loop N times:
+    choose arbitrary segment
+    query = create_query(segment)
+    save (query, segment) to dataset
+</code></pre><h2>Synthetic data and property-based testing</h2><p>When synthetic data is used for training or fine-tuning, it makes sense to think of it as <em>data</em>. But in the context of evaluation, you can also think of the whole process as a kind of stochastic property-based testing, where we verify that some circuit we think <em>ought</em> to exist (based on our understanding of the problem) is in fact closed as expected.</p><p><figure><img src="/trails/self-supervised-retrieval-eval/retrieval-cycle.svg">
+<figcaption>a closed loop</figcaption></figure></p><p>It turns out there’s a whole lore around property-based testing, often exploiting formal properties of domain objects and operations on them. E.g. (following Wlaschin 2014):</p><ul><li>commutative relationships (and model-based approaches),</li><li>invertible operations,</li><li>invariance under transformation,</li><li>idempotence, and</li><li>structural induction.</li></ul><p>The example given above fits the ‘invertible operations’ paradigm, where the operations are ‘given a query, retrieve a responsive segment’ and ‘given a segment, generate a plausible query’.</p><p>But really, for lots of properties that involve a generation step you could collect a dataset of generated examples and call it synthetic evaluation data.</p><p><strong>References:</strong></p><ul><li><a href="https://doi.org/10.1145/357766.35126">Claessen, K. and Hughes, J. (2000).</a> QuickCheck: a lightweight tool for random testing of Haskell programs. ACM SIGPLAN Notices, Vol. 35, Issue 9, pp. 268-279.</li><li><a href="https://blog.ragas.io/all-about-synthetic-data-generation">Es, S. (2024)</a>. All about synthetic data generation. Ragas blog.</li><li><a href="https://doi.org/10.48550/arXiv.2503.23239">Esfandiarpoor, R. et at. (2025).</a> Beyond Contrastive Learning: Synthetic Data Enables List-wise Training with Multiple Levels of Relevance. arXiv:2503.23239 [cs.IR].</li><li><a href="https://doi.org/10.48550/arXiv.2405.07767">Rahmani, H. (2024)</a>. Synthetic Test Collections for Retrieval Evaluation. arXiv:2405.07767 [cs.IR].</li><li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing-2/">Wlaschin, S. (2014)</a>. Choosing properties for property-based testing. F# blog.</li></ul></div>
+	<div id="prev-next">
+		<div>
+			<a href="/trails/legal-epidemiology/">
+				←
+				<span>AI for legal epidemiology</span>
+			</a>
+		</div>
+		<div>
+			<a href="/trails/computational-law/">
+				<span>Computational Law</span>
+				→
+			</a>
+		</div>
+	</div>
+
+		<footer>
+			<hr>
+			<em>Copyright 2026 J.A. Jenkins • This site does not collect your data.</em>
+			<img src="/shapes.png" width="80">
+		</footer>
+	</body>
+</html>

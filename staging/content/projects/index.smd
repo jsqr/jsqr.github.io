@@ -1,0 +1,15 @@
+---
+.title = "Projects Archive",
+.date = .date("1990-01-01T00:00:00"),
+.layout = "projects-archive.shtml",
+.alternatives = [.{
+    .name = "rss",
+    .layout = "projects.xml",
+    .output = "index.xml",
+}],
+---
+
+This page lists all the project snippet years that are present on this site.
+Note that the top navigation menu links to the latest devlog year directly.
+
+The latest devlog year is available [via RSS feed]($link.alternative('rss')).

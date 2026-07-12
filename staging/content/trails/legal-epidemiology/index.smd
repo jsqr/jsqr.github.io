@@ -1,0 +1,45 @@
+---
+.title = "AI for legal epidemiology",
+.date = .date("2025-11-12T00:00:00"),
+.description = "Legal epidemiology requires a way to systematically understand what the law is, over time and across jurisdictions.",
+.layout = "post.shtml",
+---
+
+_Last updated: December 31, 2025_
+
+![Epidemiology starts with data](Snow-cholera-map.jpg)
+
+## Overview
+
+Legal epidemiology---understanding the effects of laws on health---requires an
+understanding of what the law is. But laws are spread across jurisdictions and
+different levels of government, and are framed in technical language that can be
+difficult to encode for analysis. Since 2024, I have been working with
+collaborators on a project to apply large language models and modern retrieval
+methods to make encoding of laws easier, focusing on the municipal codes and
+ordinances of hundreds of citites in the United States. This is part of a broader
+interest in making law more accessible.
+
+Project milestones are logged as short updates in the [Projects log](/projects/).
+
+## Current version of code
+
+[Legiscope](https://github.com/jsqr/legiscope).
+
+## Materials
+
+[Prototype slides (Oct. 7, 2024)]($link.asset('2024-10-07-preso.pdf'))
+
+## People
+
+- Samrachana Adhikari (NYU Langone)
+- Kimberly Villalobos Carballo (NYU)
+- Magdalena Cerda (NYU Langone)
+- Corey Davis (Network for Public Health Law)
+- Jaskiran Dhinsa (NYU Langone)
+- Charles DiMaggio (NYU Langone)
+- Theodore Hill (NYU Langone)
+- Spruha Joshi (University of Michigan)
+- Daniel Neill (NYU)
+- Pooja Shah (NYU Langone)
+- Utkarsh Srivastava

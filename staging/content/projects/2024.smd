@@ -1,0 +1,22 @@
+---
+.title = "2024",
+.date = .date("2024-01-01T00:00:00"),
+.layout = "projects.shtml",
+---
+[]($section.id('about'))
+## Project snippets
+
+A chronological log of project updates and notes. You can [subscribe via
+RSS]($link.page('projects').alternative('rss')); this page lists entries for 2024,
+and past or future years are in the [projects archive](/projects/).
+
+## [Prototype slides presented]($section.id("2024-10-07T00:00:00"))
+Internal presentation with updated slides describing prototypes for the [AI for
+legal epidemiology](/trails/legal-epidemiology/) project. The slides are linked
+from the project page.
+
+## [Concept presented to COEP]($section.id("2024-03-28T00:00:00"))
+Initial concept for the [legal epidemiology](/trails/legal-epidemiology/) project
+presented to the
+[COEP](https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/epidemiology/center-opioid-epidemiology-policy)
+center at NYU Langone.

@@ -1,4 +1,2 @@
-/.quarto/
-**/*.quarto_ipynb
-/_site/
-.claude/
+/public/
+/.zig-cache/

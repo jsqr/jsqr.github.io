@@ -1,7 +1,0 @@
----
-title: "About"
----
-
-I like math, physics, law, and open systems. I live in New York.
-
-This is a [Quarto](https://quarto.org) site.

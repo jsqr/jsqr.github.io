@@ -6,6 +6,7 @@
     .layouts_dir_path = "layouts",
     .assets_dir_path = "assets",
     .static_assets = [
+        "CNAME",
         "favicon.ico",
         "Temml.woff2",
         "Junicode-Roman-latin.woff2",

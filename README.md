@@ -1,9 +1,9 @@
 # jsqr.org
 
-Site built with [Zine](https://zine-ssg.io). Content is in `content/`, layouts in `layouts/`,
-static files in `assets/`. Pushing to `main` triggers the GitHub Actions workflow
-(`.github/workflows/deploy.yml`), which builds with `zine release` and deploys `public/` to
-GitHub Pages.
+Site built with [Zine](https://zine-ssg.io). Content is in `content/`, layouts
+in `layouts/`, static files in `assets/`. Pushing to `main` triggers the GitHub
+Actions workflow (`.github/workflows/deploy.yml`), which builds with `zine
+release` and deploys `public/` to GitHub Pages.
 
 ## Commands
 
@@ -18,6 +18,12 @@ zine version
 
 Trails lie under `content/trails/`, use the `post.shtml` layout, and are listed
 automatically on the Trails index via `$page.subpages()`.
+
+Script: `scripts/new-trail <slug>` (add `-a` for the with-assets form). It
+creates the file with today's date and a title guessed from the slug — edit the
+title and description.
+
+By hand:
 
 1. Create the file:
    - Text only: `content/trails/<slug>.smd`

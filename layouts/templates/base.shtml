@@ -27,7 +27,7 @@
 		<super>
 		<footer>
 			<hr>
-			<em>Copyright 2026 J.A. Jenkins • This site does not collect your data.</em>
+			<em>Copyright 2026 J.A. Jenkins • I don't collect your data (although GitHub Pages might...)</em>
 			<img src="$site.asset('shapes.png').link()" width=80>
 		</footer>
 	</body>
